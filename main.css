@@ -1,5 +1,3 @@
-
-/* CSS Reset & Normalize */
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -18,12 +16,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     direction: rtl;
-}
-
-
-a{
-
-    color: #cbd5e1;
 }
 
 /* Root Variables */
@@ -60,6 +52,9 @@ a{
     --backdrop-blur: blur(12px);
     --glassmorphism-bg: rgba(255, 255, 255, 0.8);
     --glassmorphism-border: rgba(255, 255, 255, 0.2);
+    --search-bg: rgba(255, 255, 255, 0.95);
+    --search-border: rgba(79, 70, 229, 0.2);
+    --search-focus: rgba(79, 70, 229, 0.4);
 }
 
 /* Dark Mode Variables */
@@ -75,6 +70,9 @@ a{
         --border-light: #475569;
         --glassmorphism-bg: rgba(30, 41, 59, 0.8);
         --glassmorphism-border: rgba(255, 255, 255, 0.1);
+        --search-bg: rgba(30, 41, 59, 0.95);
+        --search-border: rgba(99, 102, 241, 0.3);
+        --search-focus: rgba(99, 102, 241, 0.5);
     }
 }
 
@@ -140,6 +138,126 @@ body::before {
     font-size: clamp(0.875rem, 2vw, 1rem);
     color: var(--text-muted);
     font-weight: 400;
+    margin-bottom: var(--spacing-lg);
+}
+
+/* Search Bar */
+.search-container {
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: var(--search-bg);
+    backdrop-filter: var(--backdrop-blur);
+    -webkit-backdrop-filter: var(--backdrop-blur);
+    border: 2px solid var(--search-border);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+    transition: all var(--transition-medium);
+    overflow: hidden;
+}
+
+.search-wrapper:focus-within {
+    border-color: var(--primary-color);
+    box-shadow: 
+        var(--shadow-xl),
+        0 0 0 4px var(--search-focus);
+    transform: translateY(-2px);
+}
+
+.search-icon {
+    position: absolute;
+    right: var(--spacing-md);
+    width: 20px;
+    height: 20px;
+    color: var(--text-muted);
+    z-index: 2;
+    transition: color var(--transition-fast);
+}
+
+.search-wrapper:focus-within .search-icon {
+    color: var(--primary-color);
+}
+
+.search-input {
+    width: 100%;
+    padding: var(--spacing-md) calc(var(--spacing-md) + 32px) var(--spacing-md) var(--spacing-md);
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 1rem;
+    color: var(--text-primary);
+    direction: rtl;
+    text-align: right;
+}
+
+.search-input::placeholder {
+    color: var(--text-muted);
+    opacity: 0.8;
+}
+
+.search-input:focus::placeholder {
+    opacity: 0.5;
+}
+
+/* Clear button */
+.search-clear {
+    position: absolute;
+    left: var(--spacing-sm);
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    transition: all var(--transition-fast);
+    z-index: 2;
+}
+
+.search-clear:hover {
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+}
+
+.search-input:not(:placeholder-shown) + .search-clear {
+    display: flex;
+}
+
+/* No results message */
+.no-results {
+    text-align: center;
+    padding: var(--spacing-2xl);
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    display: none;
+}
+
+.no-results-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto var(--spacing-md);
+    opacity: 0.5;
+}
+
+/* Hidden course animation */
+.course-card.hidden {
+    opacity: 0;
+    transform: scale(0.9);
+    pointer-events: none;
+    margin: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all var(--transition-medium);
 }
 
 /* Main Container */
@@ -214,7 +332,7 @@ body::before {
 }
 
 /* Course Code */
-.course-code {
+.course-code .course-main {
     display: inline-flex;
     align-items: center;
     font-size: 0.75rem;
@@ -338,6 +456,17 @@ details[open] .course-details {
     flex-shrink: 0;
 }
 
+/* Link styling for instructor badges */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a .instructor-badge:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
 /* Responsive Design */
 @media (min-width: 768px) {
     .courses-grid {
@@ -357,6 +486,22 @@ details[open] .course-details {
 }
 
 /* RTL Support */
+[dir="ltr"] .search-icon {
+    right: auto;
+    left: var(--spacing-md);
+}
+
+[dir="ltr"] .search-clear {
+    left: auto;
+    right: var(--spacing-sm);
+}
+
+[dir="ltr"] .search-input {
+    padding: var(--spacing-md) calc(var(--spacing-md) + 32px) var(--spacing-md) var(--spacing-md);
+    direction: ltr;
+    text-align: left;
+}
+
 [dir="ltr"] .expand-icon {
     left: auto;
     right: var(--spacing-lg);

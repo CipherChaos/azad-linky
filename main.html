@@ -10,568 +10,88 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <header class="header">
+      <header class="header">
         <div class="header-content">
             <h1>کلاس های ترم 4041</h1>
-            <p> دپارتمان مهندسی کاپیوتر </p>
+            <p>دپارتمان مهندسی کامپیوتر</p>
+            
+            <div class="search-container">
+                <div class="search-wrapper">
+                    <div class="search-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                    </div>
+                    <input 
+                        type="text" 
+                        class="search-input" 
+                        placeholder="جستجوی درس یا استاد..."
+                        id="courseSearch"
+                    >
+                    <button class="search-clear" type="button" onclick="clearSearch()">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
         </div>
     </header>
 
     <main class="container">
         <div class="courses-grid">
+            
+            
             <article class="course-card">
                 <details>
                     <summary class="course-summary">
                         <div class="course-code">اصلی</div>
-                        <h2 class="course-title">مهندسی نرم‌افزار</h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
+                        <h2 class="course-title course-main">دروس اصلی </h2>
                     </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/+W_MlKFhtSY43YmNk"> <li class="instructor-badge">قربانی </li></a>
-                            <a href="https://t.me/yooohoooo"> <li class="instructor-badge">صمدبین </li></a>
-                        </ul>
-                    </div>
                 </details>
             </article>
-
+            
             <article class="course-card">
                 <details>
                     <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title">نظریه زبان و ماشین  </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
+                        <div class="course-code">عمومی</div>
+                        <h2 class="course-title course-general">دروس عمومی </h2>
                     </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/nazarie_sharmin_mousavi"> <li class="instructor-badge"> شرمین موسوی </li></a>
-                            <a href="https://t.me/+Ft2X7CEH3YJkNmQ0"> <li class="instructor-badge">محمدرضا سرشار</li></a>
-                            <a href="https://t.me/+hLKiQSDtBYRiNjY0"> <li class="instructor-badge">علی بصیری </li></a>
-                        </ul>
-                    </div>
                 </details>
             </article>
 
             <article class="course-card">
                 <details>
                     <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title">هوش مصنوعی و سیستم های خبره  </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
+                        <div class="course-code course-lab">آزمایشگاهی</div>
+                        <h2 class="course-title">دروس آزمایشگاهی </h2>
                     </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/+lqXT9pXSLHo4NGE8"> <li class="instructor-badge">  رقیه صادقی اوج تپه (پورخواجه) </li></a>
-                            <a href="https://t.me/+GIIc6xuz5PU2NGE0"> <li class="instructor-badge">اکبری </li></a>
-                            <a href="https://t.me/AIshourideh"> <li class="instructor-badge">پریسا شوریده </li></a>
-                            <a href="https://t.me/hoosh_masnoeei"> <li class="instructor-badge">مرضیه حدادی </li></a>
-                        </ul>
-                    </div>
                 </details>
             </article>
 
             <article class="course-card">
                 <details>
                     <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> معماری کامپیوتر </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
+                        <div class="course-code course-fundamental">پایه</div>
+                        <h2 class="course-titl">دروس پایه </h2>
                     </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/+EYB-djIkVnliMjQ0"> <li class="instructor-badge"> نوری ولنده </li></a>
-                            
-                        </ul>
-                    </div>
                 </details>
             </article>
 
             <article class="course-card">
                 <details>
                     <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> مدار منطقی</h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
+                        <div class="course-code course-language">زبان</div>
+                        <h2 class="course-title">دروس زبان </h2>
+                        
                     </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها </h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/madarazizsoltani"> <li class="instructor-badge"> عزیز سلطانی </li></a>
-                            <a href="https://t.me/+qvYdjwj6nFQ3NGI0"> <li class="instructor-badge"> معماری‌نژاد  </li></a>
-                            <a href="https://t.me/+_8PX9MTJ85U3YWE0"> <li class="instructor-badge"> آرزو نوری  </li></a>
-                            
-                        </ul>
-                    </div>
                 </details>
             </article>
 
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> مدار های الکتریکی </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/MadarElectricMemari4041"> <li class="instructor-badge"> معماری نژاد </li></a>
-                            <a href="https://t.me/+IxvJ5DH6sW0wMTNk"> <li class="instructor-badge"> حامد یاوری </li></a>
-                            <a href="https://t.me/+9FW-kIidu5JkNmNk"> <li class="instructor-badge"> محمد نطاق </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title">برنامه سازی پیشرفته </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/Pishraftesarshar"> <li class="instructor-badge"> محمدرضا سرشار </li></a>
-                            
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title">اصول طراحی کامپایلر  </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> پایگاه داده </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> پیاده‌سازی سیستم پایگاه داده </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> داده‌کاوی </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> ریزپردازنده </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> سیستم های عامل  </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> سیستم‌های اطلاعات مدیریت </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title">  ساختمان داده </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> سیگنال ها و سیستم ها </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> شبکه‌های کامپیوتری </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> شبکه‌های کامپیوتری </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> طراحی الگوریتم </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-             <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title">  طراحی زبان‌های برنامه‌سازی </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-             <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title">طراحی سیستم های دیجیتال  </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-             <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> تحلیل و طراحی سیستم  </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-             <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> مباحث ویژه ۱  </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-             <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> مهندسی اینترنت </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-             <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title">  پروژه نرم افزار </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> روش پژوهش و ارائه    </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
-
-            <article class="course-card">
-                <details>
-                    <summary class="course-summary">
-                        <div class="course-code">اصلی</div>
-                        <h2 class="course-title"> اقتصاد مهندسی </h2>
-                        <div class="expand-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6,9 12,15 18,9"></polyline>
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="course-details">
-                        <h3 class="instructors-label">استاد ها</h3>
-                        <ul class="instructors-list">
-                            <a href="https://t.me/CompDesignFaribaSalehi"> <li class="instructor-badge"> فریبا صالحی </li></a>
-                        </ul>
-                    </div>
-                </details>
-            </article>
         </div>
     </main>
 </body>
+<script src="searchbar.js"></script>
 </html>
