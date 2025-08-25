@@ -55,6 +55,77 @@ body {
     --search-bg: rgba(255, 255, 255, 0.95);
     --search-border: rgba(79, 70, 229, 0.2);
     --search-focus: rgba(79, 70, 229, 0.4);
+      /* === Core Palette === */
+    --primary-color: #4f46e5;
+    --primary-light: #6366f1;
+    --primary-dark: #3730a3;
+    --accent-color: #06b6d4;
+
+    --accent-pink: #ec4899;
+    --accent-orange: #f97316;
+    --accent-teal: #14b8a6;
+    --accent-purple: #7c3aed;
+
+    --success-color: #22c55e;
+    --warning-color: #facc15;
+    --error-color: #ef4444;
+    --info-color: #3b82f6;
+
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8fafc;
+    --bg-tertiary: #f1f5f9;
+    --bg-dark: #1e293b;
+    --bg-darker: #0f172a;
+
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #64748b;
+    --text-inverse: #f9fafb;
+
+    --border-color: #e2e8f0;
+    --border-light: #f1f5f9;
+    --border-dark: #334155;
+
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+    --radius-sm: 0.5rem;
+    --radius-md: 0.75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.5rem;
+
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    --spacing-2xl: 4rem;
+
+    --transition-fast: 0.15s ease-out;
+    --transition-medium: 0.3s ease-out;
+    --transition-slow: 0.5s ease-out;
+
+    --bg-pink: #f5aad3;
+    --bg-orange: #ffd7a7;
+    --bg-teal: #a2f3e0;
+    --bg-purple: #baaef6;
+    --bg-success: #a7ecbc;
+    --bg-warning: #f5ed97;
+    --bg-error: #fa9191;
+    --bg-info: #7baded;
+
+
+    --backdrop-blur: blur(12px);
+    --glassmorphism-bg: rgba(255, 255, 255, 0.8);
+    --glassmorphism-border: rgba(255, 255, 255, 0.2);
+    --search-bg: rgba(255, 255, 255, 0.95);
+    --search-border: rgba(79, 70, 229, 0.2);
+    --search-focus: rgba(79, 70, 229, 0.4);
+
+    --gradient-primary: linear-gradient(135deg, #6366f1, #06b6d4);
+    --gradient-accent: linear-gradient(135deg, #ec4899, #7c3aed);
 }
 
 /* Dark Mode Variables */
@@ -332,7 +403,7 @@ body::before {
 }
 
 /* Course Code */
-.course-code .course-main {
+.course-code{
     display: inline-flex;
     align-items: center;
     font-size: 0.75rem;
@@ -346,6 +417,32 @@ body::before {
     padding: 0.25rem 0.75rem;
     margin-bottom: var(--spacing-sm);
 }
+
+.course-language{
+    color:var(--accent-pink);
+    background: rgba(255, 47, 161, 0.1);
+    border: 1px solid rgba(184, 184, 184, 0.2);
+}
+
+.course-general{
+    color:var(--accent-orange);
+    background: rgba(255, 166, 56, 0.1);
+    border: 1px solid rgba(184, 184, 184, 0.2);
+}
+
+.course-lab{
+    color:var(--accent-teal);
+    background: rgba(53, 255, 208, 0.1);
+    border: 1px solid rgba(184, 184, 184, 0.2);
+}
+
+.course-fundamental{
+    color:var(--warning-color);
+    background: rgba(250, 234, 56, 0.1);
+    border: 1px solid rgba(184, 184, 184, 0.2);
+}
+
+.course-code .course-card:has(details[open])
 
 /* Course Title */
 .course-title {
