@@ -4,10 +4,16 @@
     padding: 0;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 html {
     font-size: 16px;
     scroll-behavior: smooth;
 }
+
+
 
 body {
     line-height: 1.6;
@@ -16,6 +22,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     direction: rtl;
+    overflow-y: auto; 
 }
 
 
@@ -154,7 +161,7 @@ body {
     color: var(--text-primary);
     min-height: 100vh;
     position: relative;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 body::before {
@@ -164,6 +171,8 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
+    width: 100vw; 
+    height: 100vh; 
     background: 
         radial-gradient(circle at 25% 25%, rgba(79, 70, 229, 0.1) 0%, transparent 50%),
         radial-gradient(circle at 75% 75%, rgba(6, 182, 212, 0.1) 0%, transparent 50%),
@@ -189,7 +198,8 @@ body::before {
     backdrop-filter: var(--backdrop-blur);
     -webkit-backdrop-filter: var(--backdrop-blur);
     border-bottom: 1px solid var(--glassmorphism-border);
-    height: 10vh;
+    height: auto;
+    margin: 0 0 5rem 0; 
 
     
 }
@@ -221,10 +231,10 @@ body::before {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row-reverse;
+  flex-direction: revert;
   height: 4vh;
   padding: 0;
-  flex-direction: revert;
+  
 
 }
 
@@ -536,7 +546,7 @@ details[open] .expand-icon {
 }
 
 details[open] .course-details {
-    max-height: 300px;
+    max-height: 62.5rem;
     opacity: 1;
     transform: translateY(0);
     padding: var(--spacing-lg);
@@ -636,7 +646,7 @@ a .instructor-badge:hover {
 
         .header .container {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             padding: 1rem var(--spacing-md);
         }
@@ -778,10 +788,13 @@ a .instructor-badge:hover {
         @media screen and (max-width: 800px) {
             .container {
                 padding: var(--spacing-md);
+                
+                
             }
 
             .header .container {
                 padding: 1rem var(--spacing-md);
+                justify-content: space-between;
             }
 
             .toggle-menu {
@@ -891,6 +904,7 @@ a .instructor-badge:hover {
             outline: 2px solid var(--primary-color);
             outline-offset: 2px;
         }
+        
 
         /* High contrast mode */
         @media (prefers-contrast: high) {
