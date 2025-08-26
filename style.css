@@ -198,7 +198,8 @@ body::before {
     backdrop-filter: var(--backdrop-blur);
     -webkit-backdrop-filter: var(--backdrop-blur);
     border-bottom: 1px solid var(--glassmorphism-border);
-    height: auto; 
+    height: auto;
+    margin: 0 0 5rem 0; 
 
     
 }
@@ -629,7 +630,7 @@ a .instructor-badge:hover {
 
         .header .container {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             padding: 1rem var(--spacing-md);
         }
@@ -768,10 +769,12 @@ a .instructor-badge:hover {
             .container {
                 padding: var(--spacing-md);
                 
+                
             }
 
             .header .container {
                 padding: 1rem var(--spacing-md);
+                justify-content: space-between;
             }
 
             .toggle-menu {
@@ -881,6 +884,7 @@ a .instructor-badge:hover {
             outline: 2px solid var(--primary-color);
             outline-offset: 2px;
         }
+        
 
         /* High contrast mode */
         @media (prefers-contrast: high) {
