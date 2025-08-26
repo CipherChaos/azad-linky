@@ -6,11 +6,38 @@
     <title>Fall Semester Courses</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@400;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./loading.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./_button.css">
+    
 </head>
 <body>
-      <header class="header">
+    
+    <header class="header">
+        <div class="container container--narrow">
+            
+            <nav class="header__nav">
+                <input type="checkbox" id="responsive-menu" />
+                <label for="responsive-menu" class="toggle-menu">
+                    <span><a href="/" class="header__logo">
+                    <img src="hamburger-menu-mobile-svgrepo-com.svg" alt="DevSearch Logo" />
+                    </a></span>
+                    <div class="toggle-menu__lines"></div>
+                </label>
+                <ul class="header__menu">
+                    <li class="header__menuItem"><a class="btn btn--sub" href="main.html"> صفحه اصلی</a></li>
+                    <li class="header__menuItem"><a class="btn btn--sub" href="index.html">درباره من</a></li>
+                    <li class="header__menuItem"><a class="btn btn--sub" href="projects.html">گزارش مشکل</a></li>
+                    <li class="header__menuItem"><a class="btn btn--sub" href="inbox.html">راهنما استفاده</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        
         <div class="header-content">
             <h1>کلاس های ترم 4041</h1>
             <p>دپارتمان مهندسی کامپیوتر</p>
@@ -38,11 +65,9 @@
                 </div>
             </div>
         </div>
-    </header>
-
-    <main class="container">
+        
+        
         <div class="courses-grid">
-            
             
             <article class="course-card">
                 <details>

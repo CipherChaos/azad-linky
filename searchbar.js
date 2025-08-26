@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
             noResultsMsg.className = 'no-results-message';
             noResultsMsg.style.textAlign = 'center';
             noResultsMsg.style.padding = '2rem';
-            noResultsMsg.style.color = '#666';
+            noResultsMsg.style.color = '#ee1414ff';
             noResultsMsg.style.fontSize = '1.1rem';
             noResultsMsg.innerHTML = `
                 <p>هیچ درسی پیدا نشد</p>
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .search-match {
             transform: scale(1.02);
             box-shadow: 0 4px 20px rgba(59, 130, 246, 0.15);
-            border-color: rgba(59, 130, 246, 0.3);
+            
         }
         
         .search-clear {
@@ -163,9 +163,9 @@ document.addEventListener('DOMContentLoaded', function() {
         
         .no-results-message {
             grid-column: 1 / -1;
-            background: rgba(243, 244, 246, 0.5);
+            background: rgba(2, 1, 1, 0.5);
             border-radius: 12px;
-            border: 2px dashed #d1d5db;
+            
         }
         
         @media (max-width: 768px) {

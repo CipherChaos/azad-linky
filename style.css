@@ -332,7 +332,7 @@ body::before {
 .no-results {
     text-align: center;
     padding: var(--spacing-2xl);
-    color: var(--text-muted);
+    color: var(--error-color);
     font-size: 1.1rem;
     display: none;
 }

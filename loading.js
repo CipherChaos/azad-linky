@@ -1,9 +1,8 @@
 // Connection-based loading script
 document.addEventListener('DOMContentLoaded', function() {
-    // Create loader element
-    const loader = document.createElement('div');
-    loader.id = 'loader';
-    document.body.appendChild(loader);
+    // Don't create loader - it already exists in HTML
+    // Just ensure body overflow is hidden during loading
+    document.body.style.overflow = 'hidden';
 
     // Loading state management
     let isContentLoaded = false;
@@ -142,27 +141,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Hide loader with smooth transition
     function hideLoader() {
-        const loaderElement = document.getElementById('loader');
-        if (loaderElement) {
-            // Add fade out transition
-            loaderElement.style.transition = 'opacity 0.5s ease-out, visibility 0.5s ease-out';
-            loaderElement.style.opacity = '0';
-            loaderElement.style.visibility = 'hidden';
+        const loadingOverlay = document.getElementById('loading-overlay');
+        const mainContent = document.getElementById('main-content');
+        
+        if (loadingOverlay) {
+            // Fade out the entire loading overlay
+            loadingOverlay.style.transition = 'opacity 0.5s ease-out';
+            loadingOverlay.style.opacity = '0';
             
+            // Show main content immediately when loader starts fading
+            if (mainContent) {
+                mainContent.style.transition = 'opacity 0.5s ease-out, visibility 0.5s ease-out';
+                mainContent.style.opacity = '1';
+                mainContent.style.visibility = 'visible';
+            }
             
-            document.body.classList.remove('loading');
-            loadingOverlay.classList.add('hidden');
-            document.getElementById('loading-wrapper').style.display = 'none';
-            mainContent.classList.add('visible');
+            // Re-enable body scroll
+            document.body.style.overflow = '';
             
-            // Remove from DOM after transition
+            // Remove loading overlay from DOM after transition
             setTimeout(() => {
-                if (loaderElement.parentNode) {
-                    loaderElement.parentNode.removeChild(loaderElement);
+                if (loadingOverlay.parentNode) {
+                    loadingOverlay.parentNode.removeChild(loadingOverlay);
                 }
-                // Re-enable body scroll
-                document.body.style.overflow = '';
-                console.log('Loading complete');
+                console.log('Loading complete - content should now be visible');
             }, 500);
         }
     }
@@ -188,7 +190,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Fallback: Force hide after maximum time (prevent infinite loading)
     const maxLoadTime = 10000; // 10 seconds maximum
     setTimeout(() => {
-        if (document.getElementById('loader')) {
+        const loadingOverlay = document.getElementById('loading-overlay');
+        if (loadingOverlay) {
             console.log('Force hiding loader after maximum time');
             hideLoader();
         }
@@ -205,29 +208,43 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Optional: Provide global functions for manual control
 window.showLoader = function() {
-    if (!document.getElementById('loader')) {
-        const loader = document.createElement('div');
-        loader.id = 'loader';
-        document.body.appendChild(loader);
+    const existingOverlay = document.getElementById('loading-overlay');
+    if (!existingOverlay) {
+        const overlay = document.createElement('div');
+        overlay.id = 'loading-overlay';
+        overlay.innerHTML = '<div id="loader"></div>';
+        document.body.appendChild(overlay);
         document.body.style.overflow = 'hidden';
+        
+        // Hide main content
+        const mainContent = document.getElementById('main-content');
+        if (mainContent) {
+            mainContent.style.opacity = '0';
+            mainContent.style.visibility = 'hidden';
+        }
     }
 };
 
 window.hideLoader = function() {
-    const loaderElement = document.getElementById('loader');
-    if (loaderElement) {
-        loaderElement.style.transition = 'opacity 0.5s ease-out, visibility 0.5s ease-out';
-        loaderElement.style.opacity = '0';
-        loaderElement.style.visibility = 'hidden';
+    const loadingOverlay = document.getElementById('loading-overlay');
+    const mainContent = document.getElementById('main-content');
+    
+    if (loadingOverlay) {
+        loadingOverlay.style.transition = 'opacity 0.5s ease-out';
+        loadingOverlay.style.opacity = '0';
+        
+        // Show main content
+        if (mainContent) {
+            mainContent.style.transition = 'opacity 0.5s ease-out, visibility 0.5s ease-out';
+            mainContent.style.opacity = '1';
+            mainContent.style.visibility = 'visible';
+        }
         
         setTimeout(() => {
-            if (loaderElement.parentNode) {
-                loaderElement.parentNode.removeChild(loaderElement);
+            if (loadingOverlay.parentNode) {
+                loadingOverlay.parentNode.removeChild(loadingOverlay);
             }
             document.body.style.overflow = '';
         }, 500);
-      
-        
-        
     }
 };
