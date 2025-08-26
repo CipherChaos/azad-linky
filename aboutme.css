@@ -1,22 +1,3 @@
-/* Base Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    min-height: 100vh;
-    background: linear-gradient(135deg, #0f172a, #1e293b);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    padding: 2rem;
-}
-
-header {
-    margin: 0 0 4rem 0;
-}
-
 .container {
     display: flex;
     justify-content: center;
@@ -286,28 +267,4 @@ header {
 
 .profile-card:hover .card-glow {
     opacity: 0.05;
-}
-
-/* Responsive Design */
-@media (max-width: 480px) {
-    .container {
-        padding: 1rem;
-    }
-
-    .profile-card {
-        padding: 1.5rem;
-    }
-
-    .avatar-wrapper {
-        width: 100px;
-        height: 100px;
-    }
-
-    .name {
-        font-size: 1.5rem;
-    }
-
-    .skills {
-        flex-wrap: wrap;
-    }
 }

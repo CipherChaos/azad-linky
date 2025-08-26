@@ -1,0 +1,124 @@
+/* Animation when menu is open */
+#responsive-menu:checked ~ .toggle-menu .toggle-menu__lines {
+    background: transparent;
+}
+
+#responsive-menu:checked ~ .toggle-menu .toggle-menu__lines::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+#responsive-menu:checked ~ .toggle-menu .toggle-menu__lines::after {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+#responsive-menu:checked ~ .toggle-menu span {
+    background: var(--border-color);
+}
+
+/* Mobile styles */
+@media screen and (max-width: 800px) {
+    .container {
+        padding: var(--spacing-md);
+    }
+
+    .header .container {
+        padding: 1rem var(--spacing-md);
+    }
+
+    .toggle-menu {
+        display: block;
+    }
+
+    .header__menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        background: var(--bg-dark);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        padding: 10rem 2rem 2rem;
+        box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+        transition: all 0.5s ease-in-out;
+        gap: 0;
+        z-index: 1000;
+    }
+
+    #responsive-menu:checked ~ .header__menu {
+        right: 0;
+    }
+
+    .header__menuItem {
+        margin-bottom: 1rem;
+    }
+
+    .header__menuItem .btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.1rem;
+        border-radius: var(--radius-md);
+    }
+
+    .header__menuItem .btn:hover {
+        transform: translateX(-5px);
+    }
+
+    /* Overlay when menu is open */
+    .header__nav::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0,0,0,0.5);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        z-index: 999;
+    }
+
+    #responsive-menu:checked ~ .header__nav::before {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header__menu {
+        gap: 0.5rem;
+    }
+
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+    .container--narrow {
+        width: 85%;
+    }
+
+    .header__menu {
+        gap: 1.5rem;
+    }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}

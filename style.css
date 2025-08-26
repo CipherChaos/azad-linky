@@ -154,7 +154,7 @@ body {
     color: var(--text-primary);
     min-height: 100vh;
     position: relative;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 body::before {
