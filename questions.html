@@ -24,20 +24,71 @@
                 <input type="checkbox" id="responsive-menu" />
                 <label for="responsive-menu" class="toggle-menu">
                     <span><a class="header__logo">
-                    <img src="hamburger-menu-mobile-svgrepo-com.svg" alt="DevSearch Logo" />
                     </a></span>
                     <div class="toggle-menu__lines"></div>
                 </label>
+                
+                
                 <ul class="header__menu">
+
                     <li class="header__menuItem"><a class="btn btn--sub" href="main.html"> صفحه اصلی</a></li>
                     <li class="header__menuItem"><a class="btn btn--sub" href="inbox.html">راهنما استفاده</a></li>
+                    <li class="header__menuItem"><a class="btn btn--sub" href="questions.html"> سوالات متداول </a></li>
                     <li class="header__menuItem"><a class="btn btn--sub" href="https://t.me/Ariyan_Bolandi">گزارش مشکل</a></li>
                     <li class="header__menuItem"><a class="btn btn--sub" href="aboutme.html">درباره من</a></li>
                     
+                    <div class="theme-switch">
+                        <div class="theme-status">
+                            <span id="theme-status-text">Light</span>
+                            <span id="auto-indicator" class="auto-indicator"></span>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="checkbox" id="theme-toggle" />
+                            <label for="theme-toggle" class="label">
+                                <svg class="moon" width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3 11.5066C3 16.7497 7.25034 21 12.4934 21C16.2209 21 19.4466 18.8518 21 15.7259C12.4934 15.7259 8.27411 11.5066 8.27411 3C5.14821 4.55344 3 7.77915 3 11.5066Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <svg class="sun" width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M22 12L23 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 2V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 23V22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M20 20L19 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M20 4L19 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M4 20L5 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M4 4L5 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M1 12L2 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="ball"></div>
+                            </label>
+                        </div>
+                    </div>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="theme-toggle" />
+        <label for="theme-toggle" class="label">
+            <svg class="moon" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 11.5066C3 16.7497 7.25034 21 12.4934 21C16.2209 21 19.4466 18.8518 21 15.7259C12.4934 15.7259 8.27411 11.5066 8.27411 3C5.14821 4.55344 3 7.77915 3 11.5066Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <svg class="sun" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 12L23 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 2V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 23V22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20 20L19 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20 4L19 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 20L5 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 4L5 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M1 12L2 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div class="ball"></div>
+            </label>
+    </div>
+
 
     <main class="container">
         
@@ -313,13 +364,13 @@
                             <a class="btn--link" href="https://www.freecodecamp.org/news/git-and-github-workflow-for-open-source/">مراحل مشارکت: </a>
 
                           
-1. از این پروژه یک انشعاب (Fork) در صفحه گیت هاب خودتون بگیرید.
-2. پروژه را بر روی محیط توسعه خود  (Local Repository) کپی بگیرید (Clone).
-3. پس از اعمال تغییرات جدید و توسعه، این تغییرات رو بر روی ریپازیتوری خودتون اعمال کنید (Git add). 
-4.  تغییرات اعمال شده را به ریپازیتوری گیت هاب (Remote Repository) که قبلا Fork گرفتین بفرستین (Push).
-5. و در نهایت یک درخواست اعمال تغییرات (Pull request) در صفحه این پروژه در گیت هاب باز کنید. 
+                        1. از این پروژه یک انشعاب (Fork) در صفحه گیت هاب خودتون بگیرید.
+                        2. پروژه را بر روی محیط توسعه خود  (Local Repository) کپی بگیرید (Clone).
+                        3. پس از اعمال تغییرات جدید و توسعه، این تغییرات رو بر روی ریپازیتوری خودتون اعمال کنید (Git add). 
+                        4.  تغییرات اعمال شده را به ریپازیتوری گیت هاب (Remote Repository) که قبلا Fork گرفتین بفرستین (Push).
+                        5. و در نهایت یک درخواست اعمال تغییرات (Pull request) در صفحه این پروژه در گیت هاب باز کنید. 
 
-اگر مایل به همکاری دیگری بودین می توانید با من در ارتباط باشید،‌ خوشحال میشم همکاری داشته باشیم.
+                        اگر مایل به همکاری دیگری بودین می توانید با من در ارتباط باشید،‌ خوشحال میشم همکاری داشته باشیم.
 
                     </div>
                 </details>
@@ -370,5 +421,6 @@
             
     </main>
 </body>
-<script src="searchbar.js"></script>
+<script src="theme.js"></script>
+
 </html>

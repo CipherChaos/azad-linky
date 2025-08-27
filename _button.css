@@ -1,9 +1,30 @@
+:root {
+  /* Light theme defaults */
+  --color-light: #ffffff;
+  --color-main: #4f46e5;
+  --color-sub: #64748b;
+  --color-white: #ffffff;
+  --color-gray: #94a3b8;
+  --border-dark: #e2e8f0;
+  --gradient-primary: linear-gradient(135deg, #6366f1, #06b6d4);
+}
+
+[data-theme="dark"] {
+  --color-light: #1e293b;
+  --color-main: #6366f1;
+  --color-sub: #94a3b8;
+  --color-white: #f1f5f9;
+  --color-gray: #64748b;
+  --border-dark: #334155;
+  --gradient-primary: linear-gradient(135deg, #818cf8, #06b6d4);
+}
+
 .btn {
   display: inline-block;
   position: relative;
   cursor: pointer;
   background-color: var(--color-light);
-  font-weight: var(--font-medium);
+  font-weight: var(--font-medium, 500);
   color: var(--color-sub);
   text-decoration: none;
   padding: 1rem 2rem;
@@ -122,4 +143,9 @@ button[disabled] {
   background-color: var(--color-light);
   color: var(--color-gray);
   cursor: unset;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
