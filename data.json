@@ -1,0 +1,397 @@
+{
+  "semester": "Fall 4041",
+  "department": "دپارتمان مهندسی کامپیوتر",
+  "courses": {
+    "main": [
+      {
+        "code": "اصلی",
+        "title": "مهندسی نرم‌افزار",
+        "instructors": [
+          {"name": "قربانی", "telegram": "https://t.me/+W_MlKFhtSY43YmNk"},
+          {"name": "صمدبین", "telegram": "https://t.me/yooohoooo"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "نظریه زبان و ماشین",
+        "instructors": [
+          {"name": "شرمین موسوی", "telegram": "https://t.me/nazarie_sharmin_mousavi"},
+          {"name": "محمدرضا سرشار", "telegram": "https://t.me/+Ft2X7CEH3YJkNmQ0"},
+          {"name": "علی بصیری", "telegram": "https://t.me/+hLKiQSDtBYRiNjY0"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "هوش مصنوعی و سیستم های خبره",
+        "instructors": [
+          {"name": "رقیه صادقی اوج تپه (پورخواجه)", "telegram": "https://t.me/+lqXT9pXSLHo4NGE8"},
+          {"name": "اکبری", "telegram": "https://t.me/+GIIc6xuz5PU2NGE0"},
+          {"name": "پریسا شوریده", "telegram": "https://t.me/AIshourideh"},
+          {"name": "مرضیه حدادی", "telegram": "https://t.me/hoosh_masnoeei"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "معماری کامپیوتر",
+        "instructors": [
+          {"name": "نوری ولنده", "telegram": "https://t.me/+EYB-djIkVnliMjQ0"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "مدار منطقی",
+        "instructors": [
+          {"name": "عزیز سلطانی", "telegram": "https://t.me/madarazizsoltani"},
+          {"name": "معماری‌نژاد", "telegram": "https://t.me/+qvYdjwj6nFQ3NGI0"},
+          {"name": "آرزو نوری", "telegram": "https://t.me/+_8PX9MTJ85U3YWE0"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "مدار های الکتریکی",
+        "instructors": [
+          {"name": "معماری نژاد", "telegram": "https://t.me/MadarElectricMemari4041"},
+          {"name": "حامد یاوری", "telegram": "https://t.me/+IxvJ5DH6sW0wMTNk"},
+          {"name": "محمد نطاق", "telegram": "https://t.me/+9FW-kIidu5JkNmNk"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "برنامه سازی پیشرفته",
+        "instructors": [
+          {"name": "محمدرضا سرشار", "telegram": "https://t.me/Pishraftesarshar"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "اصول طراحی کامپایلر",
+        "instructors": [
+          {"name": "فریبا صالحی", "telegram": "https://t.me/CompDesignFaribaSalehi"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "پایگاه داده",
+        "instructors": [
+          {"name": "هاشمی عبدی", "telegram": "https://t.me/+tWSJvM6SVys0Yjlk"},
+          {"name": "علی علی جماعت", "telegram": "https://t.me/+b5I4N2loKw9jMGVk"},
+          {"name": "بصیری", "telegram": "https://t.me/+_x6Tj_R-M5hjZmZk"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "پیاده سازی پایگاه داده",
+        "instructors": [
+          {"name": "حسین صمدبین", "telegram": "https://t.me/piyadesazipay"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "داده‌کاوی",
+        "instructors": [
+          {"name": "میرحسینی", "telegram": "https://t.me/+klJwQ7xhQcdlZWY8"},
+          {"name": "امین امینی", "telegram": "https://t.me/+TGU27hRX0XE3MzA8"},
+          {"name": "خلیلیان", "telegram": "https://t.me/+o_T1IlkujQ5jNzY0"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "ریزپردازنده",
+        "instructors": [
+          {"name": "شبستری", "telegram": "https://t.me/+pnDk4eqyO9I2N2U8"},
+          {"name": "امیرحسین احمدی (با استاد)", "telegram": "https://t.me/+yLEczhteWpA1NTBk"},
+          {"name": "امیرحسین احمدی (بدون استاد)", "telegram": "https://t.me/+pjhm-V7LWulkYzdk"},
+          {"name": "رفیعی", "telegram": "https://t.me/+SrGSo7gXm1Q4NDc0"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "سیستم های عامل",
+        "instructors": [
+          {"name": "زینبت بمانبی وندیشی", "telegram": "https://t.me/OSbemani"},
+          {"name": "ساسان حریفی", "telegram": "https://t.me/sasanharefi"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "سیستم‌های اطلاعات مدیریت",
+        "instructors": [
+          {"name": "ندا سراج", "telegram": "https://t.me/+zq-iEt0aqbtiMjc8"},
+          {"name": "شهرام آجرلو", "telegram": "https://t.me/manageInfosSystem"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "ساختمان داده",
+        "instructors": [
+          {"name": "فاطمه نجفی", "telegram": "https://t.me/+Y-i9YsUYW2M4YzU8"},
+          {"name": "عطار", "telegram": "https://t.me/+_12PMoOdFtA1ZWI0"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "سیگنال ها و سیستم ها",
+        "instructors": [
+          {"name": "ناصریان", "telegram": "https://t.me/Signal_Naserian"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "شبکه‌های کامپیوتری",
+        "instructors": [
+          {"name": "سپیده احمدی", "telegram": "https://t.me/+hqmtvv3h9fswNTNk"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "طراحی الگوریتم",
+        "instructors": [
+          {"name": "(با استاد) فاطمه نجفی", "telegram": "https://t.me/+UX1DO5KS0ZdkNTRk"},
+          {"name": "فاطمه نجفی (بدون استاد)", "telegram": "https://t.me/+7sXAE47xiRsxMGI0"},
+          {"name": "محمدرضا سرشار", "telegram": "https://t.me/+y1JjuxUKBY4wMjRk"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "طراحی زبان‌های برنامه‌سازی",
+        "instructors": [
+          {"name": "افشاری", "telegram": "https://t.me/TarahiZabanAfshari404"},
+          {"name": "عبدی", "telegram": "https://t.me/+umGBQ0TIwxIxOTE0"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "طراحی سیستم های دیجیتال",
+        "instructors": [
+          {"name": "افشاری", "telegram": "https://t.me/TarahiZabanAfshari404"},
+          {"name": "آیدا خورشیدطلب", "telegram": "https://t.me/+85MFVrTU7zA2ZDE0"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "تحلیل و طراحی سیستم",
+        "instructors": [
+          {"name": "زینب بمانی وندیشی", "telegram": "https://t.me/+FG9m78vgaAczNjlk"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "مباحث ویژه ۱",
+        "instructors": [
+          {"name": "نداسراج", "telegram": "https://t.me/+n2hcehELy-BjZjNk"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "مهندسی اینترنت",
+        "instructors": [
+          {"name": "ادریسی", "telegram": "https://t.me/Net_edrisi"},
+          {"name": "حیاتی", "telegram": "https://t.me/+8kJrk4MmZfpkMjg0"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "پروژه نرم افزار",
+        "instructors": [
+          {"name": "فاطمه نجفی", "telegram": "https://t.me/+bjYU4cF4RRQxODM0"},
+          {"name": "خلیلیان", "telegram": "https://t.me/projkhalil"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "روش پژوهش و ارائه",
+        "instructors": [
+          {"name": "کاملیا دهقانی", "telegram": "https://t.me/+DiL_NKOqaAJkYzc0"},
+          {"name": "میرزایی", "telegram": "https://t.me/+j3PjRVSUCjExMzc0"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "اقتصاد مهندسی",
+        "instructors": [
+          {"name": "بابائی", "telegram": "https://t.me/+sxH_QeAq9LdhNDJk"}
+        ]
+      }
+    ],
+    "language": [
+      {
+        "code": "زبان",
+        "title": "زبان عمومی ترکیبی ۱",
+        "instructors": [
+          {"name": "افضلی", "telegram": "https://t.me/+wnNBynBczLA4ZTE0"}
+        ]
+      },
+      {
+        "code": "زبان",
+        "title": "زبان عمومی ترکیبی 2",
+        "instructors": [
+          {"name": "محمد صادق الویری", "telegram": "https://t.me/zaban_tarkibi_2"}
+        ]
+      },
+      {
+        "code": "زبان",
+        "title": "زبان عمومی ترکیبی 3",
+        "instructors": [
+          {"name": "افضلی", "telegram": "https://t.me/+wnNBynBczLA4ZTE0"}
+        ]
+      },
+      {
+        "code": "زبان",
+        "title": "زبان تخصصی",
+        "instructors": [
+          {"name": "آقاجانی", "telegram": "https://t.me/zaban_aghajani"}
+        ]
+      }
+    ],
+    "lab": [
+      {
+        "code": "آزمایشگاهی",
+        "title": "فیزیک 2",
+        "instructors": [
+          {"name": "حاج اکبری", "telegram": "https://t.me/+ExyFQTxYvr4yYzQ8"},
+          {"name": "سپیده جوادی", "telegram": "https://t.me/+uFHXWH8IJSwyZTVk"}
+        ]
+      },
+      {
+        "code": "آزمایشگاهی",
+        "title": "سیستم های عامل",
+        "instructors": [
+          {"name": "ناهید شمس", "telegram": "https://t.me/azsystemshams"}
+        ]
+      },
+      {
+        "code": "آزمایشگاهی",
+        "title": "پایگاه داده",
+        "instructors": [
+          {"name": "زینب بمانی", "telegram": "https://t.me/azmapay"},
+          {"name": "نیکروان", "telegram": "https://t.me/azpnikravan"}
+        ]
+      },
+      {
+        "code": "آزمایشگاهی",
+        "title": "ریز پردازنده",
+        "instructors": [
+          {"name": "افشاری", "telegram": "https://t.me/riz_lab"}
+        ]
+      },
+      {
+        "code": "آزمایشگاهی",
+        "title": "شبکه های کامپیوتری",
+        "instructors": [
+          {"name": "ادریسی", "telegram": "https://t.me/Az_shabake_edrisi"}
+        ]
+      },
+      {
+        "code": "آزمایشگاهی",
+        "title": "مدارالکتریکی",
+        "instructors": [
+          {"name": "افشین بقایی", "telegram": "https://t.me/+Zu9FSc4Csi1jYjY0"}
+        ]
+      },
+      {
+        "code": "آزمایشگاهی",
+        "title": "مدارمنطقی و معماری کامپیوتر",
+        "instructors": [
+          {"name": "نعیمه زارعی نژاد", "telegram": "https://t.me/+A_IsdhqQjJoxMGQ0"}
+        ]
+      }
+    ],
+    "fundamental": [
+      {
+        "code": "پایه",
+        "title": "ریاضی ۱",
+        "instructors": []
+      },
+      {
+        "code": "پایه",
+        "title": "ریاضی ۲",
+        "instructors": [
+          {"name": "مهدی یوسفی", "telegram": "https://t.me/riazidoyousefi"}
+        ]
+      },
+      {
+        "code": "پایه",
+        "title": "فیزیک ۱",
+        "instructors": []
+      },
+      {
+        "code": "پایه",
+        "title": "فیزیک ۲",
+        "instructors": []
+      },
+      {
+        "code": "پایه",
+        "title": "معادلات دیفرانسیل",
+        "instructors": [
+          {"name": "نرگس پوررستمی", "telegram": "https://t.me/Difpoorrostami"}
+        ]
+      }
+    ],
+    "general": [
+      {
+        "code": "عمومی",
+        "title": "اندیشه ۱",
+        "instructors": [
+          {"name": "جلیل محمدی خانقاه", "telegram": "https://t.me/+4cVqQ5tSY-hmNGVk"}
+        ]
+      },
+      {
+        "code": "عمومی",
+        "title": "اندیشه ۲",
+        "instructors": []
+      },
+      {
+        "code": "عمومی",
+        "title": "انس با قرآن",
+        "instructors": [
+          {"name": "مهناز راحتی", "telegram": "https://t.me/+B2yi_-2D3WY3ZjA0"},
+          {"name": "قضاتلو", "telegram": "https://t.me/ons_ghazatlou"}
+        ]
+      },
+      {
+        "code": "عمومی",
+        "title": "تاریخ تحلیلی صدر اسلام",
+        "instructors": [
+          {"name": "فتحی", "telegram": "https://t.me/tarikh_sadr_fathi"},
+          {"name": "خوراسگانی", "telegram": "https://t.me/+MFoiF5RXdwpjMTM0"}
+        ]
+      },
+      {
+        "code": "عمومی",
+        "title": "تفسیر موضوعی نهج البلاغه",
+        "instructors": [
+          {"name": "آدینه اصغری‌نژاد", "telegram": "https://t.me/+bfJwQ7xhQcdlZWY8"}
+        ]
+      },
+      {
+        "code": "عمومی",
+        "title": "تاریخ فرهنگ و تمدن اسلامی",
+        "instructors": [
+          {"name": "ربانی خوراسگانی", "telegram": "https://t.me/+Ha648BkATQVkMDhk"},
+          {"name": "آقایی", "telegram": "https://t.me/+0n2GQkqYBggwNzk8"}
+        ]
+      },
+      {
+        "code": "عمومی",
+        "title": "آیین زندگی",
+        "instructors": [
+          {"name": "ناصربخت", "telegram": "https://t.me/naserbakht4041"}
+        ]
+      },
+      {
+        "code": "عمومی",
+        "title": "ورزش ۱",
+        "instructors": [
+          {"name": "محمد ملکی", "telegram": "https://t.me/+3feT4pBYUv0yNzI0"}
+        ]
+      },
+      {
+        "code": "عمومی",
+        "title": "تربیت بدنی",
+        "instructors": [
+          {"name": "حمید عموریزی", "telegram": "https://t.me/tarbiatamorizi"}
+        ]
+      }
+    ]
+  }
+}
