@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fall Semester Courses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@400;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./src/css/loading.css"> -->
+    <link rel="stylesheet" href="/src/styles/app.css">
+    <link rel="stylesheet" href="/src/styles/pages/aboutme.css">
+
+    
+</head>
+
+
+<body>
+    
+    <header class="header">
+        <div class="container container--narrow">
+            
+            <nav class="header__nav">
+                <input type="checkbox" id="responsive-menu" />
+                <label for="responsive-menu" class="toggle-menu">
+                    <span><a class="header__logo">
+                    </a></span>
+                    <div class="toggle-menu__lines"></div>
+                </label>
+                
+                
+                <ul class="header__menu">
+
+                    <li class="header__menuItem"><a class="btn btn--sub" href="/index.html"> صفحه اصلی</a></li>
+                    <li class="header__menuItem"><a class="btn btn--sub" href="guide.html">راهنما استفاده</a></li>
+                    <li class="header__menuItem"><a class="btn btn--sub" href="faq.html"> سوالات متداول </a></li>
+                    <li class="header__menuItem"><a class="btn btn--sub" href="https://t.me/Ariyan_Bolandi">گزارش مشکل</a></li>
+                    <li class="header__menuItem"><a class="btn btn--sub" href="aboutme.html">درباره من</a></li>
+                    
+                    <div class="theme-switch">
+                        <div class="theme-status">
+                            <span id="theme-status-text">Light</span>
+                            <span id="auto-indicator" class="auto-indicator"></span>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="checkbox" id="theme-toggle" />
+                            <label for="theme-toggle" class="label">
+                                <svg class="moon" width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3 11.5066C3 16.7497 7.25034 21 12.4934 21C16.2209 21 19.4466 18.8518 21 15.7259C12.4934 15.7259 8.27411 11.5066 8.27411 3C5.14821 4.55344 3 7.77915 3 11.5066Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <svg class="sun" width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M22 12L23 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 2V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 23V22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M20 20L19 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M20 4L19 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M4 20L5 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M4 4L5 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M1 12L2 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="ball"></div>
+                            </label>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    
+    <div class="container">
+        <!-- Premium Profile Card -->
+        <div class="profile-card">
+            <div class="card-content">
+                <!-- Avatar Circle -->
+                <div class="avatar-wrapper">
+                    <div class="avatar">
+                       
+                        <div class="avatar-inner"></div>
+                        <div class="avatar-glow"></div>
+                        <div class="avatar-border"></div>
+                    </div>
+                </div>
+
+                <!-- Profile Info -->
+                <div class="profile-info">
+                    <h2 class="name">Ariyan Bolandi</h2>
+                    <p class="title">Jooje Back-End Developer </p>
+                    
+
+                    <div class="bio">
+                        سلام! من آرین هستم 😄
+                        یه پسر کنجکاو که عاشق لینوکس، امنیت، بک‌اند و هر چیزی که به برنامه‌نویسی مربوط باشه هستم! 💻
+                        این سایت رو ساختم تا به دوستام کمک کنم راحت‌تر گروه‌های درسی‌شون رو پیدا کنن.
+                        اگه دوست داشتی بهم پیام بده تا با هم گپ بزنیم، یا اگه خیلی از من خوشت اومد، می‌تونی یه قهوه آنلاین مهمونم کنی 😉☕
+                    </div>
+
+                    <div class="skills">
+                        <span class="skill">Linux</span>
+                        <span class="skill">Django</span>
+                        <span class="skill">Cybersecurity</span>
+                    </div>
+
+                    <div class="actions">
+                        <button class="action-btn primary">
+                            <span>Buy</span>
+                            <div class="btn-effect"></div>
+                        </button>
+                        <button class="action-btn secondary">
+                            <span>Message</span>
+                            <div class="btn-effect"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Effects -->
+            <div class="card-shine"></div>
+            <div class="card-border"></div>
+            <div class="card-glow"></div>
+        </div>
+    </div>
+</body>
+<script type="module" src="/src/scripts/app.js"></script>
+</html>

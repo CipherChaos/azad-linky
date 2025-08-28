@@ -1,4 +1,9 @@
 
+/*
+Currently, the website is using 'Noto Sans Arabic', 'Merriweather', Georgia, serif as its fonts. However, these may be changed in future updates
+
+*/
+
 @font-face {
   font-family: "Vazir";
   font-weight: 100; /* Thin */
