@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const category = map[page];
 
   if (category) {
-    fetch("../../public/data.json")
+    fetch("../../../public/data.json")
       .then((res) => res.json())
       .then((data) => {
         const courses = data.courses[category];
