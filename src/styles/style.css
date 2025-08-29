@@ -957,7 +957,7 @@ details[open] .course-details {
         flex-direction: row-reverse;
         font-family: 'Gugi';
         font-size: 2.25rem;
-        margin: 0 2rem;
+        margin: 0 2rem 0 0;
     }
 
     #responsive-menu:checked ~ .header__menu {
