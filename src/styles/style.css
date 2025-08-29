@@ -941,6 +941,7 @@ details[open] .course-details {
         width: 100%;
         height: 100vh;
         border-left: 1px solid var(--border-color);
+        background: var(--bg-secondary);
         flex-direction: column;
         justify-content: flex-start;
         align-items: stretch;
