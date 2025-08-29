@@ -9,6 +9,7 @@
   --gradient-primary: linear-gradient(135deg, #6366f1, #06b6d4);
 }
 
+/* Dark theme for explicit dark mode */
 [data-theme="dark"] {
   --color-light: #1e293b;
   --color-main: #6366f1;
@@ -17,6 +18,19 @@
   --color-gray: #64748b;
   --border-dark: #334155;
   --gradient-primary: linear-gradient(135deg, #818cf8, #06b6d4);
+}
+
+/* Auto theme support - dark mode when system prefers dark */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-light: #1e293b;
+    --color-main: #6366f1;
+    --color-sub: #94a3b8;
+    --color-white: #f1f5f9;
+    --color-gray: #64748b;
+    --border-dark: #334155;
+    --gradient-primary: linear-gradient(135deg, #818cf8, #06b6d4);
+  }
 }
 
 .btn {
@@ -73,7 +87,6 @@
   background-color: var(--border-dark);
   color: var(--gradient-primary);
 }
-
 
 .btn.btn--sub--outline {
   background-color: transparent;

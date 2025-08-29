@@ -17,6 +17,7 @@
   --aboutme-button-effect-secondary: rgba(0, 0, 0, 0.1);
 }
 
+/* Dark theme for explicit dark mode */
 [data-theme="dark"] {
   --aboutme-bg: rgba(30, 41, 59, 0.8);
   --aboutme-text-primary: #f8fafc;
@@ -33,6 +34,27 @@
   --aboutme-button-secondary-text: #94a3b8;
   --aboutme-button-effect: linear-gradient(45deg, #60a5fa, #a78bfa);
   --aboutme-button-effect-secondary: rgba(255, 255, 255, 0.1);
+}
+
+/* Auto theme support - dark mode when system prefers dark */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --aboutme-bg: rgba(30, 41, 59, 0.8);
+    --aboutme-text-primary: #f8fafc;
+    --aboutme-text-secondary: #94a3b8;
+    --aboutme-border: rgba(255, 255, 255, 0.1);
+    --aboutme-gradient: linear-gradient(45deg, #60a5fa, #a78bfa);
+    --aboutme-skill-bg: rgba(255, 255, 255, 0.05);
+    --aboutme-skill-hover: rgba(255, 255, 255, 0.1);
+    --aboutme-skill-text: #94a3b8;
+    --aboutme-button-primary-bg: linear-gradient(45deg, #60a5fa20, #a78bfa20);
+    --aboutme-button-primary-border: rgba(255, 255, 255, 0.1);
+    --aboutme-button-secondary-bg: transparent;
+    --aboutme-button-secondary-border: rgba(255, 255, 255, 0.1);
+    --aboutme-button-secondary-text: #94a3b8;
+    --aboutme-button-effect: linear-gradient(45deg, #60a5fa, #a78bfa);
+    --aboutme-button-effect-secondary: rgba(255, 255, 255, 0.1);
+  }
 }
 
 body {
@@ -315,5 +337,4 @@ body {
   #card, .container{
       width: 100%;
   }
-
 }
