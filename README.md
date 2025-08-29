@@ -26,8 +26,9 @@ git checkout -b feature/your-feature
     
 5. تغییرات رو **Commit** کنید:
 
+
 ```bash
-git commit -m "The changes I've done..."
+git commit -m "The changes I've made"
 ```
 
 
