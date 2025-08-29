@@ -212,9 +212,11 @@ body::before {
     justify-content: space-between;
     align-items: center;
     flex-direction: revert;
-    height: 4vh;
+    min-height: 8vh; 
+    height: auto; 
     padding: 0;
 }
+
 
 .header-content {
     max-width: 1200px;
@@ -243,6 +245,14 @@ body::before {
     align-items: center;
     list-style: none;
     gap: 3rem;
+}
+
+.header__logo{
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Gugi';
+    font-size: 2.25rem;
+    margin: 0 2rem;
 }
 
 /* ===== SEARCH ===== */
@@ -759,8 +769,15 @@ details[open] .course-details {
     padding: 0;
 }
 
-.header__menuItem {
-    list-style: none;
+.header__menuItem .btn {
+    padding: 1.175rem 1rem; 
+    font-size: 1rem; 
+    height: auto; 
+    min-height: unset; 
+    line-height: 1.4; 
+    white-space: nowrap; 
+    display: inline-block; 
+    vertical-align: middle; 
 }
 
 #responsive-menu {
@@ -902,7 +919,7 @@ details[open] .course-details {
 }
 
 /* ===== RESPONSIVE DESIGN ===== */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     
     .container {
         padding: var(--spacing-md);
@@ -923,9 +940,6 @@ details[open] .course-details {
         right: -100%;
         width: 100%;
         height: 100vh;
-        /* FIXED: Use theme-responsive background instead of fixed --bg-dark */
-        background: var(--bg-primary);
-        /* Add border for better visual separation */
         border-left: 1px solid var(--border-color);
         flex-direction: column;
         justify-content: flex-start;
@@ -935,6 +949,14 @@ details[open] .course-details {
         transition: all 0.5s ease-in-out;
         gap: 0;
         z-index: 1000;
+    }
+
+    .header__logo{
+        display: flex;
+        flex-direction: row-reverse;
+        font-family: 'Gugi';
+        font-size: 2.25rem;
+        margin: 0 2rem;
     }
 
     #responsive-menu:checked ~ .header__menu {
@@ -1000,6 +1022,15 @@ details[open] .course-details {
         padding: 0.5rem 1rem;
         font-size: 0.9rem;
     }
+
+    .header__logo{
+        display: flex;
+        flex-direction: row-reverse;
+        font-family: 'Gugi';
+        font-size: 2.25rem;
+        margin: 0 2rem;
+    }
+    
 }
 
 /* Desktop styles */
@@ -1064,4 +1095,203 @@ a {
 a .instructor-badge:hover {
     background: var(--primary-color);
     color: white;
+}
+
+
+
+
+/* ===== FOOTER STYLES ===== */
+.footer {
+    position: relative;
+    margin-top: 5rem;
+    padding: var(--spacing-xl) var(--spacing-sm) var(--spacing-lg);
+    background: var(--glassmorphism-bg);
+    backdrop-filter: var(--backdrop-blur);
+    -webkit-backdrop-filter: var(--backdrop-blur);
+    border-top: 1px solid var(--glassmorphism-border);
+    color: var(--text-primary);
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, 
+        transparent 0%, 
+        var(--primary-color) 20%, 
+        var(--accent-color) 50%, 
+        var(--primary-color) 80%, 
+        transparent 100%
+    );
+    animation: gradientLine 3s ease-in-out infinite;
+}
+
+@keyframes gradientLine {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-areas: 
+        "attribution . ."
+        ". quote ."
+        ". . .";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    min-height: 120px;
+}
+
+.footer-attribution {
+    grid-area: attribution;
+    justify-self: start;
+    align-self: start;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    font-weight: 400;
+    transition: color var(--transition-fast);
+}
+
+.footer-attribution:hover {
+    color: var(--accent-purple);
+}
+
+.footer-quote-container {
+    grid-area: quote;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    max-width: 600px;
+}
+
+.footer-quote {
+    font-family: 'Noto Sans Arabic', 'Merriweather', Georgia, serif;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    font-weight: 400;
+    color: var(--text-primary);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-sm);
+    font-style: italic;
+    position: relative;
+}
+
+.footer-quote::before,
+.footer-quote::after {
+    content: '"';
+    font-size: 1.5em;
+    color: var(--primary-color);
+    opacity: 0.7;
+}
+
+.footer-author {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    margin-top: var(--spacing-sm);
+}
+
+.footer-author::before {
+    content: '— ';
+    color: var(--accent-color);
+}
+
+/* ===== RESPONSIVE FOOTER ===== */
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: var(--spacing-lg) var(--spacing-md);
+    }
+    
+    .footer-container {
+        grid-template-areas: 
+            "attribution"
+            "quote"
+            ".";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        gap: var(--spacing-md);
+        text-align: center;
+    }
+    
+    .footer-attribution {
+        justify-self: center;
+        align-self: center;
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    .footer-quote {
+        font-size: clamp(0.9rem, 4vw, 1.1rem);
+        padding: 0 var(--spacing-sm);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: var(--spacing-md) var(--spacing-sm);
+    }
+    
+    .footer-quote {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+    
+    .footer-author {
+        font-size: 0.85rem;
+    }
+}
+
+
+.footer-quote-container {
+    position: relative;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-medium);
+}
+
+.footer-quote-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, 
+        rgba(79, 70, 229, 0.05) 0%, 
+        rgba(6, 182, 212, 0.05) 100%
+    );
+    border-radius: var(--radius-lg);
+    opacity: 0;
+    transition: opacity var(--transition-medium);
+    z-index: -1;
+}
+
+.footer-quote-container:hover::before {
+    opacity: 1;
+}
+
+
+[data-theme="dark"] .footer-quote::before,
+[data-theme="dark"] .footer-quote::after {
+    color: var(--primary-light);
+}
+
+[data-theme="dark"] .footer-author::before {
+    color: var(--accent-color);
+}
+
+[dir="ltr"] .footer-container {
+    grid-template-areas: 
+        ". . attribution"
+        ". quote ."
+        ". . .";
+}
+
+[dir="ltr"] .footer-attribution {
+    justify-self: end;
 }

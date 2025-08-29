@@ -34,7 +34,8 @@
         "code": "اصلی",
         "title": "معماری کامپیوتر",
         "instructors": [
-          {"name": "نوری ولنده", "telegram": "https://t.me/+EYB-djIkVnliMjQ0"}
+          {"name": "نوری ولنده", "telegram": "https://t.me/+EYB-djIkVnliMjQ0"},
+          {"name": " پویا فوده ", "telegram": "https://t.me/+i89ziKUyKkc0Njlk"}
         ]
       },
       {
@@ -59,7 +60,8 @@
         "code": "اصلی",
         "title": "برنامه سازی پیشرفته",
         "instructors": [
-          {"name": "محمدرضا سرشار", "telegram": "https://t.me/Pishraftesarshar"}
+          {"name": "محمدرضا سرشار", "telegram": "https://t.me/Pishraftesarshar"},
+          {"name": " علی علی جماعت", "telegram": "https://t.me/+suZx8hgSf5U2NzU0"}
         ]
       },
       {
@@ -82,7 +84,8 @@
         "code": "اصلی",
         "title": "پیاده سازی پایگاه داده",
         "instructors": [
-          {"name": "حسین صمدبین", "telegram": "https://t.me/piyadesazipay"}
+          {"name": "حسین صمدبین", "telegram": "https://t.me/piyadesazipay"},
+          {"name": " بصیری", "telegram": "https://t.me/+_x6Tj_R-M5hjZmZk"}
         ]
       },
       {
@@ -139,7 +142,8 @@
         "code": "اصلی",
         "title": "شبکه‌های کامپیوتری",
         "instructors": [
-          {"name": "سپیده احمدی", "telegram": "https://t.me/+hqmtvv3h9fswNTNk"}
+          {"name": "سپیده احمدی", "telegram": "https://t.me/+hqmtvv3h9fswNTNk"},
+          {"name": " حسام الدین ادریسی", "telegram": "https://t.me/network_edrisi"}
         ]
       },
       {
@@ -256,7 +260,8 @@
         "code": "آزمایشگاهی",
         "title": "سیستم های عامل",
         "instructors": [
-          {"name": "ناهید شمس", "telegram": "https://t.me/azsystemshams"}
+          {"name": "ناهید شمس", "telegram": "https://t.me/azsystemshams"},
+          {"name": " شیما نجفی", "telegram": "https://t.me/+QKQgzC7mATtkZDNk"}
         ]
       },
       {
@@ -323,7 +328,8 @@
         "code": "پایه",
         "title": "معادلات دیفرانسیل",
         "instructors": [
-          {"name": "نرگس پوررستمی", "telegram": "https://t.me/Difpoorrostami"}
+          {"name": "نرگس پوررستمی", "telegram": "https://t.me/Difpoorrostami"},
+          {"name": "بنادکوکی", "telegram": "https://t.me/+0wDuPDE02Rg4YzA0"}
         ]
       }
     ],
@@ -375,14 +381,17 @@
         "code": "عمومی",
         "title": "آیین زندگی",
         "instructors": [
-          {"name": "ناصربخت", "telegram": "https://t.me/naserbakht4041"}
+          {"name": "ناصربخت", "telegram": "https://t.me/naserbakht4041"},
+          {"name": "اصغر آقایی", "telegram": "https://t.me/+QyzITvm4t2BjMGY0"}
+          
         ]
       },
       {
         "code": "عمومی",
         "title": "ورزش ۱",
         "instructors": [
-          {"name": "محمد ملکی", "telegram": "https://t.me/+3feT4pBYUv0yNzI0"}
+          {"name": "محمد ملکی", "telegram": "https://t.me/+3feT4pBYUv0yNzI0"},
+          {"name": " سحر صدیقی", "telegram": "https://t.me/+DxZmNiDn5lxkYmE8"}
         ]
       },
       {

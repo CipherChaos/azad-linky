@@ -39,11 +39,15 @@ body {
   display: inherit;
 }
 
+#card{
+  width: 36%;
+}
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 36%;
+  width: 85%;
 }
 
 /* Profile Card */
@@ -108,7 +112,7 @@ body {
   border: 3px solid transparent;
   border-radius: 50%;
   mask-composite: exclude;
-  background-image: url("me.jpg");
+  background-image: url("/assets/images/me.jpg");
   background-clip: padding-box;
   background-size: cover;
 }
@@ -308,7 +312,8 @@ body {
 }
 
 @media (max-width: 768px) {
-  .container {
+  #card, .container{
       width: 100%;
   }
+
 }

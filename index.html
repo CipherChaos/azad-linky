@@ -8,16 +8,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@400;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="./src/css/loading.css"> -->
+    <link href='https://fonts.googleapis.com/css?family=Gugi' rel='stylesheet'>
     <link rel="stylesheet" href="/src/styles/app.css">
 
     
 </head>
 <body>
       
-    <!-- <div id="loading-overlay">
+    <div id="loading-overlay">
     <div id="loader"></div>
-    </div> -->
+    </div>
 
     <header class="header">
         <div class="container container--narrow">
@@ -25,11 +25,9 @@
             <nav class="header__nav">
                 <input type="checkbox" id="responsive-menu" />
                 <label for="responsive-menu" class="toggle-menu">
-                    <span><a class="header__logo">
-                    </a></span>
                     <div class="toggle-menu__lines"></div>
+                    
                 </label>
-                
                 
                 <ul class="header__menu">
 
@@ -38,7 +36,6 @@
                     <li class="header__menuItem"><a class="btn btn--sub" href="/src/templates/faq.html"> سوالات متداول </a></li>
                     <li class="header__menuItem"><a class="btn btn--sub" href="https://t.me/Ariyan_Bolandi">گزارش مشکل</a></li>
                     <li class="header__menuItem"><a class="btn btn--sub" href="/src/templates/aboutme.html">درباره من</a></li>
-                    
                     <div class="theme-switch">
                         <div class="theme-status">
                             <span id="theme-status-text">Light</span>
@@ -66,7 +63,12 @@
                         </div>
                     </div>
                 </ul>
+                
             </nav>
+            <div class="header__logo .btn">
+                    <span>Azad</span>
+                    <span>Linky</span>
+            </div>
         </div>
     </header>
 
@@ -107,7 +109,7 @@
             <article class="course-card">
                 <details>
                     <summary class="course-summary">
-                        <a href="./courses-main.html">
+                        <a href="./src/templates/courses/courses-main.html">
                         <div class="course-code">اصلی</div>
                         <h2 class="course-title course-main">دروس اصلی </h2>
                         </a>
@@ -118,7 +120,7 @@
             <article class="course-card">
                 <details>
                     <summary class="course-summary">
-                        <a href="./courses-general.html">
+                        <a href="./src/templates/courses/courses-general.html">
                         <div class="course-code course-general">عمومی</div>
                         <h2 class="course-title">دروس عمومی </h2>
                         </a>
@@ -129,7 +131,7 @@
             <article class="course-card">
                 <details>
                     <summary class="course-summary">
-                        <a href="./courses-lab.html">
+                        <a href="./src/templates/courses/courses-lab.html">
                         <div class="course-code course-lab">آزمایشگاهی</div>
                         <h2 class="course-title">دروس آزمایشگاهی </h2>
                         </a>
@@ -140,7 +142,7 @@
             <article class="course-card">
                 <details>
                     <summary class="course-summary">
-                        <a href="./courses-fundamental.html">
+                        <a href="./src/templates/courses/courses-fundamental.html">
                         <div class="course-code course-fundamental">پایه</div>
                         <h2 class="course-titl">دروس پایه </h2>
                         </a>
@@ -151,7 +153,7 @@
             <article class="course-card">
                 <details>
                     <summary class="course-summary">
-                        <a href="./courses-languages.html">
+                        <a href="./src/templates/courses/courses-languages.html">
                         <div class="course-code course-language">زبان</div>
                         <h2 class="course-title">دروس زبان </h2>
                         </a>
@@ -161,8 +163,21 @@
 
         </div>
     </main>
-</body>
-<!-- <script src="loading.js"></script> -->
-<script type="module" src="/src/scripts/app.js"></script>
 
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-attribution">
+                Just for fun, made by Ariyan
+            </div>
+            
+            <div class="footer-quote-container">
+                <blockquote class="footer-quote">
+                    The best hackers code because of their love for programming, not for money.
+                </blockquote>
+                <cite class="footer-author">Eric Raymond</cite>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="/src/scripts/app.js"></script>
+</body>
 </html>

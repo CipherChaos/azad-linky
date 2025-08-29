@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@400;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="./src/css/loading.css"> -->
+    <link href='https://fonts.googleapis.com/css?family=Gugi' rel='stylesheet'>
     <link rel="stylesheet" href="/src/styles/app.css">
     <link rel="stylesheet" href="/src/styles/pages/aboutme.css">
 
@@ -66,11 +66,15 @@
                     </div>
                 </ul>
             </nav>
+            <div class="header__logo .btn">
+                    <span>Azad</span>
+                    <span>Linky</span>
+            </div>
         </div>
     </header>
     
     
-    <div class="container">
+    <div class="container" id="card">
         <!-- Premium Profile Card -->
         <div class="profile-card">
             <div class="card-content">
@@ -105,11 +109,15 @@
 
                     <div class="actions">
                         <button class="action-btn primary">
-                            <span>Buy</span>
+                            <a href="https://www.coffeete.ir/ariyanbolandi">
+                                <span>Buy a coffee</span>
+                            </a>
                             <div class="btn-effect"></div>
                         </button>
                         <button class="action-btn secondary">
-                            <span>Message</span>
+                            <a href="https://t.me/Ariyan_Bolandi">
+                                <span> Message </span>
+                            </a>
                             <div class="btn-effect"></div>
                         </button>
                     </div>
@@ -122,6 +130,22 @@
             <div class="card-glow"></div>
         </div>
     </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-attribution">
+                Just for fun, made by Ariyan
+            </div>
+            
+            <div class="footer-quote-container">
+                <blockquote class="footer-quote">
+                    The best hackers code because of their love for programming, not for money.
+                </blockquote>
+                <cite class="footer-author">Eric Raymond</cite>
+            </div>
+        </div>
+    </footer>
+
 </body>
 <script type="module" src="/src/scripts/app.js"></script>
 </html>
