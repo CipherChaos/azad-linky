@@ -112,7 +112,7 @@ body {
   border: 3px solid transparent;
   border-radius: 50%;
   mask-composite: exclude;
-  background-image: url("/assets/images/me.jpg");
+  background-image: url("../../../assets/images/me.jpg");
   background-clip: padding-box;
   background-size: cover;
 }

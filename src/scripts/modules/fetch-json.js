@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const category = map[page];
 
   if (category) {
-    fetch("/public/data.json")
+    fetch("../../public/data.json")
       .then((res) => res.json())
       .then((data) => {
         const courses = data.courses[category];
@@ -100,7 +100,7 @@ function getCourseCodeClass(category) {
 
 document.addEventListener('DOMContentLoaded', function() {
     // Fetch the JSON data
-    fetch("/public/data.json")
+    fetch("../../public/data.json")
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
