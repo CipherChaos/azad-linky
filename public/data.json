@@ -151,7 +151,9 @@
         "code": "اصلی",
         "title": "سیگنال ها و سیستم ها",
         "instructors": [
-          {"name": "ناصریان", "telegram": "https://t.me/Signal_Naserian"}
+          {"name": "ناصریان", "telegram": "https://t.me/Signal_Naserian"},
+          {"name": "وادی زاده", "telegram": "https://t.me/+FNaR7WzKOTkwNWM0"},
+          {"name": "اوسطی", "telegram": "https://t.me/signalsystemovesti"}
         ]
       },
       {
@@ -234,6 +236,16 @@
       }
     ],
     "language": [
+      
+      {
+        "code": "زبان",
+        "title": "زبان پیش دانشگاهی ",
+        "instructors": [
+          {"name": "شقایق جعفری", "telegram": "https://t.me/zbanpishjafari"}
+        ]
+      },
+      
+      
       {
         "code": "زبان",
         "title": "زبان عمومی ترکیبی ۱",
@@ -266,10 +278,35 @@
     "lab": [
       {
         "code": "آزمایشگاهی",
+        "title": "کارآموزی",
+        "instructors": [
+          {"name": " فاطمه نجفی ", "telegram": "https://t.me/+bjYU4cF4RRQxODM0"},
+          {"name": "باستان فرد", "telegram": "https://t.me/drbastanfard_project_karamozi"}
+        ]
+      },
+      
+      {
+        "code": "آزمایشگاهی",
+        "title": "روش پژوهش و ارائه",
+        "instructors": [
+          {"name": " میرزایی ", "telegram": "https://t.me/+MGe6-Ir6ewg1MmEx"}
+        ]
+      },
+      
+      {
+        "code": "آزمایشگاهی",
         "title": "فیزیک 2",
         "instructors": [
           {"name": "حاج اکبری", "telegram": "https://t.me/+ExyFQTxYvr4yYzQ8"},
           {"name": "سپیده جوادی", "telegram": "https://t.me/+uFHXWH8IJSwyZTVk"}
+        ]
+      },
+      
+      {
+        "code": "آزمایشگاهی",
+        "title": "کارگاه کامپیوتر",
+        "instructors": [
+          {"name": " شمس ", "telegram": "https://t.me/computerworkshopshams"}
         ]
       },
       
@@ -294,14 +331,19 @@
         "title": "پایگاه داده",
         "instructors": [
           {"name": "زینب بمانی", "telegram": "https://t.me/azmapay"},
-          {"name": "نیکروان", "telegram": "https://t.me/azpnikravan"}
+          {"name": "نیکروان", "telegram": "https://t.me/azpnikravan"},
+          {"name": "میرزایی", "telegram": "https://t.me/+MCx635aE6QRlMTlh"}
+          
         ]
       },
       {
         "code": "آزمایشگاهی",
         "title": "ریز پردازنده",
         "instructors": [
-          {"name": "افشاری", "telegram": "https://t.me/riz_lab"}
+          {"name": "افشاری", "telegram": "https://t.me/riz_lab"},
+          {"name": "نوری", "telegram": "https://t.me/+Tt_CAT_VFQE3YThk"},
+          {"name": "شبستری", "telegram": "https://t.me/+vxFe3E2fkYQzYmRk"}
+          
         ]
       },
       {
@@ -339,6 +381,17 @@
           {"name": "مهدی یوسفی", "telegram": "https://t.me/riazidoyousefi"}
         ]
       },
+      
+      {
+        "code": "پایه",
+        "title": " ریاضی مهندسی",
+        "instructors": [
+          {"name": " نطاق بافکر", "telegram": "https://t.me/+B68sFNqr45c2Njg8"},
+          {"name": "  آزادگان ", "telegram": "https://t.me/+J_q1VGnt2KU4ZWNk"},
+          {"name": "  احمدی ", "telegram": "https://t.me/+mDRvYwPBLAcyZjJk"}
+        ]
+      },
+      
       {
         "code": "پایه",
         "title": "فیزیک ۱",
@@ -354,7 +407,8 @@
         "title": "معادلات دیفرانسیل",
         "instructors": [
           {"name": "نرگس پوررستمی", "telegram": "https://t.me/Difpoorrostami"},
-          {"name": "بنادکوکی", "telegram": "https://t.me/+0wDuPDE02Rg4YzA0"}
+          {"name": "بنادکوکی", "telegram": "https://t.me/+0wDuPDE02Rg4YzA0"},
+          {"name": "بشمنی", "telegram": "https://t.me/+4qmeI0GV0FU3Yjlk"}
         ]
       }
     ],
