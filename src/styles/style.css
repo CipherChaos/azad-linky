@@ -249,6 +249,7 @@ body::before {
 
 
 .header__logo img {
+    display: block;
     transition: filter var(--transition-medium);
     filter: none; 
 }
