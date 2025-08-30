@@ -38,6 +38,22 @@
           {"name": " پویا فوده ", "telegram": "https://t.me/+i89ziKUyKkc0Njlk"}
         ]
       },
+      
+      {
+        "code": "اصلی",
+        "title": " مبانی کامپیوتر و برنامه سازی",
+        "instructors": [
+        ]
+      },
+      
+      {
+        "code": "اصلی",
+        "title": "مبانی بازیابی اطلاعات",
+        "instructors": [
+          {"name": " امیرحسین احمدی ", "telegram": "https://t.me/httGOuiul9LHMA2MWE0"}
+        ]
+      },
+      
       {
         "code": "اصلی",
         "title": "مدار منطقی",
@@ -256,6 +272,15 @@
           {"name": "سپیده جوادی", "telegram": "https://t.me/+uFHXWH8IJSwyZTVk"}
         ]
       },
+      
+      {
+        "code": "آزمایشگاهی",
+        "title": " مهندسی نرم افزار",
+        "instructors": [
+          {"name": "نیک روان", "telegram": "https://t.me/httpsZC8yRb9AjaNhNDZk"}
+        ]
+      },
+      
       {
         "code": "آزمایشگاهی",
         "title": "سیستم های عامل",
@@ -386,6 +411,14 @@
           
         ]
       },
+      {
+        "code": "عمومی",
+        "title": "دانش خانواده",
+        "instructors": [
+          {"name": "طاهره سادات موسوی", "telegram": "https://t.me/zH3DJkqo3ZWI0"}
+        ]
+      },
+      
       {
         "code": "عمومی",
         "title": "ورزش ۱",
