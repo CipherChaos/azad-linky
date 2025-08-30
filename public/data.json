@@ -205,7 +205,7 @@
         "code": "اصلی",
         "title": "مهندسی اینترنت",
         "instructors": [
-          {"name": "ادریسی", "telegram": "https://t.me/Net_edrisi"},
+          {"name": "حسام الدین ادریسی", "telegram": "https://t.me/+ewfMirYrMCg5N2Q0"},
           {"name": "حیاتی", "telegram": "https://t.me/+8kJrk4MmZfpkMjg0"}
         ]
       },
@@ -308,7 +308,7 @@
         "code": "آزمایشگاهی",
         "title": "شبکه های کامپیوتری",
         "instructors": [
-          {"name": "ادریسی", "telegram": "https://t.me/Az_shabake_edrisi"}
+          {"name": "حسام الدین ادریسی", "telegram": "https://t.me/Az_shabake_edrisi"}
         ]
       },
       {
@@ -376,7 +376,9 @@
         "title": "انس با قرآن",
         "instructors": [
           {"name": "مهناز راحتی", "telegram": "https://t.me/+B2yi_-2D3WY3ZjA0"},
-          {"name": "قضاتلو", "telegram": "https://t.me/ons_ghazatlou"}
+          {"name": "قضاتلو", "telegram": "https://t.me/ons_ghazatlou"},
+          {"name": "اسحقی مهماندوستی", "telegram": "https://t.me/onseshaghi"}
+          
         ]
       },
       {
