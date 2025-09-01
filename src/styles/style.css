@@ -1214,6 +1214,11 @@ a .instructor-badge:hover {
     color: var(--accent-color);
 }
 
+.developer-name{
+    color: var(--accent-purple);
+}
+
+
 /* ===== RESPONSIVE FOOTER ===== */
 @media screen and (max-width: 768px) {
     .footer {
