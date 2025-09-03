@@ -104,31 +104,28 @@ class GlobalCourseSearch {
         const coursesGrid = document.querySelector('.courses-grid');
         if (!coursesGrid) return;
 
+        // Remove any existing messages first
+        this.clearAllMessages();
+
         // Hide category cards
         const categoryCards = coursesGrid.querySelectorAll('.course-card:not(.search-result-card)');
         categoryCards.forEach(card => card.style.display = 'none');
 
         // Show loading message
-        let loadingMsg = coursesGrid.querySelector('.loading-message');
-        if (!loadingMsg) {
-            loadingMsg = document.createElement('div');
-            loadingMsg.className = 'loading-message';
-            loadingMsg.innerHTML = `
-                <div class="loading-content">
-                    <div class="loading-spinner"></div>
-                    <p>در حال بارگیری دروس...</p>
-                </div>
-            `;
-            coursesGrid.appendChild(loadingMsg);
-        }
+        const loadingMsg = document.createElement('div');
+        loadingMsg.className = 'loading-message';
+        loadingMsg.innerHTML = `
+            <div class="loading-content">
+                <div class="loading-spinner"></div>
+                <p>در حال بارگیری دروس...</p>
+            </div>
+        `;
+        coursesGrid.appendChild(loadingMsg);
     }
 
     // Hide loading state
     hideLoadingState() {
-        const loadingMsg = document.querySelector('.loading-message');
-        if (loadingMsg) {
-            loadingMsg.remove();
-        }
+        this.clearAllMessages();
         this.showCategoryCards();
     }
 
@@ -137,18 +134,53 @@ class GlobalCourseSearch {
         const coursesGrid = document.querySelector('.courses-grid');
         if (!coursesGrid) return;
 
+        // Clear any existing messages first
+        this.clearAllMessages();
+
         const errorMsg = document.createElement('div');
         errorMsg.className = 'error-message';
         errorMsg.innerHTML = `
-        
-            <div class="no-results-content">
-                <div class="no-results-icon">🔍</div>
-                <h3>هیچ درسی پیدا نشد</h3>
-                <p>لطفاً عبارت جستجوی خود را بررسی کنید یا کلمه کلیدی دیگری امتحان کنید</p>
+            <div class="error-content">
+                <div class="error-icon">❌</div>
+                <h3>خطا در بارگیری دروس</h3>
+                <p>لطفاً اتصال اینترنت خود را بررسی کنید و دوباره تلاش کنید</p>
             </div>
-        
         `;
         coursesGrid.appendChild(errorMsg);
+    }
+
+    // Show no results message
+    showNoResultsMessage(show = true) {
+        const coursesGrid = document.querySelector('.courses-grid');
+        if (!coursesGrid) return;
+
+        // Remove existing no-results message
+        const existingMsg = coursesGrid.querySelector('.no-results-message');
+        if (existingMsg) {
+            existingMsg.remove();
+        }
+
+        if (show) {
+            const noResultsMsg = document.createElement('div');
+            noResultsMsg.className = 'no-results-message';
+            noResultsMsg.innerHTML = `
+                <div class="no-results-content">
+                    <div class="no-results-icon">🔍</div>
+                    <h3>هیچ درسی پیدا نشد</h3>
+                    <p>لطفاً عبارت جستجوی خود را بررسی کنید یا کلمه کلیدی دیگری امتحان کنید</p>
+                </div>
+            `;
+            coursesGrid.appendChild(noResultsMsg);
+        }
+    }
+
+    // Clear all messages (loading, error, no-results)
+    clearAllMessages() {
+        const coursesGrid = document.querySelector('.courses-grid');
+        if (!coursesGrid) return;
+
+        const messages = coursesGrid.querySelectorAll('.loading-message, .error-message, .no-results-message');
+        messages.forEach(message => message.remove());
     }
 
     // Setup search functionality
@@ -322,6 +354,9 @@ class GlobalCourseSearch {
         const coursesGrid = document.querySelector('.courses-grid');
         if (!coursesGrid) return;
 
+        // Clear all messages first (this is the key fix!)
+        this.clearAllMessages();
+
         // Hide category cards
         const categoryCards = coursesGrid.querySelectorAll('.course-card:not(.search-result-card)');
         categoryCards.forEach(card => {
@@ -359,7 +394,7 @@ class GlobalCourseSearch {
             });
         });
 
-        this.showNoResultsMessage(false);
+        // Don't call showNoResultsMessage here since we have results
     }
 
     // Create a search result card
@@ -419,14 +454,17 @@ class GlobalCourseSearch {
         const coursesGrid = document.querySelector('.courses-grid');
         if (!coursesGrid) return;
 
+        // Clear all messages first
+        this.clearAllMessages();
+
         // Show category cards
         const categoryCards = coursesGrid.querySelectorAll('.course-card:not(.search-result-card)');
         categoryCards.forEach(card => {
             card.style.display = 'block';
         });
 
-        // Remove search results and messages
-        const searchResults = coursesGrid.querySelectorAll('.search-result-card, .search-category-header, .no-results-message, .loading-message, .error-message');
+        // Remove search results
+        const searchResults = coursesGrid.querySelectorAll('.search-result-card, .search-category-header');
         searchResults.forEach(element => element.remove());
     }
 
