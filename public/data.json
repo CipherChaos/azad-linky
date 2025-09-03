@@ -179,8 +179,7 @@
         "title": "طراحی زبان‌های برنامه‌سازی",
         "instructors": [
           {"name": "افشاری", "telegram": "https://t.me/TarahiZabanAfshari404"},
-          {"name": "عبدی", "telegram": "https://t.me/+umGBQ0TIwxIxOTE0"},
-{"name": "صمدبین", "telegram": "https://t.me/TarahiZabanSamadbin4041"}
+          {"name": "عبدی", "telegram": "https://t.me/+umGBQ0TIwxIxOTE0"}
         ]
       },
       {
@@ -288,7 +287,7 @@
     ],
     "lab": [
       {
-        "code": "آزمایشگاهی",
+        "code": "عملی",
         "title": "کارآموزی",
         "instructors": [
           {"name": " فاطمه نجفی ", "telegram": "https://t.me/+bjYU4cF4RRQxODM0"},
@@ -297,7 +296,7 @@
       },
       
       {
-        "code": "آزمایشگاهی",
+        "code": "عملی",
         "title": "روش پژوهش و ارائه",
         "instructors": [
           {"name": " میرزایی ", "telegram": "https://t.me/+MGe6-Ir6ewg1MmEx"}
@@ -305,8 +304,8 @@
       },
       
        {
-        "code": "مهارت های نرم شغلی",
-        "title": "کارآموزی",
+        "code": "عملی",
+        "title": "مهارت های نرم شغلی",
         "instructors": [
           {"name": "  کرمی ", "telegram": "https://t.me/+CIUTGRAi1pc2MzY0"}
         ]
@@ -495,9 +494,7 @@
         "code": "عمومی",
         "title": "دانش خانواده",
         "instructors": [
-          {"name": "طاهره سادات موسوی", "telegram": "https://t.me/zH3DJkqo3ZWI0"},
-{"name": "رمضانخانی", "telegram": "https://t.me/RamezanKhaniDanesh4011"}
-
+          {"name": "طاهره سادات موسوی", "telegram": "https://t.me/zH3DJkqo3ZWI0"}
         ]
       },
       
