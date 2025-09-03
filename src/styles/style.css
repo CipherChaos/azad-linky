@@ -488,6 +488,12 @@ body::before {
     border: 1px solid rgba(184, 184, 184, 0.2);
 }
 
+.course-practical{
+    color: var(--accent-color);
+    background: rgba(53, 242, 255, 0.1);
+    border: 1px solid rgba(184, 184, 184, 0.2);
+}
+
 .course-fundamental {
     color: var(--warning-color);
     background: rgba(250, 234, 56, 0.1);

@@ -7,41 +7,40 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         
-        <!-- Favicon -->
-        <link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" sizes="96x96" />
-        <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
-        <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" href="./../../../assets/favicon/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="./../../../assets/favicon/favicon.svg" />
+        <link rel="shortcut icon" href="./../../../assets/favicon/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="./../../../assets/favicon/apple-touch-icon.png" />
         <meta name="apple-mobile-web-app-title" content="MyWebSite" />
-        <link rel="manifest" href="./assets/favicon/site.webmanifest" />
-
+        <link rel="manifest" href="./../../../assets/favicon/site.webmanifest" />
 
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@400;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Gugi' rel='stylesheet'>
-        
-        <link rel="stylesheet" href="./src/styles/app.css">
+        <link rel="stylesheet" href="../../styles/app.css">
 
         
     </head>
     <body>
-        
         <header class="header">
             <div class="container container--narrow">
                 
                 <nav class="header__nav">
                     <input type="checkbox" id="responsive-menu" />
                     <label for="responsive-menu" class="toggle-menu">
+                        <span><a class="header__logo">
+                        </a></span>
                         <div class="toggle-menu__lines"></div>
-                        
                     </label>
+                    
                     
                     <ul class="header__menu">
 
-                        <li class="header__menuItem"><a class="btn btn--sub" href="./"> صفحه اصلی</a></li>
-                        <li class="header__menuItem"><a class="btn btn--sub" href="./src/templates/guide.html">راهنما استفاده</a></li>
-                        <li class="header__menuItem"><a class="btn btn--sub" href="./src/templates/faq.html"> سوالات متداول </a></li>
+                        <li class="header__menuItem"><a class="btn btn--sub" href="./../../../"> صفحه اصلی</a></li>
+                        <li class="header__menuItem"><a class="btn btn--sub" href="./../guide.html">راهنما استفاده</a></li>
+                        <li class="header__menuItem"><a class="btn btn--sub" href="./../faq.html"> سوالات متداول </a></li>
                         <li class="header__menuItem"><a class="btn btn--sub" href="https://t.me/Ariyan_Bolandi">گزارش مشکل</a></li>
-                        <li class="header__menuItem"><a class="btn btn--sub" href="./src/templates/aboutme.html">درباره من</a></li>
+                        <li class="header__menuItem"><a class="btn btn--sub" href="./../aboutme.html">درباره من</a></li>
+                        
                         <div class="theme-switch">
                             <div class="theme-status">
                                 <span id="theme-status-text">Light</span>
@@ -69,19 +68,17 @@
                             </div>
                         </div>
                     </ul>
-                    
                 </nav>
                 <div class="header__logo .btn">
-                        <span class="azad"><a href="./"><img src="./assets/images/logo.svg" alt="logo"></a></span>
+                        <span class="azad"><a href="./../../../"><img src="./../../../assets/images/logo.svg" alt="logo"></a></span>
                 </div>
             </div>
         </header>
 
-    
         <main class="container">
             
             <div class="header-content">
-                <h1>کلاس های ترم 4041</h1>
+                <h1>کلاس های عملی</h1>
                 <p>دپارتمان مهندسی کامپیوتر</p>
                 
                 <div class="search-container">
@@ -109,74 +106,9 @@
             </div>
             
             <div class="courses-grid">
-                
-                
-                <article class="course-card">
-                    <details>
-                        <summary class="course-summary">
-                            <a href="./src/templates/courses/courses-main.html">
-                            <div class="course-code">اصلی</div>
-                            <h2 class="course-title course-main">دروس اصلی </h2>
-                            </a>
-                        </summary>
-                    </details>
-                </article>
-                
-                <article class="course-card">
-                    <details>
-                        <summary class="course-summary">
-                            <a href="./src/templates/courses/courses-general.html">
-                            <div class="course-code course-general">عمومی</div>
-                            <h2 class="course-title">دروس عمومی </h2>
-                            </a>
-                        </summary>
-                    </details>
-                </article>
-
-                <article class="course-card">
-                    <details>
-                        <summary class="course-summary">
-                            <a href="./src/templates/courses/courses-lab.html">
-                            <div class="course-code course-lab">آزمایشگاهی</div>
-                            <h2 class="course-title">دروس آزمایشگاهی </h2>
-                            </a>
-                        </summary>
-                    </details>
-                </article>
-
-                <article class="course-card">
-                    <details>
-                        <summary class="course-summary">
-                            <a href="./src/templates/courses/courses-fundamental.html">
-                            <div class="course-code course-fundamental">پایه</div>
-                            <h2 class="course-titl">دروس پایه </h2>
-                            </a>
-                        </summary>
-                    </details>
-                </article>
-
-                <article class="course-card">
-                    <details>
-                        <summary class="course-summary">
-                            <a href="./src/templates/courses/courses-languages.html">
-                            <div class="course-code course-language">زبان</div>
-                            <h2 class="course-title">دروس زبان </h2>
-                            </a>
-                        </summary>
-                    </details>
-                </article>
-
-                <article class="course-card">
-                    <details>
-                        <summary class="course-summary">
-                            <a href="./src/templates/courses/courses-practical.html">
-                            <div class="course-code course-practical">عملی</div>
-                            <h2 class="course-title">دروس عملی</h2>
-                            </a>
-                        </summary>
-                    </details>
-                </article>
-
+                <div class="loading-container">
+                    <div class="loading-spinner"></div>
+                </div>
             </div>
         </main>
 
@@ -194,6 +126,7 @@
                 </div>
             </div>
         </footer>
-        <script type="module" src="./src/scripts/app.js"></script>
+
+    <script type="module" src="../../scripts/app.js"></script>
     </body>
 </html>

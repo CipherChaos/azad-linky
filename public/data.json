@@ -287,31 +287,6 @@
     ],
     "lab": [
       {
-        "code": "عملی",
-        "title": "کارآموزی",
-        "instructors": [
-          {"name": " فاطمه نجفی ", "telegram": "https://t.me/+bjYU4cF4RRQxODM0"},
-          {"name": "باستان فرد", "telegram": "https://t.me/drbastanfard_project_karamozi"}
-        ]
-      },
-      
-      {
-        "code": "عملی",
-        "title": "روش پژوهش و ارائه",
-        "instructors": [
-          {"name": " میرزایی ", "telegram": "https://t.me/+MGe6-Ir6ewg1MmEx"}
-        ]
-      },
-      
-       {
-        "code": "عملی",
-        "title": "مهارت های نرم شغلی",
-        "instructors": [
-          {"name": "  کرمی ", "telegram": "https://t.me/+CIUTGRAi1pc2MzY0"}
-        ]
-      },
-      
-      {
         "code": "آزمایشگاهی",
         "title": "فیزیک 2",
         "instructors": [
@@ -496,8 +471,35 @@
         "instructors": [
           {"name": "طاهره سادات موسوی", "telegram": "https://t.me/zH3DJkqo3ZWI0"}
         ]
+      }
+    ],
+    
+    "practical": [
+      {
+        "code": "عملی",
+        "title": "کارآموزی",
+        "instructors": [
+          {"name": " فاطمه نجفی ", "telegram": "https://t.me/+bjYU4cF4RRQxODM0"},
+          {"name": "باستان فرد", "telegram": "https://t.me/drbastanfard_project_karamozi"}
+        ]
       },
       
+      {
+        "code": "عملی",
+        "title": "روش پژوهش و ارائه",
+        "instructors": [
+          {"name": " میرزایی ", "telegram": "https://t.me/+MGe6-Ir6ewg1MmEx"}
+        ]
+      },
+      
+      {
+        "code": "عملی",
+        "title": "مهارت های نرم شغلی",
+        "instructors": [
+          {"name": "  کرمی ", "telegram": "https://t.me/+CIUTGRAi1pc2MzY0"}
+        ]
+      },
+           
       {
         "code": "عمومی",
         "title": "ورزش ۱",
@@ -515,7 +517,9 @@
         ]
       }
     ]
+  
   },
+  
   
   "faqs": [
     {

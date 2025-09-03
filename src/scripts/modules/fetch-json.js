@@ -8,7 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
     "courses-fundamental.html": "fundamental",
     "courses-lab.html": "lab",
     "courses-languages.html": "language",  
-    "courses-main.html": "main"            
+    "courses-main.html": "main" ,
+    "courses-practical.html": "practical",
   };
 
   const category = map[page];
@@ -89,7 +90,9 @@ function getCourseCodeClass(category) {
     "general": "course-general", 
     "lab": "course-lab",
     "fundamental": "course-fundamental",
-    "language": "course-language"
+    "language": "course-language",
+    "practical": "course-practical"
+
   };
   
   return classMap[category] || "";
