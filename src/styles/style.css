@@ -885,6 +885,9 @@ details[open] .course-details {
 .error-content {
     text-align: center;
     color: var(--text-secondary);
+    background: rgb(253, 214, 214);
+    padding: 4rem 0;
+    border-radius: 50px;
 }
 
 .loading-spinner {
