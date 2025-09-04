@@ -1527,6 +1527,8 @@ a .instructor-badge:hover {
     text-align: center;
     padding: 3rem 2rem;
     color: var(--text-secondary);
+    background: rgba(255, 118, 118,.7);
+    
 }
 
 .no-results-icon {

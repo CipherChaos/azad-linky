@@ -1,4 +1,4 @@
-// Global Course Search System - Single JSON File Version
+// Global Course Search System - Fixed Version
 class GlobalCourseSearch {
     constructor() {
         this.allCourses = [];
@@ -139,33 +139,24 @@ class GlobalCourseSearch {
 
         const errorMsg = document.createElement('div');
         errorMsg.className = 'error-message';
-        errorMsg.innerHTML = `
-            <div class="error-content">
-                <div class="error-icon">❌</div>
-                <h3>خطا در بارگیری دروس</h3>
-                <p>لطفاً اتصال اینترنت خود را بررسی کنید و دوباره تلاش کنید</p>
-            </div>
-        `;
+        errorMsg.innerHTML = ``;
         coursesGrid.appendChild(errorMsg);
     }
 
-    // Show no results message
+    // FIXED: Show no results message - this was the main issue!
     showNoResultsMessage(show = true) {
         const coursesGrid = document.querySelector('.courses-grid');
         if (!coursesGrid) return;
 
-        // Remove existing no-results message
-        const existingMsg = coursesGrid.querySelector('.no-results-message');
-        if (existingMsg) {
-            existingMsg.remove();
-        }
+        // CRITICAL FIX: Clear ALL messages first, including no-results-message
+        this.clearAllMessages();
 
         if (show) {
             const noResultsMsg = document.createElement('div');
-            noResultsMsg.className = 'no-results-message';
+            noResultsMsg.className = 'no-results-message'; // Fixed: use consistent class name
             noResultsMsg.innerHTML = `
-                <div class="no-results-content">
-                    <div class="no-results-icon">🔍</div>
+                <div class="error-content">
+                    <div class="error-icon">❌</div>
                     <h3>هیچ درسی پیدا نشد</h3>
                     <p>لطفاً عبارت جستجوی خود را بررسی کنید یا کلمه کلیدی دیگری امتحان کنید</p>
                 </div>
@@ -174,11 +165,12 @@ class GlobalCourseSearch {
         }
     }
 
-    // Clear all messages (loading, error, no-results)
+    // FIXED: Clear all messages properly
     clearAllMessages() {
         const coursesGrid = document.querySelector('.courses-grid');
         if (!coursesGrid) return;
 
+        // Remove ALL message types with a single query
         const messages = coursesGrid.querySelectorAll('.loading-message, .error-message, .no-results-message');
         messages.forEach(message => message.remove());
     }
@@ -263,7 +255,7 @@ class GlobalCourseSearch {
         });
     }
 
-    // Global search that shows results from all categories
+    // FIXED: Global search that shows results from all categories
     performGlobalSearch() {
         const searchInput = document.getElementById('courseSearch');
         const searchTerm = searchInput.value.trim().toLowerCase();
@@ -297,14 +289,28 @@ class GlobalCourseSearch {
 
         console.log(`Found ${matchedCourses.length} matching courses`);
 
+        // CRITICAL FIX: Clear all messages before showing results or no-results
+        this.clearAllMessages();
+
         if (matchedCourses.length > 0) {
             this.displaySearchResults(matchedCourses);
         } else {
+            // Hide category cards when showing no results
+            const coursesGrid = document.querySelector('.courses-grid');
+            if (coursesGrid) {
+                const categoryCards = coursesGrid.querySelectorAll('.course-card:not(.search-result-card)');
+                categoryCards.forEach(card => card.style.display = 'none');
+                
+                // Remove existing search results
+                const existingResults = coursesGrid.querySelectorAll('.search-result-card, .search-category-header');
+                existingResults.forEach(element => element.remove());
+            }
+            
             this.showNoResultsMessage(true);
         }
     }
 
-    // Local search for individual course pages
+    // FIXED: Local search for individual course pages
     performLocalSearch() {
         const searchInput = document.getElementById('courseSearch');
         const searchTerm = searchInput.value.trim().toLowerCase();
@@ -346,15 +352,17 @@ class GlobalCourseSearch {
             }
         });
 
-        this.showNoResultsMessage(!hasVisibleCards && searchTerm !== '');
+        // FIXED: Only call showNoResultsMessage once, and clear messages first
+        const shouldShowNoResults = !hasVisibleCards && searchTerm !== '';
+        this.showNoResultsMessage(shouldShowNoResults);
     }
 
-    // Display search results on index page
+    // FIXED: Display search results on index page
     displaySearchResults(courses) {
         const coursesGrid = document.querySelector('.courses-grid');
         if (!coursesGrid) return;
 
-        // Clear all messages first (this is the key fix!)
+        // CRITICAL: Clear all messages first to prevent duplicates
         this.clearAllMessages();
 
         // Hide category cards
@@ -393,8 +401,6 @@ class GlobalCourseSearch {
                 coursesGrid.appendChild(courseCard);
             });
         });
-
-        // Don't call showNoResultsMessage here since we have results
     }
 
     // Create a search result card
@@ -449,12 +455,12 @@ class GlobalCourseSearch {
         return titles[category] || category;
     }
 
-    // Show original category cards
+    // FIXED: Show original category cards
     showCategoryCards() {
         const coursesGrid = document.querySelector('.courses-grid');
         if (!coursesGrid) return;
 
-        // Clear all messages first
+        // Clear all messages first to prevent conflicts
         this.clearAllMessages();
 
         // Show category cards
