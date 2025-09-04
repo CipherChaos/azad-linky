@@ -8,7 +8,8 @@
         "title": "مهندسی نرم‌افزار",
         "instructors": [
           {"name": "قربانی", "telegram": "https://t.me/+W_MlKFhtSY43YmNk"},
-          {"name": "صمدبین", "telegram": "https://t.me/yooohoooo"}
+          {"name": "صمدبین", "telegram": "https://t.me/yooohoooo"},
+          {"name": "ناهید شمس", "telegram": "https://t.me/+MU_ltqngikYxZGI0"}
         ]
       },
       {
@@ -139,7 +140,8 @@
         "instructors": [
           {"name": "زینبت بمانبی وندیشی", "telegram": "https://t.me/OSbemani"},
           {"name": "ساسان حریفی", "telegram": "https://t.me/sasanharefi"},
-          {"name": "پریا ابراهیمی", "telegram": "https://t.me/+RW7j2qjQ8tswOWQ0"}
+          {"name": "پریا ابراهیمی", "telegram": "https://t.me/+RW7j2qjQ8tswOWQ0"},
+          {"name": " محسن مشتاقی ", "telegram": "https://t.me/+zV18v6daNmc5NTM0"}
         ]
       },
       {
@@ -147,7 +149,8 @@
         "title": "سیستم‌های اطلاعات مدیریت",
         "instructors": [
           {"name": "ندا سراج", "telegram": "https://t.me/+zq-iEt0aqbtiMjc8"},
-          {"name": "شهرام آجرلو", "telegram": "https://t.me/manageInfosSystem"}
+          {"name": "شهرام آجرلو", "telegram": "https://t.me/manageInfosSystem"},
+          {"name": " انشائی ", "telegram": "https://t.me/+ADA111x-cIg0NzY0"}
         ]
       },
       {
@@ -180,8 +183,8 @@
         "code": "اصلی",
         "title": "طراحی الگوریتم",
         "instructors": [
-          {"name": "(با استاد) فاطمه نجفی", "telegram": "https://t.me/+UX1DO5KS0ZdkNTRk"},
-          {"name": "فاطمه نجفی (بدون استاد)", "telegram": "https://t.me/+7sXAE47xiRsxMGI0"},
+          {"name": "(با استاد) فاطمه نجفی ", "telegram": "https://t.me/+UX1DO5KS0ZdkNTRk"},
+          {"name": " فاطمه نجفی (بدون استاد)", "telegram": "https://t.me/+7sXAE47xiRsxMGI0"},
           {"name": "محمدرضا سرشار", "telegram": "https://t.me/+y1JjuxUKBY4wMjRk"}
         ]
       },
@@ -411,7 +414,8 @@
         "instructors": [
           {"name": " نطاق بافکر", "telegram": "https://t.me/+B68sFNqr45c2Njg8"},
           {"name": "  آزادگان ", "telegram": "https://t.me/+J_q1VGnt2KU4ZWNk"},
-          {"name": "  احمدی ", "telegram": "https://t.me/+mDRvYwPBLAcyZjJk"}
+          {"name": "  احمدی ", "telegram": "https://t.me/+mDRvYwPBLAcyZjJk"},
+          {"name": "  مقصودی شورابی ", "telegram": "https://t.me/+aqdOq2KP17MyMGRk"}
         ]
       },
       
