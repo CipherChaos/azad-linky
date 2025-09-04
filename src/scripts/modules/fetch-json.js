@@ -245,8 +245,3 @@ function createCard(item, type) {
     
     return article;
 }
-
-console.log('Current pathname:', window.location.pathname);
-console.log('Body classes:', document.body.className);
-console.log('Is FAQ page:', isFAQPage);
-console.log('Is Guide page:', isGuidePage);
