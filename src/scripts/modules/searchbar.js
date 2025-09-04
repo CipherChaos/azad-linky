@@ -139,13 +139,7 @@ class GlobalCourseSearch {
 
         const errorMsg = document.createElement('div');
         errorMsg.className = 'error-message';
-        errorMsg.innerHTML = `
-            <div class="error-content">
-                <div class="error-icon">⚠️</div>
-                <h3>خطا در بارگیری دروس</h3>
-                <p>لطفاً صفحه را مجدداً بارگیری کنید</p>
-            </div>
-        `;
+        errorMsg.innerHTML = ``;
         coursesGrid.appendChild(errorMsg);
     }
 
