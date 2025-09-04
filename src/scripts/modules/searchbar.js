@@ -131,17 +131,7 @@ class GlobalCourseSearch {
 
     // Show error state
     showErrorState() {
-        const coursesGrid = document.querySelector('.courses-grid');
-        if (!coursesGrid) return;
-
-        // Clear any existing messages first
-        this.clearAllMessages();
-
-        const errorMsg = document.createElement('div');
-        errorMsg.className = 'error-message';
-        errorMsg.innerHTML = ``;
-        coursesGrid.appendChild(errorMsg);
-    }
+}
 
     // FIXED: Show no results message - this was the main issue!
     showNoResultsMessage(show = true) {
