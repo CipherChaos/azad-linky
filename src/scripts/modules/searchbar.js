@@ -71,14 +71,14 @@ class GlobalCourseSearch {
                 'practical': { type: 'practical', page: './src/templates/courses/courses-practical.html' }
             };
 
-            Object.keys(data.courses).forEach(categoryKey => {
-                if (Array.isArray(data.courses[categoryKey])) {
+            Object.keys(data).forEach(categoryKey => {
+                if (Array.isArray(data[categoryKey])) {
                     const categoryInfo = categoryMappings[categoryKey] || { 
                         type: categoryKey, 
                         page: `./src/templates/courses/courses-${categoryKey}.html` 
                     };
 
-                    data.courses[categoryKey].forEach(course => {
+                    data[categoryKey].forEach(course => {
                         allCourses.push({
                             ...course,
                             category: categoryInfo.type,
@@ -269,7 +269,7 @@ class GlobalCourseSearch {
         const matchedCourses = this.allCourses.filter(course => {
             const titleMatch = course.title?.toLowerCase().includes(searchTerm);
             const instructorMatch = course.instructors?.some(instructor => 
-                instructor.name.toLowerCase().includes(searchTerm)
+                instructor.toLowerCase().includes(searchTerm)
             );
             const codeMatch = course.code?.toLowerCase().includes(searchTerm);
             const descriptionMatch = course.description?.toLowerCase().includes(searchTerm);
@@ -400,7 +400,7 @@ class GlobalCourseSearch {
         
         const instructorBadges = course.instructors ? 
             course.instructors.map(instructor => 
-                `<span class="instructor-badge">${instructor.name}</span>`
+                `<span class="instructor-badge">${instructor}</span>`
             ).join('') : '';
 
         card.innerHTML = `
