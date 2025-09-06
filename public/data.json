@@ -9,7 +9,8 @@
         "instructors": [
           {"name": "قربانی", "telegram": "https://t.me/+W_MlKFhtSY43YmNk"},
           {"name": "صمدبین", "telegram": "https://t.me/yooohoooo"},
-          {"name": "ناهید شمس", "telegram": "https://t.me/+MU_ltqngikYxZGI0"}
+          {"name": "ناهید شمس", "telegram": "https://t.me/+MU_ltqngikYxZGI0"},
+	  {"name": " کیانوش کیانا ", "telegram": "https://t.me/+Z1w3o81VNgRlOTc0"}
         ]
       },
       {
@@ -335,8 +336,7 @@
         "code": "آزمایشگاهی",
         "title": " مهندسی نرم افزار",
         "instructors": [
-          {"name": "نیک روان", "telegram": "https://t.me/httpsZC8yRb9AjaNhNDZk"},
-          {"name": " کیانوش کیانا ", "telegram": "https://t.me/+Z1w3o81VNgRlOTc0"}
+          {"name": "نیک روان", "telegram": "https://t.me/httpsZC8yRb9AjaNhNDZk"}
         ]
       },
       
