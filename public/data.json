@@ -432,7 +432,9 @@
       {
         "code": "پایه",
         "title": "فیزیک ۱",
-        "instructors": []
+        "instructors": [
+          {"name": " ذوالفقاری", "telegram": "https://t.me/http7IwLqwPN903YThk"}
+        ]
       },
       {
         "code": "پایه",
