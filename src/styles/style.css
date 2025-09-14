@@ -1371,8 +1371,6 @@ details[open] .course-details {
         padding: 1rem;
         font-size: 1.1rem;
         border-radius: var(--radius-md);
-        /* Ensure buttons also respond to theme changes */
-        background: var(--bg-secondary);
         color: var(--text-primary);
         border: 1px solid var(--border-color);
     }
