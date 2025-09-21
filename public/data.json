@@ -230,7 +230,8 @@
         "code": "اصلی",
         "title": "مباحث ویژه ۱",
         "instructors": [
-          {"name": "نداسراج", "telegram": "https://t.me/+n2hcehELy-BjZjNk"}
+          {"name": "نداسراج", "telegram": "https://t.me/+n2hcehELy-BjZjNk"},
+          {"name": "احمدی", "telegram": "https://t.me/+T-qWSdJekCM5Njhk"}
         ]
       },
       {
@@ -270,7 +271,8 @@
         "code": "اصلی",
         "title": "اقتصاد مهندسی",
         "instructors": [
-          {"name": "بابائی", "telegram": "https://t.me/+sxH_QeAq9LdhNDJk"}
+          {"name": "بابائی", "telegram": "https://t.me/+sxH_QeAq9LdhNDJk"},
+          {"name": "نصیری", "telegram": "https://t.me/+XaRgFn_cFaYxNzQ0"}
         ]
       }
     ],
@@ -417,7 +419,8 @@
           {"name": "مهدی یوسفی", "telegram": "https://t.me/riazidoyousefi"},
           {"name": " نرگس باقری ", "telegram": "https://t.me/+08VhnRtzunxkOWE0"},
 	  {"name": " سمیه پیرمحمدی ", "telegram": "https://t.me/+IXPGJdjnEFdkNDc8"},
-	  {"name": " نرگس باقری ", "telegram": "https://t.me/+08VhnRtzunxkOWE0"}
+	  {"name": " نرگس باقری ", "telegram": "https://t.me/+08VhnRtzunxkOWE0"},
+	   {"name": " علیادخت سجادی راد  ", "telegram": "https://t.me/calculus2sajadir"}
         ]
       },
       
@@ -435,7 +438,9 @@
       {
         "code": "پایه",
         "title": "فیزیک ۱",
-        "instructors": []
+        "instructors": [
+        {"name": " المیرا صولتی", "telegram":    "https://t.me/+2KcZUhIgOnExNzU0"}
+        ]
       },
       {
         "code": "پایه",
