@@ -146,7 +146,8 @@
           {"name": "ساسان حریفی", "telegram": "https://t.me/sasanharefi"},
           {"name": "پریا ابراهیمی", "telegram": "https://t.me/+RW7j2qjQ8tswOWQ0"},
           {"name": " محسن مشتاقی ", "telegram": "https://t.me/+zV18v6daNmc5NTM0"},
-          {"name": "  مجید سعادت دوست ", "telegram": "https://t.me/+OtuouNmGrL83MDdk"}
+          {"name": "  مجید سعادت دوست ", "telegram": "https://t.me/+OtuouNmGrL83MDdk"},
+          {"name": "    شیخ الملوکی  ", "telegram": "https://t.me/+f010lILco6I1YzVk"}
         ]
       },
       {
@@ -190,8 +191,7 @@
         "code": "اصلی",
         "title": "طراحی الگوریتم",
         "instructors": [
-          {"name": "(با استاد) فاطمه نجفی ", "telegram": "https://t.me/+UX1DO5KS0ZdkNTRk"},
-          {"name": " فاطمه نجفی (بدون استاد)", "telegram": "https://t.me/+7sXAE47xiRsxMGI0"},
+          {"name": " فاطمه نجفی", "telegram": "https://t.me/+UX1DO5KS0ZdkNTRk"},
           {"name": "محمدرضا سرشار", "telegram": "https://t.me/+y1JjuxUKBY4wMjRk"}
         ]
       },
@@ -247,7 +247,8 @@
         "code": "اصلی",
         "title": " جبرخطی ",
         "instructors": [
-          {"name": " مرتضی احمدی", "telegram": "https://t.me/+DZySJ_iS3YQ1YmM0"}
+          {"name": " مرتضی احمدی", "telegram": "https://t.me/+DZySJ_iS3YQ1YmM0"},
+           {"name": "  گلگویی ", "telegram": "https://t.me/+RJIINtNL1kw5OTM8"}
         ]
       },
       
@@ -568,7 +569,8 @@
         "code": "عمومی",
         "title": "تربیت بدنی",
         "instructors": [
-          {"name": "حمید عموریزی", "telegram": "https://t.me/tarbiatamorizi"}
+          {"name": "حمید عموریزی", "telegram": "https://t.me/tarbiatamorizi"},
+          {"name": " زینب آقا میرزایی", "telegram": "https://t.me/+VFlj5lBaGiFiYzBk"}
         ]
       }
     ]
