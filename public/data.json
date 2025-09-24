@@ -10,7 +10,7 @@
           {"name": "قربانی", "telegram": "https://t.me/+W_MlKFhtSY43YmNk"},
           {"name": "صمدبین", "telegram": "https://t.me/yooohoooo"},
           {"name": "ناهید شمس", "telegram": "https://t.me/+MU_ltqngikYxZGI0"},
-	  {"name": " کیانوش کیانا ", "telegram": "https://t.me/+Z1w3o81VNgRlOTc0"}
+	        {"name": " کیانوش کیانا ", "telegram": "https://t.me/+Z1w3o81VNgRlOTc0"}
         ]
       },
       {
@@ -166,7 +166,8 @@
           {"name": "عطار", "telegram": "https://t.me/+_12PMoOdFtA1ZWI0"},
           {"name": " زهرا ذکایی  ", "telegram": "https://t.me/+_12PMoOdFtA1ZWI0"},
           {"name": " شبنم اسبقی ", "telegram": "https://t.me/asbaqisakhtemandade"},
-          {"name": " فرزانه استاداکبری ", "telegram": "https://t.me/DSA_OstadAkbari"}
+          {"name": " فرزانه استاداکبری ", "telegram": "https://t.me/DSA_OstadAkbari"},
+          {"name": " پریا ابراهیمی  ", "telegram": "https://t.me/+TL2pEM9uJAc3MmQ0"}
         ]
       },
       {
@@ -175,7 +176,8 @@
         "instructors": [
           {"name": " مجید ناصریان ", "telegram": "https://t.me/Signal_Naserian"},
           {"name": "وادی زاده", "telegram": "https://t.me/+FNaR7WzKOTkwNWM0"},
-          {"name": "اوسطی", "telegram": "https://t.me/signalsystemovesti"}
+          {"name": "اوسطی", "telegram": "https://t.me/signalsystemovesti"},
+          {"name": "شجاعی راد", "telegram": "https://t.me/+Y1BdkLu3K3YwODlk"}
         ]
       },
       {
@@ -247,7 +249,19 @@
         "code": "اصلی",
         "title": " جبرخطی ",
         "instructors": [
-          {"name": " مرتضی احمدی", "telegram": "https://t.me/+DZySJ_iS3YQ1YmM0"}
+          {"name": " مرتضی احمدی", "telegram": "https://t.me/+DZySJ_iS3YQ1YmM0"},
+          {"name": "  گلگویی ", "telegram": "https://t.me/+RJIINtNL1kw5OTM8"}
+
+        ]
+      },
+
+      {
+        "code": "اصلی",
+        "title": "آشنایی با صنعت کامپیوتر ",
+        "instructors": [
+          {"name": "کاملیا دهقانی ", "telegram": "https://t.me/+PQnZkzy3Rvs2NzVk"},
+          {"name": " آزاده مهران نیا ", "telegram": "https://t.me/+NxsCWwXdldAyZjc0"}
+
         ]
       },
       
@@ -264,7 +278,8 @@
         "title": "روش پژوهش و ارائه",
         "instructors": [
           {"name": "کاملیا دهقانی", "telegram": "https://t.me/+DiL_NKOqaAJkYzc0"},
-          {"name": "میرزایی", "telegram": "https://t.me/+j3PjRVSUCjExMzc0"}
+          {"name": "میرزایی", "telegram": "https://t.me/+j3PjRVSUCjExMzc0"},
+          {"name": "اعظم باستان فرد", "telegram": "https://t.me/raveshpazhoheshbastanfard"}
         ]
       },
       {
@@ -418,9 +433,8 @@
         "instructors": [
           {"name": "مهدی یوسفی", "telegram": "https://t.me/riazidoyousefi"},
           {"name": " نرگس باقری ", "telegram": "https://t.me/+08VhnRtzunxkOWE0"},
-	  {"name": " سمیه پیرمحمدی ", "telegram": "https://t.me/+IXPGJdjnEFdkNDc8"},
-	  {"name": " نرگس باقری ", "telegram": "https://t.me/+08VhnRtzunxkOWE0"},
-	   {"name": " علیادخت سجادی راد  ", "telegram": "https://t.me/calculus2sajadir"}
+	        {"name": " سمیه پیرمحمدی ", "telegram": "https://t.me/+IXPGJdjnEFdkNDc8"},
+	        {"name": " علیادخت سجادی راد  ", "telegram": "https://t.me/calculus2sajadir"}
         ]
       },
       
