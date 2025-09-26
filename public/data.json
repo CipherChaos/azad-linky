@@ -86,7 +86,8 @@
         "instructors": [
           {"name": "محمدرضا سرشار", "telegram": "https://t.me/Pishraftesarshar"},
           {"name": " علی علی جماعت", "telegram": "https://t.me/+suZx8hgSf5U2NzU0"},
-          {"name": "سپیده احمدی مالده ", "telegram": "https://t.me/+bSTFAIbs7oNkNzhk"}
+          {"name": "سپیده احمدی ", "telegram": "https://t.me/+bSTFAIbs7oNkNzhk"},
+          {"name": "سپیده احمدی مالده", "telegram": "https://t.me/sepideh_ahmadi_maldeh"}
         ]
       },
       {
@@ -213,7 +214,8 @@
           {"name": "آیدا خورشیدطلب", "telegram": "https://t.me/+85MFVrTU7zA2ZDE0"},
           {"name": " شیخ الملوک ", "telegram": "https://t.me/+FH0IKcx6FZ0yMWE0"},
           {"name": " معماری نژاد ", "telegram": "https://t.me/+xr0XU22n-OVjODhk"},
-          {"name": "  نعیمه زارعی نژاد ", "telegram": "https://t.me/+dvN88xUiXb1jODQ8"}
+          {"name": "  نعیمه زارعی نژاد ", "telegram": "https://t.me/+dvN88xUiXb1jODQ8"},
+          {"name": "رضا رستمی", "telegram": "https://t.me/tarahi_sistemdig"}
         ]
       },
       {
@@ -231,7 +233,8 @@
         "title": "مباحث ویژه ۱",
         "instructors": [
           {"name": "نداسراج", "telegram": "https://t.me/+n2hcehELy-BjZjNk"},
-          {"name": "احمدی", "telegram": "https://t.me/+T-qWSdJekCM5Njhk"}
+          {"name": "احمدی", "telegram": "https://t.me/+T-qWSdJekCM5Njhk"},
+          {"name": "سرمست", "telegram": "https://t.me/+V_5wxm2l_DZhZWU0"}
         ]
       },
       {
@@ -239,7 +242,8 @@
         "title": "مهندسی اینترنت",
         "instructors": [
           {"name": "حسام الدین ادریسی", "telegram": "https://t.me/+ewfMirYrMCg5N2Q0"},
-          {"name": "حیاتی", "telegram": "https://t.me/+ak20Ld4hOTlmZGQ8"}
+          {"name": "حیاتی", "telegram": "https://t.me/+ak20Ld4hOTlmZGQ8"},
+          {"name": "علی محمدی فر", "telegram": "https://t.me/+QThliwIAwdJkZDZk"}
         ]
       },
       
@@ -419,9 +423,10 @@
         "instructors": [
           {"name": "مهدی یوسفی", "telegram": "https://t.me/riazidoyousefi"},
           {"name": " نرگس باقری ", "telegram": "https://t.me/+08VhnRtzunxkOWE0"},
-	  {"name": " سمیه پیرمحمدی ", "telegram": "https://t.me/+IXPGJdjnEFdkNDc8"},
-	  {"name": " نرگس باقری ", "telegram": "https://t.me/+08VhnRtzunxkOWE0"},
-	   {"name": " علیادخت سجادی راد  ", "telegram": "https://t.me/calculus2sajadir"}
+	        {"name": " سمیه پیرمحمدی ", "telegram": "https://t.me/+IXPGJdjnEFdkNDc8"},
+	        {"name": " نرگس باقری ", "telegram": "https://t.me/+08VhnRtzunxkOWE0"},
+	        {"name": " علیادخت سجادی راد  ", "telegram": "https://t.me/calculus2sajadir"},
+          {"name": "محسن حسین پور", "telegram": "https://t.me/+HAmDie3mjiowZGJk"}
         ]
       },
       
