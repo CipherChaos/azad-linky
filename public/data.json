@@ -10,7 +10,7 @@
           {"name": "قربانی", "telegram": "https://t.me/+W_MlKFhtSY43YmNk"},
           {"name": "صمدبین", "telegram": "https://t.me/yooohoooo"},
           {"name": "ناهید شمس", "telegram": "https://t.me/+MU_ltqngikYxZGI0"},
-	  {"name": " کیانوش کیانا ", "telegram": "https://t.me/+Z1w3o81VNgRlOTc0"}
+	        {"name": " کیانوش کیانا ", "telegram": "https://t.me/+Z1w3o81VNgRlOTc0"}
         ]
       },
       {
@@ -116,7 +116,8 @@
         "title": "پیاده سازی پایگاه داده",
         "instructors": [
           {"name": "حسین صمدبین", "telegram": "https://t.me/piyadesazipay"},
-          {"name": " بصیری", "telegram": "https://t.me/+_x6Tj_R-M5hjZmZk"}
+          {"name": " بصیری", "telegram": "https://t.me/+_x6Tj_R-M5hjZmZk"},
+          {"name": " مسجودی", "telegram": "https://t.me/+whi55DmwjZhlYWQ0"}
         ]
       },
       {
@@ -234,7 +235,8 @@
         "instructors": [
           {"name": "نداسراج", "telegram": "https://t.me/+n2hcehELy-BjZjNk"},
           {"name": "احمدی", "telegram": "https://t.me/+T-qWSdJekCM5Njhk"},
-          {"name": "سرمست", "telegram": "https://t.me/+V_5wxm2l_DZhZWU0"}
+          {"name": "سرمست", "telegram": "https://t.me/+V_5wxm2l_DZhZWU0"},
+          {"name": "محجوب", "telegram": "https://t.me/+H8DAPGXf6bdlY2I0"}
         ]
       },
       {
@@ -261,7 +263,8 @@
         "title": "پروژه نرم افزار",
         "instructors": [
           {"name": "فاطمه نجفی", "telegram": "https://t.me/+bjYU4cF4RRQxODM0"},
-          {"name": "خلیلیان", "telegram": "https://t.me/projkhalil"}
+          {"name": "خلیلیان", "telegram": "https://t.me/projkhalil"},
+          {"name": "محمدزاده", "telegram": "https://t.me/+tOsAKCaR9So0OWVk"}
         ]
       },
       {
@@ -345,7 +348,8 @@
         "code": "آزمایشگاهی",
         "title": " مهندسی نرم افزار",
         "instructors": [
-          {"name": "نیک روان", "telegram": "https://t.me/httpsZC8yRb9AjaNhNDZk"}
+          {"name": "نیک روان", "telegram": "https://t.me/httpsZC8yRb9AjaNhNDZk"},
+          {"name": "زینب بمانی وندیشی", "telegram": "https://t.me/+pC90sw2zb_owNjU0"}
         ]
       },
       
@@ -354,7 +358,8 @@
         "title": "سیستم های عامل",
         "instructors": [
           {"name": "ناهید شمس", "telegram": "https://t.me/azsystemshams"},
-          {"name": " شیما نجفی", "telegram": "https://t.me/+QKQgzC7mATtkZDNk"}
+          {"name": " شیما نجفی", "telegram": "https://t.me/+QKQgzC7mATtkZDNk"},
+          {"name": "شجاعی راد", "telegram": "https://t.me/+Y1BdkLu3K3YwODlk"}
         ]
       },
       {
@@ -364,7 +369,8 @@
           {"name": "زینب بمانی", "telegram": "https://t.me/azmapay"},
           {"name": "نیکروان", "telegram": "https://t.me/azpnikravan"},
           {"name": "میرزایی", "telegram": "https://t.me/+MCx635aE6QRlMTlh"},
-          {"name": "شبنم اسبقی", "telegram": "https://t.me/+WcqEJayqm05jNGM0"}
+          {"name": "شبنم اسبقی", "telegram": "https://t.me/+WcqEJayqm05jNGM0"},
+          {"name": " ذوالفقاری", "telegram": "https://t.me/+80RY9b1HzHliNDY0"}
           
         ]
       },
@@ -425,9 +431,10 @@
           {"name": "مهدی یوسفی", "telegram": "https://t.me/riazidoyousefi"},
           {"name": " نرگس باقری ", "telegram": "https://t.me/+08VhnRtzunxkOWE0"},
 	        {"name": " سمیه پیرمحمدی ", "telegram": "https://t.me/+IXPGJdjnEFdkNDc8"},
-	        {"name": " نرگس باقری ", "telegram": "https://t.me/+08VhnRtzunxkOWE0"},
 	        {"name": " علیادخت سجادی راد  ", "telegram": "https://t.me/calculus2sajadir"},
-          {"name": "محسن حسین پور", "telegram": "https://t.me/+HAmDie3mjiowZGJk"}
+          {"name": "محسن حسین پور", "telegram": "https://t.me/+HAmDie3mjiowZGJk"},
+          {"name": "اصغر ارژنگ", "telegram": "https://t.me/arzhang_math"}
+          
         ]
       },
       
@@ -446,7 +453,8 @@
         "code": "پایه",
         "title": "فیزیک ۱",
         "instructors": [
-        {"name": " المیرا صولتی", "telegram":    "https://t.me/+2KcZUhIgOnExNzU0"}
+        {"name": " المیرا صولتی", "telegram":"https://t.me/+2KcZUhIgOnExNzU0"},
+        {"name": "قرآن نویس", "telegram":"https://t.me/physics1ghoranneviss"}
         ]
       },
       {
