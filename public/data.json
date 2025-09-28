@@ -31,7 +31,7 @@
           {"name": "فرزانه استاد اکبری", "telegram": "https://t.me/+GIIc6xuz5PU2NGE0"},
           {"name": "پریسا شوریده ضیابری ", "telegram": "https://t.me/AIshourideh"},
           {"name": "مرضیه حدادی", "telegram": "https://t.me/hoosh_masnoeei"},
-          {"name": " آرمان دلیری ", "telegram": "https://t.me/hoshdrbaghri"}
+          {"name": "باقری", "telegram": "https://t.me/hoshdrbaghri"}
         ]
       },
       {
@@ -108,7 +108,7 @@
           {"name": "علی علی جماعت", "telegram": "https://t.me/+b5I4N2loKw9jMGVk"},
           {"name": "بصیری", "telegram": "https://t.me/+_x6Tj_R-M5hjZmZk"},
           {"name": "نیلوفر میرزایی ", "telegram": "https://t.me/DGoFU9vhKxQwZDc0"},
-          {"name": " شبنم اسبقی ", "telegram": "https://t.me/+WcqEJayqm05jNGM0"}
+          {"name": " شبنم اسبقی ", "telegram": "https://t.me/OstadAsbaghiDB"}
         ]
       },
       {
@@ -144,7 +144,7 @@
         "code": "اصلی",
         "title": "سیستم های عامل",
         "instructors": [
-          {"name": "زینبت بمانبی وندیشی", "telegram": "https://t.me/OSbemani"},
+          {"name": "زینبت بمانی وندیشی", "telegram": "https://t.me/OSbemani"},
           {"name": "ساسان حریفی", "telegram": "https://t.me/sasanharefi"},
           {"name": "پریا ابراهیمی", "telegram": "https://t.me/+RW7j2qjQ8tswOWQ0"},
           {"name": " محسن مشتاقی ", "telegram": "https://t.me/+zV18v6daNmc5NTM0"},
@@ -167,8 +167,8 @@
         "instructors": [
           {"name": "فاطمه نجفی", "telegram": "https://t.me/+Y-i9YsUYW2M4YzU8"},
           {"name": "عطار", "telegram": "https://t.me/+_12PMoOdFtA1ZWI0"},
-          {"name": " زهرا ذکایی  ", "telegram": "https://t.me/+_12PMoOdFtA1ZWI0"},
-          {"name": " شبنم اسبقی ", "telegram": "https://t.me/asbaqisakhtemandade"},
+          {"name": " زهرا ذکایی  ", "telegram": "https://t.me/+tqy9fbDleUJjYTc0"},
+          {"name": " شبنم اسبقی ", "telegram": "https://t.me/data_asbaqi"},
           {"name": " فرزانه استاداکبری ", "telegram": "https://t.me/DSA_OstadAkbari"}
         ]
       },
@@ -185,7 +185,7 @@
         "code": "اصلی",
         "title": "شبکه‌های کامپیوتری",
         "instructors": [
-          {"name": "سپیده احمدی", "telegram": "https://t.me/+hqmtvv3h9fswNTNk"},
+          {"name": "سپیده احمدی مالده", "telegram": "https://t.me/+hqmtvv3h9fswNTNk"},
           {"name": " حسام الدین ادریسی", "telegram": "https://t.me/network_edrisi"}
         ]
       },
@@ -201,7 +201,7 @@
         "code": "اصلی",
         "title": "طراحی زبان‌های برنامه‌سازی",
         "instructors": [
-          {"name": "افشاری", "telegram": "https://t.me/TarahiZabanAfshari404"},
+          {"name": "طریقت", "telegram": "https://t.me/TarahiZabanAfshari404"},
           {"name": "صمدبین", "telegram": "https://t.me/TarahiZabanSamadbin4041"},
           {"name": "عبدی", "telegram": "https://t.me/+umGBQ0TIwxIxOTE0"},
           {"name": "زینب بمانی وندیشی", "telegram": "https://t.me/tarahizabanbemani"}
@@ -211,7 +211,7 @@
         "code": "اصلی",
         "title": "طراحی سیستم های دیجیتال",
         "instructors": [
-          {"name": "افشاری", "telegram": "https://t.me/TarahiZabanAfshari404"},
+          {"name": "طریقت", "telegram": "https://t.me/digitsyatem"},
           {"name": "آیدا خورشیدطلب", "telegram": "https://t.me/+85MFVrTU7zA2ZDE0"},
           {"name": " شیخ الملوک ", "telegram": "https://t.me/+FH0IKcx6FZ0yMWE0"},
           {"name": " معماری نژاد ", "telegram": "https://t.me/+xr0XU22n-OVjODhk"},
@@ -543,6 +543,16 @@
           {"name": " نجف نیا ", "telegram": "https://t.me/+_z5Fxe4u_64xMDQ0"}
         ]
       }
+
+       {
+        "code": "عمومی",
+        "title": "اندیشه و وصایا ",
+        "instructors": [
+          {"name": " احمد آرائیان", "telegram": "https://t.me/+MvY33cmKlmw4ZGE0"}
+      
+        ]
+      }
+
     ],
     
     "practical": [
