@@ -1575,6 +1575,7 @@ a .instructor-badge:hover {
     margin-bottom: var(--spacing-sm);
     font-style: italic;
     position: relative;
+    direction: ltr;
 }
 
 .footer-quote::before,
@@ -1592,8 +1593,8 @@ a .instructor-badge:hover {
     margin-top: var(--spacing-sm);
 }
 
-.footer-author::before {
-    content: '— ';
+.footer-author::after {
+    content: ' —';
     color: var(--accent-color);
 }
 
