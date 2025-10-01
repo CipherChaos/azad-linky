@@ -492,7 +492,7 @@
         "title": "اندیشه ۲",
         "instructors": [
         {"name": " یحیی صولتی ", "telegram": "https://t.me/+rkKRLVxNj8gwN2Rk"},
-        {"name": "خدا کرم حاجعلی", "telegram": "https://t.me/+M1_6NFxCSNI5NGRk"}
+        {"name": "خدا کرم حاجعلی", "telegram": "https://t.me/+VlM21NuaVCxmZjlk","gender":"female"}
 
         ]
       },
@@ -500,10 +500,10 @@
         "code": "عمومی",
         "title": "انس با قرآن",
         "instructors": [
-          {"name": "مهناز راحتی", "telegram": "https://t.me/+B2yi_-2D3WY3ZjA0"},
+          {"name": "مهناز راحتی", "telegram": "https://t.me/+B2yi_-2D3WY3ZjA0","gender":"female"},
           {"name": "قضاتلو", "telegram": "https://t.me/ons_ghazatlou"},
           {"name": "اسحقی مهماندوستی", "telegram": "https://t.me/onseshaghi"},
-          {"name": " مریم نجفی لیواری", "telegram": "https://t.me/+RutWRfOC5H8yNTRk"}
+          {"name": " مریم نجفی لیواری", "telegram": "https://t.me/+RutWRfOC5H8yNTRk","gender":"female"}
           
         ]
       },
@@ -512,21 +512,21 @@
         "title": "تاریخ تحلیلی صدر اسلام",
         "instructors": [
           {"name": "فتحی", "telegram": "https://t.me/tarikh_sadr_fathi"},
-          {"name": "خوراسگانی", "telegram": "https://t.me/+MFoiF5RXdwpjMTM0"}
+          {"name": "خوراسگانی", "telegram": "https://t.me/+MFoiF5RXdwpjMTM0","gender":"female"}
         ]
       },
       {
         "code": "عمومی",
         "title": "تفسیر موضوعی نهج البلاغه",
         "instructors": [
-          {"name": "آدینه اصغری‌نژاد", "telegram": "https://t.me/+bfJwQ7xhQcdlZWY8"}
+          {"name": "آدینه اصغری‌نژاد", "telegram": "https://t.me/+bfJwQ7xhQcdlZWY8","gender":"female"}
         ]
       },
       {
         "code": "عمومی",
         "title": "تاریخ فرهنگ و تمدن اسلامی",
         "instructors": [
-          {"name": "ربانی خوراسگانی", "telegram": "https://t.me/+Ha648BkATQVkMDhk"},
+          {"name": "ربانی خوراسگانی", "telegram": "https://t.me/+Ha648BkATQVkMDhk", "gender":"female"},
           {"name": "آقایی", "telegram": "https://t.me/+0n2GQkqYBggwNzk8"}
         ]
       },
@@ -535,7 +535,7 @@
         "title": "آیین زندگی",
         "instructors": [
           {"name": "ناصربخت", "telegram": "https://t.me/naserbakht4041"},
-          {"name": "اصغر آقایی", "telegram": "https://t.me/+QyzITvm4t2BjMGY0"}
+          {"name": "اصغر آقایی", "telegram": "https://t.me/+QyzITvm4t2BjMGY0","gender":"female"}
           
         ]
       },
@@ -543,7 +543,7 @@
         "code": "عمومی",
         "title": "دانش خانواده",
         "instructors": [
-          {"name": "طاهره سادات موسوی", "telegram": "https://t.me/zH3DJkqo3ZWI0"},
+          {"name": "طاهره سادات موسوی", "telegram": "https://t.me/zH3DJkqo3ZWI0","gender":"female"},
           {"name": " رمضانخانی ", "telegram": "https://t.me/RamezanKhaniDanesh4011"},
           {"name": " فرید نجف نیا", "telegram": "https://t.me/+_z5Fxe4u_64xMDQ0"}
         ]
@@ -553,7 +553,7 @@
         "code": "عمومی",
         "title": "اندیشه و وصایا ",
         "instructors": [
-          {"name": "گنج خانلو", "telegram": "https://t.me/+4LBwzq-fezozNGQ0"}
+          {"name": "گنج خانلو", "telegram": "https://t.me/+4LBwzq-fezozNGQ0","gender":"female"}
       
         ]
       }

@@ -52,11 +52,13 @@ function renderCourses(courses, category) {
     
     let instructorsHTML = "";
     if (course.instructors && course.instructors.length > 0) {
-      instructorsHTML = course.instructors.map(instructor => 
-        `<a href="${instructor.telegram}"><li class="instructor-badge">${instructor.name}</li></a>`
-      ).join("");
+      instructorsHTML = course.instructors.map(instructor => {
+        const gender = instructor.gender || "male";
+        const bgColor = gender === "female" ? "var(--accent-pink)" : "var(--accent-color)";
+        return `<a href="${instructor.telegram}"><li class="instructor-badge" style="--badge-bg: ${bgColor}">${instructor.name}</li></a>`;
+      }).join("");
     } else {
-      instructorsHTML = '<li class="instructor-badge">استاد اعلام نشده</li>';
+      instructorsHTML = '<li class="instructor-badge" style="--badge-bg: var(--accent-color)">استاد اعلام نشده</li>';
     }
 
     article.innerHTML = `
