@@ -158,7 +158,8 @@
         "instructors": [
           {"name": "ندا سراج", "telegram": "https://t.me/+zq-iEt0aqbtiMjc8"},
           {"name": "شهرام آجرلو", "telegram": "https://t.me/manageInfosSystem"},
-          {"name": " انشائی ", "telegram": "https://t.me/+ADA111x-cIg0NzY0"}
+          {"name": " انشائی ", "telegram": "https://t.me/+ADA111x-cIg0NzY0"},
+          {"name": "سرمست", "telegram": "https://t.me/+nns_vif2SnZiZjlk"}
         ]
       },
       {
@@ -211,12 +212,13 @@
         "code": "اصلی",
         "title": "طراحی سیستم های دیجیتال",
         "instructors": [
-          {"name": "طریقت", "telegram": "https://t.me/digitsyatem"},
+          {"name": "پایدار", "telegram": "https://t.me/+nWhbI2wvojAwNWI0"},
           {"name": "آیدا خورشیدطلب", "telegram": "https://t.me/+85MFVrTU7zA2ZDE0"},
           {"name": " شیخ الملوک ", "telegram": "https://t.me/+FH0IKcx6FZ0yMWE0"},
           {"name": " معماری نژاد ", "telegram": "https://t.me/+xr0XU22n-OVjODhk"},
           {"name": "  نعیمه زارعی نژاد ", "telegram": "https://t.me/+dvN88xUiXb1jODQ8"},
           {"name": "رضا رستمی", "telegram": "https://t.me/tarahi_sistemdig"}
+          
         ]
       },
       {
@@ -405,12 +407,13 @@
         "title": "مدارمنطقی و معماری کامپیوتر",
         "instructors": [
           {"name": "نعیمه زارعی نژاد", "telegram": "https://t.me/+A_IsdhqQjJoxMGQ0"},
-          {"name": "فرجامی نژاد", "telegram": "https://t.me/+l0JN-qqpCv9mZDY0"}
+          {"name": "فرجامی نژاد", "telegram": "https://t.me/+l0JN-qqpCv9mZDY0"},
+          {"name": "امیر عبا", "telegram": "https://t.me/azmadaraba"}
         ]
       }
     ],
     "fundamental": [
-       {
+      {
         "code": "پایه",
         "title": "  آمار و احتمال مهندسی",
         "instructors": [
@@ -488,7 +491,9 @@
         "code": "عمومی",
         "title": "اندیشه ۲",
         "instructors": [
-        {"name": " یحیی صولتی ", "telegram": "https://t.me/+rkKRLVxNj8gwN2Rk"}
+        {"name": " یحیی صولتی ", "telegram": "https://t.me/+rkKRLVxNj8gwN2Rk"},
+        {"name": "خدا کرم حاجعلی", "telegram": "https://t.me/+M1_6NFxCSNI5NGRk"}
+
         ]
       },
       {
@@ -540,7 +545,7 @@
         "instructors": [
           {"name": "طاهره سادات موسوی", "telegram": "https://t.me/zH3DJkqo3ZWI0"},
           {"name": " رمضانخانی ", "telegram": "https://t.me/RamezanKhaniDanesh4011"},
-          {"name": " نجف نیا ", "telegram": "https://t.me/+_z5Fxe4u_64xMDQ0"}
+          {"name": " فرید نجف نیا", "telegram": "https://t.me/+_z5Fxe4u_64xMDQ0"}
         ]
       },
 
@@ -596,7 +601,8 @@
         "title": "تربیت بدنی",
         "instructors": [
           {"name": "حمید عموریزی", "telegram": "https://t.me/tarbiatamorizi"},
-          {"name": " زینب آقا میرزایی", "telegram": "https://t.me/+VFlj5lBaGiFiYzBk"}
+          {"name": " زینب آقا میرزایی", "telegram": "https://t.me/+VFlj5lBaGiFiYzBk"},
+          {"name": "مریم درفشی", "telegram": "https://t.me/+_kvY_x98BQBkMDBk"}
         ]
       }
     ]

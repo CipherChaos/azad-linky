@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function renderCourses(courses, category) {
-  // Target the existing courses-grid container
+  
   const container = document.querySelector(".courses-grid");
   
   if (!container) {
@@ -38,18 +38,18 @@ function renderCourses(courses, category) {
     return;
   }
 
-  // Clear existing content
+  
   container.innerHTML = "";
 
   courses.forEach((course) => {
-    // Create the course card HTML structure
+    
     const article = document.createElement("article");
     article.className = "course-card";
 
-    // Determine the appropriate CSS class for the course code
+    
     const codeClass = getCourseCodeClass(category);
     
-    // Build instructors HTML
+    
     let instructorsHTML = "";
     if (course.instructors && course.instructors.length > 0) {
       instructorsHTML = course.instructors.map(instructor => 
@@ -83,7 +83,7 @@ function renderCourses(courses, category) {
   });
 }
 
-// Helper function to get the appropriate CSS class for course codes
+
 function getCourseCodeClass(category) {
   const classMap = {
     "main": "course-main",
@@ -102,7 +102,7 @@ function getCourseCodeClass(category) {
 //_______________ Filter Json for FAQ part _________________
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Fetch the JSON data
+    
     fetch("../../public/data.json")
         .then(response => {
             if (!response.ok) {
@@ -111,35 +111,35 @@ document.addEventListener('DOMContentLoaded', function() {
             return response.json();
         })
         .then(data => {
-            // Get the container for the cards
+            
             const container = document.querySelector('.courses-grid.help-grid');
             
-            // Clear any existing static content
+            
             container.innerHTML = '';
             
-            // Determine which page we're on based on URL or other indicator
+            
             const isFAQPage = window.location.pathname.includes('faq') || 
                               document.body.classList.contains('faq-page');
             const isGuidePage = window.location.pathname.includes('guide') || 
                                 document.body.classList.contains('guide-page');
             
-            // Create cards for FAQ items if we're on the FAQ page
+           
             if (isFAQPage && data.faqs && Array.isArray(data.faqs)) {
                 data.faqs.forEach(faq => {
                     const card = createCard(faq, 'faq');
                     container.appendChild(card);
                 });
             }
-            // Create cards for Guide items if we're on the Guide page
+            
             else if (isGuidePage && data.guide && Array.isArray(data.guide)) {
                 data.guide.forEach(guideItem => {
                     const card = createCard(guideItem, 'guide');
                     container.appendChild(card);
                 });
             }
-            // Fallback: if we can't determine the page type, show all content
+            
             else {
-                // Create cards for FAQ items if they exist
+               
                 if (data.faqs && Array.isArray(data.faqs)) {
                     data.faqs.forEach(faq => {
                         const card = createCard(faq, 'faq');
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                 }
                 
-                // Create cards for Guide items if they exist
+                
                 if (data.guide && Array.isArray(data.guide)) {
                     data.guide.forEach(guideItem => {
                         const card = createCard(guideItem, 'guide');
@@ -158,37 +158,37 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => {
             console.error('Error fetching data:', error);
-            // You might want to show an error message to the user here
+           
         });
 });
 
 function createCard(item, type) {
-    // Check if the item is valid
+    
     if (!item || (type === 'faq' && !item.question) || (type === 'guide' && !item.title)) {
         console.warn('Invalid item skipped:', item);
-        return document.createDocumentFragment(); // Return empty fragment
+        return document.createDocumentFragment(); 
     }
     
-    // Create the article element
+    
     const article = document.createElement('article');
     article.className = 'course-card';
     if (type === 'guide') {
         article.classList.add('guide-card');
     }
     
-    // Create the details element
+    
     const details = document.createElement('details');
     
-    // Create the summary element
+    
     const summary = document.createElement('summary');
     summary.className = 'course-summary';
     
-    // Create the title
+    
     const title = document.createElement('h2');
     title.className = 'course-title';
     title.textContent = type === 'guide' ? item.title : item.question;
     
-    // Create the expand icon
+    
     const expandIcon = document.createElement('div');
     expandIcon.className = 'expand-icon';
     expandIcon.innerHTML = `
@@ -197,21 +197,21 @@ function createCard(item, type) {
         </svg>
     `;
     
-    // Add title and icon to summary
+    
     summary.appendChild(title);
     summary.appendChild(expandIcon);
     
-    // Create the details content
+    
     const content = document.createElement('div');
     content.className = 'course-details';
     
-    // Create the paragraph for the answer/content
+    
     const paragraph = document.createElement('p');
     
-    // Get the text content based on type
+    
     let contentText = type === 'guide' ? item.content : item.answer;
     
-    // Handle special cases where links are needed (only for FAQs)
+    
     if (type === 'faq') {
         if (item.question.includes("از لیست ارائه ها گروهی پیدا نکردم") || 
             item.question.includes("اگه گروهی بر روی سایت قرار نداشت") ||
@@ -233,14 +233,14 @@ function createCard(item, type) {
     
     paragraph.innerHTML = contentText;
     
-    // Add paragraph to content
+    
     content.appendChild(paragraph);
     
-    // Add summary and content to details
+    
     details.appendChild(summary);
     details.appendChild(content);
     
-    // Add details to article
+    
     article.appendChild(details);
     
     return article;
