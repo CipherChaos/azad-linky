@@ -8,7 +8,6 @@ class GlobalCourseSearch {
     }
 
     async init() {
-        console.log('Initializing Global Course Search...');
         await this.loadAllCourses();
         this.setupSearchFunctionality();
     }
@@ -22,7 +21,6 @@ class GlobalCourseSearch {
             // Show loading indicator
             this.showLoadingState();
 
-            console.log('Loading courses from data.json...');
             const response = await fetch('./public/data.json');
             
             if (!response.ok) {
@@ -30,13 +28,10 @@ class GlobalCourseSearch {
             }
 
             const data = await response.json();
-            console.log('Loaded data:', data);
             
             // Process the data structure
             this.allCourses = this.processCoursesData(data);
             this.coursesLoaded = true;
-            
-            console.log(`Successfully loaded ${this.allCourses.length} courses globally`);
             
             // Hide loading state
             this.hideLoadingState();
@@ -219,8 +214,7 @@ class GlobalCourseSearch {
 
     // Setup global search for index page
     setupGlobalSearch(searchInput, clearButton) {
-        console.log('Setting up global search for index page');
-        
+    
         searchInput.addEventListener('input', (e) => {
             this.performGlobalSearch();
             this.toggleClearButton(searchInput, clearButton);
@@ -237,7 +231,6 @@ class GlobalCourseSearch {
 
     // Setup local search for course pages
     setupLocalSearch(searchInput, clearButton) {
-        console.log('Setting up local search for course page');
         
         searchInput.addEventListener('input', () => {
             this.performLocalSearch();
@@ -250,10 +243,7 @@ class GlobalCourseSearch {
         const searchInput = document.getElementById('courseSearch');
         const searchTerm = searchInput.value.trim().toLowerCase();
         
-        console.log('Performing global search for:', searchTerm);
-        
         if (!this.coursesLoaded) {
-            console.log('Courses still loading...');
             if (!this.isLoading) {
                 this.loadAllCourses();
             }
@@ -276,8 +266,6 @@ class GlobalCourseSearch {
             
             return titleMatch || instructorMatch || codeMatch || descriptionMatch;
         });
-
-        console.log(`Found ${matchedCourses.length} matching courses`);
 
         // CRITICAL FIX: Clear all messages before showing results or no-results
         this.clearAllMessages();
@@ -568,8 +556,7 @@ class CoursePageEnhancer {
 
 // Initialize the appropriate system based on the page
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM Content Loaded - Initializing search system');
-    
+
     // Initialize global search system
     window.globalSearch = new GlobalCourseSearch();
     
