@@ -117,7 +117,8 @@
         "instructors": [
           {"name": "حسین صمدبین", "telegram": "https://t.me/piyadesazipay"},
           {"name": " بصیری", "telegram": "https://t.me/+_x6Tj_R-M5hjZmZk"},
-          {"name": " مسجودی", "telegram": "https://t.me/+whi55DmwjZhlYWQ0"}
+          {"name": " مسجودی", "telegram": "https://t.me/+whi55DmwjZhlYWQ0"},
+          {"name": " پویا فوده ", "telegram": "https://t.me/poyafodehdatabase4041"}
         ]
       },
       {
@@ -187,7 +188,8 @@
         "title": "شبکه‌های کامپیوتری",
         "instructors": [
           {"name": "سپیده احمدی مالده", "telegram": "https://t.me/+hqmtvv3h9fswNTNk"},
-          {"name": " حسام الدین ادریسی", "telegram": "https://t.me/network_edrisi"}
+          {"name": " حسام الدین ادریسی", "telegram": "https://t.me/network_edrisi"},
+          {"name": "حیاتی بهادران", "telegram": "https://t.me/+CFSHShJCwp1jZTg0"}
         ]
       },
       {
@@ -257,6 +259,14 @@
         "instructors": [
           {"name": " مرتضی احمدی", "telegram": "https://t.me/+DZySJ_iS3YQ1YmM0"},
            {"name": "  گلگویی ", "telegram": "https://t.me/+RJIINtNL1kw5OTM8"}
+        ]
+      },
+
+      {
+        "code": "اصلی",
+        "title": "آشنایی با صنعت کامپیوتر",
+        "instructors": [
+          {"name": "آزاده مهران نیا", "telegram": "https://t.me/+NxsCWwXdldAyZjc0"}
         ]
       },
       
@@ -351,7 +361,8 @@
         "title": " مهندسی نرم افزار",
         "instructors": [
           {"name": "نیک روان", "telegram": "https://t.me/httpsZC8yRb9AjaNhNDZk"},
-          {"name": "زینب بمانی وندیشی", "telegram": "https://t.me/+pC90sw2zb_owNjU0"}
+          {"name": "زینب بمانی وندیشی", "telegram": "https://t.me/+pC90sw2zb_owNjU0"},
+          {"name": "سارا تقی دخت پاکی", "telegram": "https://t.me/aznarmafzarsarataghidokht"}
         ]
       },
       
@@ -391,7 +402,8 @@
         "title": "شبکه های کامپیوتری",
         "instructors": [
           {"name": "حسام الدین ادریسی", "telegram": "https://t.me/Az_shabake_edrisi"},
-          {"name": " فروغ شفیقی", "telegram": "https://t.me/azshfrogh"}
+          {"name": " فروغ شفیقی", "telegram": "https://t.me/azshfrogh"},
+          {"name": "  سید ناصر میرنظامی ", "telegram": "https://t.me/shabakenezami"}
         ]
       },
       {
@@ -399,7 +411,8 @@
         "title": "مدارالکتریکی",
         "instructors": [
           {"name": "افشین بقایی", "telegram": "https://t.me/+Zu9FSc4Csi1jYjY0"},
-          {"name": "هدیه محمدپور", "telegram": "https://t.me/+mn8xsa81xF1mZjdk"}
+          {"name": "هدیه محمدپور", "telegram": "https://t.me/+mn8xsa81xF1mZjdk"},
+          {"name": "بختیاری کیا", "telegram": "https://t.me/madarsalehi"}
         ]
       },
       {
