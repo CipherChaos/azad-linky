@@ -67,7 +67,8 @@
         "instructors": [
           {"name": "عزیز سلطانی", "telegram": "https://t.me/madarazizsoltani"},
           {"name": "معماری‌نژاد", "telegram": "https://t.me/+qvYdjwj6nFQ3NGI0"},
-          {"name": "آرزو نوری", "telegram": "https://t.me/+_8PX9MTJ85U3YWE0"}
+          {"name": "آرزو نوری", "telegram": "https://t.me/+_8PX9MTJ85U3YWE0"},
+          {"name": "مجید شاکری", "telegram": "https://t.me/madaar311"}
         ]
       },
       {
@@ -87,7 +88,8 @@
           {"name": "محمدرضا سرشار", "telegram": "https://t.me/Pishraftesarshar"},
           {"name": " علی علی جماعت", "telegram": "https://t.me/+suZx8hgSf5U2NzU0"},
           {"name": "سپیده احمدی ", "telegram": "https://t.me/+bSTFAIbs7oNkNzhk"},
-          {"name": "سپیده احمدی مالده", "telegram": "https://t.me/sepideh_ahmadi_maldeh"}
+          {"name": "سپیده احمدی مالده", "telegram": "https://t.me/sepideh_ahmadi_maldeh"},
+          {"name": " فاطمه سادات موسوی", "telegram": "https://t.me/fall2025_pro"}
         ]
       },
       {
@@ -250,6 +252,16 @@
           {"name": "حسام الدین ادریسی", "telegram": "https://t.me/+ewfMirYrMCg5N2Q0"},
           {"name": "حیاتی", "telegram": "https://t.me/+ak20Ld4hOTlmZGQ8"},
           {"name": "علی محمدی فر", "telegram": "https://t.me/+QThliwIAwdJkZDZk"}
+        ]
+      },
+
+
+      {
+        "code": "اصلی",
+        "title": "گسسته",
+        "instructors": [
+          {"name": "مهداد نوروزی", "telegram": "https://t.me/Grafe14"}
+          
         ]
       },
       
@@ -614,8 +626,9 @@
         "title": "تربیت بدنی",
         "instructors": [
           {"name": "حمید عموریزی", "telegram": "https://t.me/tarbiatamorizi"},
-          {"name": " زینب آقا میرزایی", "telegram": "https://t.me/+VFlj5lBaGiFiYzBk"},
-          {"name": "مریم درفشی", "telegram": "https://t.me/+_kvY_x98BQBkMDBk"}
+          {"name": " زینب آقا میرزایی", "telegram": "https://t.me/+VFlj5lBaGiFiYzBk","gender":"female"},
+          {"name": "مریم درفشی", "telegram": "https://t.me/+_kvY_x98BQBkMDBk","gender":"female"},
+          {"name": "احمد کریمی پور ", "telegram": "https://t.me/Tarbiatbadany12"}
         ]
       }
     ]
