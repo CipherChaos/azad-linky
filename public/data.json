@@ -41,7 +41,8 @@
           {"name": "نوری ولنده", "telegram": "https://t.me/memaricomputernoori"},
           {"name": " پویا فوده ", "telegram": "https://t.me/+i89ziKUyKkc0Njlk"},
           {"name": "  پریسا جمیلی  ", "telegram": "https://t.me/+aYucfITzGKg2ZDlk"},
-          {"name": " توحیدیان ", "telegram": "https://t.me/+Q7fDeoWNe5w2NjVk"}
+          {"name": " توحیدیان ", "telegram": "https://t.me/+Q7fDeoWNe5w2NjVk"},
+          {"name": "وادی زاده", "telegram": "https://t.me/memariVD"}
         ]
       },
       
@@ -620,9 +621,10 @@
         "title": "ورزش ۱",
         "instructors": [
           {"name": "محمد ملکی", "telegram": "https://t.me/+3feT4pBYUv0yNzI0"},
-          {"name": " سحر صدیقی", "telegram": "https://t.me/+DxZmNiDn5lxkYmE8"},
-          {"name": " لیلا درزی ", "telegram": "https://t.me/+ba9N3BlIUyhkYTk0"},
-          {"name": "  میرزایی امیرآباد ", "telegram": "https://t.me/+20vSg5LTOkA4OTY8"}
+          {"name": " سحر صدیقی", "telegram": "https://t.me/+DxZmNiDn5lxkYmE8", "gender":"female"},
+          {"name": " لیلا درزی ", "telegram": "https://t.me/+ba9N3BlIUyhkYTk0", "gender":"female"},
+          {"name": "  میرزایی امیرآباد ", "telegram": "https://t.me/+20vSg5LTOkA4OTY8"},
+          {"name": "مهرسا فریدنیا (درخوش)", "telegram": "https://t.me/+20vSg5LTOkA4OTY8", "gender":"female"}
         ]
       },
       {
