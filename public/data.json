@@ -565,7 +565,8 @@
         "title": "آیین زندگی",
         "instructors": [
           {"name": "ناصربخت", "telegram": "https://t.me/naserbakht4041"},
-          {"name": "اصغر آقایی", "telegram": "https://t.me/+QyzITvm4t2BjMGY0","gender":"female"}
+          {"name": "اصغر آقایی", "telegram": "https://t.me/+QyzITvm4t2BjMGY0","gender":"female"},
+          {"name": "جوادی", "telegram": "https://t.me/+Ho1UVr3ffNtiZWU0","gender":"female"}
           
         ]
       },
@@ -613,6 +614,14 @@
         "title": "مهارت های نرم شغلی",
         "instructors": [
           {"name": "  کرمی ", "telegram": "https://t.me/+CIUTGRAi1pc2MzY0"}
+        ]
+      },
+
+      {
+        "code": "عملی",
+        "title": "کارآفرینی",
+        "instructors": [
+          {"name": "فریبا صالحی", "telegram": "https://t.me/karafariniostadkarami"}
         ]
       },
            
