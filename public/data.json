@@ -529,6 +529,15 @@
 
         ]
       },
+
+      {
+      "code": "عمومی",
+      "title": "فارسی ۱",
+      "instructors": [
+      {"name": "فاطمه کریمی", "telegram": "https://t.me/farsikarimi1630"}
+        ]
+      },
+
       {
         "code": "عمومی",
         "title": "انس با قرآن",
