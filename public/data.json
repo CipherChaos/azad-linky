@@ -45,7 +45,8 @@
         "code": "اصلی",
         "title": "مبانی بازیابی اطلاعات و جستجو وب",
         "instructors": [
-          {"name": "امیرحسین احمدی", "telegram": "https://t.me/+uUy8Lr5cGGpjNWI8"},
+          {"name": "(امیرحسین احمدی (بدون استاد", "telegram": "https://t.me/+uUy8Lr5cGGpjNWI8"},
+          {"name": "امیرحسین احمدی (با استاد)", "telegram": "https://t.me/+ezSPmjHFe-5jMjhk"},
           {"name": "کیانوش کیانا", "telegram": "https://t.me/mabanijostojo"}
         ]
       },
@@ -401,7 +402,7 @@
         "code": "پایه",
         "title": "فیزیک ۲",
         "instructors": [
-          
+
         ]
       },
       {
