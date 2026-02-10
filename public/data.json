@@ -46,7 +46,7 @@
         "title": "مبانی بازیابی اطلاعات و جستجو وب",
         "instructors": [
           {"name": "(امیرحسین احمدی (بدون استاد", "telegram": "https://t.me/+uUy8Lr5cGGpjNWI8"},
-          {"name": "امیرحسین احمدی (با استاد)", "telegram": "https://t.me/+ezSPmjHFe-5jMjhk"},
+          {"name": "(امیرحسین احمدی (با استاد", "telegram": "https://t.me/+ezSPmjHFe-5jMjhk"},
           {"name": "کیانوش کیانا", "telegram": "https://t.me/mabanijostojo"}
         ]
       },
@@ -62,7 +62,7 @@
         "code": "اصلی",
         "title": "مدار های الکتریکی",
         "instructors": [
-     
+          {"name": "محمد نطاق", "telegram": "https://t.me/Electric_bafekr"}
         ]
       },
       {
