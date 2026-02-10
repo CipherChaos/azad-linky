@@ -1,0 +1,742 @@
+{
+  "semester": "Fall 4041",
+  "department": "دپارتمان مهندسی کامپیوتر",
+  "courses": {
+    "main": [
+      {
+        "code": "اصلی",
+        "title": "مهندسی نرم‌افزار",
+        "instructors": [
+          {"name": "قربانی", "telegram": "https://t.me/+W_MlKFhtSY43YmNk"},
+          {"name": "صمدبین", "telegram": "https://t.me/yooohoooo"},
+          {"name": "ناهید شمس", "telegram": "https://t.me/+MU_ltqngikYxZGI0"},
+	        {"name": " کیانوش کیانا ", "telegram": "https://t.me/+Z1w3o81VNgRlOTc0"},
+          {"name": "مرضیه حدادی", "telegram": "https://t.me/+dc7G6KkXPGM2NzYx"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "نظریه زبان و ماشین",
+        "instructors": [
+          {"name": "شرمین موسوی", "telegram": "https://t.me/nazarie_sharmin_mousavi"},
+          {"name": "محمدرضا سرشار", "telegram": "https://t.me/+Ft2X7CEH3YJkNmQ0"},
+          {"name": "علی بصیری", "telegram": "https://t.me/+hLKiQSDtBYRiNjY0"},
+          {"name": " سیدمحسن میرحسینی", "telegram": "https://t.me/+iwtielxEXh5jYTU0"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "هوش مصنوعی و سیستم های خبره",
+        "instructors": [
+          {"name": "محمد باقر حسینی", "telegram": "https://t.me/+lqXT9pXSLHo4NGE8"},
+          {"name": "فرزانه استاد اکبری", "telegram": "https://t.me/+GIIc6xuz5PU2NGE0"},
+          {"name": "پریسا شوریده ضیابری ", "telegram": "https://t.me/AIshourideh"},
+          {"name": "مرضیه حدادی", "telegram": "https://t.me/hoosh_masnoeei"},
+          {"name": "باقری", "telegram": "https://t.me/hoshdrbaghri"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "معماری کامپیوتر",
+        "instructors": [
+          {"name": "نوری ولنده", "telegram": "https://t.me/memaricomputernoori"},
+          {"name": " پویا فوده ", "telegram": "https://t.me/+i89ziKUyKkc0Njlk"},
+          {"name": "  پریسا جمیلی  ", "telegram": "https://t.me/+aYucfITzGKg2ZDlk"},
+          {"name": " توحیدیان ", "telegram": "https://t.me/+Q7fDeoWNe5w2NjVk"},
+          {"name": "وادی زاده", "telegram": "https://t.me/memariVD"}
+        ]
+      },
+      
+      {
+        "code": "اصلی",
+        "title": " مبانی کامپیوتر و برنامه سازی",
+        "instructors": [
+        ]
+      },
+      
+      {
+        "code": "اصلی",
+        "title": "مبانی بازیابی اطلاعات و جستجو وب",
+        "instructors": [
+          {"name": " امیرحسین احمدی ", "telegram": "https://t.me/httGOuiul9LHMA2MWE0"},
+          {"name": "  سید ناصر میرنظامی ", "telegram": "https://t.me/+tHzl1L-ZQQ5kZTg0"}
+        ]
+      },
+      
+      {
+        "code": "اصلی",
+        "title": "مدار منطقی",
+        "instructors": [
+          {"name": "عزیز سلطانی", "telegram": "https://t.me/madarazizsoltani"},
+          {"name": "معماری‌نژاد", "telegram": "https://t.me/+qvYdjwj6nFQ3NGI0"},
+          {"name": "آرزو نوری", "telegram": "https://t.me/+_8PX9MTJ85U3YWE0"},
+          {"name": "مجید شاکری", "telegram": "https://t.me/madaar311"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "مدار های الکتریکی",
+        "instructors": [
+          {"name": "معماری نژاد", "telegram": "https://t.me/MadarElectricMemari4041"},
+          {"name": "حامد یاوری", "telegram": "https://t.me/+IxvJ5DH6sW0wMTNk"},
+          {"name": "محمد نطاق", "telegram": "https://t.me/+9FW-kIidu5JkNmNk"},
+          {"name": " غلامرضا شقاقی", "telegram": "https://t.me/+2cfVNp_9rhc5N2Fk"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "برنامه سازی پیشرفته",
+        "instructors": [
+          {"name": "محمدرضا سرشار", "telegram": "https://t.me/Pishraftesarshar"},
+          {"name": " علی علی جماعت", "telegram": "https://t.me/+suZx8hgSf5U2NzU0"},
+          {"name": "سپیده احمدی ", "telegram": "https://t.me/+bSTFAIbs7oNkNzhk"},
+          {"name": "سپیده احمدی مالده", "telegram": "https://t.me/sepideh_ahmadi_maldeh"},
+          {"name": " فاطمه سادات موسوی", "telegram": "https://t.me/fall2025_pro"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "اصول طراحی کامپایلر",
+        "instructors": [
+          {"name": "فریبا صالحی", "telegram": "https://t.me/CompDesignFaribaSalehi"},
+          {"name": " علی احمدی رشادت ", "telegram": "https://t.me/+jaTXnzRzMkc0YzY0"},
+          {"name": "  عیسی نیا ", "telegram": "https://t.me/+WlrHTLCG6ds5Y2Fk"},
+          {"name": "   آتنا ترکاشوند ", "telegram": "https://t.me/+Cw9JUce2mKhmNTlk"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "پایگاه داده",
+        "instructors": [
+          {"name": "هاشمی عبدی", "telegram": "https://t.me/+tWSJvM6SVys0Yjlk"},
+          {"name": "علی علی جماعت", "telegram": "https://t.me/+b5I4N2loKw9jMGVk"},
+          {"name": "بصیری", "telegram": "https://t.me/+_x6Tj_R-M5hjZmZk"},
+          {"name": "نیلوفر میرزایی ", "telegram": "https://t.me/DGoFU9vhKxQwZDc0"},
+          {"name": " شبنم اسبقی ", "telegram": "https://t.me/OstadAsbaghiDB"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "پیاده سازی پایگاه داده",
+        "instructors": [
+          {"name": "حسین صمدبین", "telegram": "https://t.me/piyadesazipay"},
+          {"name": " بصیری", "telegram": "https://t.me/+_x6Tj_R-M5hjZmZk"},
+          {"name": " مسجودی", "telegram": "https://t.me/+whi55DmwjZhlYWQ0"},
+          {"name": " پویا فوده ", "telegram": "https://t.me/poyafodehdatabase4041"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "مبانی داده کاوی",
+        "instructors": [
+          {"name": "میرحسینی", "telegram": "https://t.me/+klJwQ7xhQcdlZWY8"},
+          {"name": "امین امینی", "telegram": "https://t.me/+TGU27hRX0XE3MzA8"},
+          {"name": "خلیلیان", "telegram": "https://t.me/+o_T1IlkujQ5jNzY0"},
+          {"name": "جلیوند", "telegram": "https://t.me/+MlDt6N64lcA2ODJk"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "ریزپردازنده",
+        "instructors": [
+          {"name": "شبستری", "telegram": "https://t.me/+pnDk4eqyO9I2N2U8"},
+          {"name": "امیرحسین احمدی (با استاد)", "telegram": "https://t.me/+yLEczhteWpA1NTBk"},
+          {"name": "امیرحسین احمدی (بدون استاد)", "telegram": "https://t.me/+pjhm-V7LWulkYzdk"},
+          {"name": "رفیعی", "telegram": "https://t.me/+SrGSo7gXm1Q4NDc0"},
+          {"name": "فرزاد گلشن پور", "telegram": "https://t.me/+ASnWQhJRGO1jNzc0"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "سیستم های عامل",
+        "instructors": [
+          {"name": "زینبت بمانی وندیشی", "telegram": "https://t.me/OSbemani"},
+          {"name": "ساسان حریفی", "telegram": "https://t.me/sasanharefi"},
+          {"name": "پریا ابراهیمی", "telegram": "https://t.me/+RW7j2qjQ8tswOWQ0"},
+          {"name": " محسن مشتاقی ", "telegram": "https://t.me/+zV18v6daNmc5NTM0"},
+          {"name": "  مجید سعادت دوست ", "telegram": "https://t.me/+OtuouNmGrL83MDdk"},
+          {"name": "    شیخ الملوکی  ", "telegram": "https://t.me/+f010lILco6I1YzVk"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "سیستم‌های اطلاعات مدیریت",
+        "instructors": [
+          {"name": "ندا سراج", "telegram": "https://t.me/+zq-iEt0aqbtiMjc8"},
+          {"name": "شهرام آجرلو", "telegram": "https://t.me/manageInfosSystem"},
+          {"name": " انشائی ", "telegram": "https://t.me/+ADA111x-cIg0NzY0"},
+          {"name": "سرمست", "telegram": "https://t.me/+nns_vif2SnZiZjlk"},
+          {"name": "بابائی", "telegram": "https://t.me/system_babaei"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "ساختمان داده",
+        "instructors": [
+          {"name": "فاطمه نجفی", "telegram": "https://t.me/+Y-i9YsUYW2M4YzU8"},
+          {"name": "عطار", "telegram": "https://t.me/+_12PMoOdFtA1ZWI0"},
+          {"name": " زهرا ذکایی  ", "telegram": "https://t.me/+tqy9fbDleUJjYTc0"},
+          {"name": " شبنم اسبقی ", "telegram": "https://t.me/data_asbaqi"},
+          {"name": " فرزانه استاداکبری ", "telegram": "https://t.me/DSA_OstadAkbari"},
+          {"name": "پریا ابراهیمی", "telegram": "https://t.me/+Y-i9YsUYW2M4YzU8"}
+          
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "سیگنال ها و سیستم ها",
+        "instructors": [
+          {"name": " مجید ناصریان ", "telegram": "https://t.me/Signal_Naserian"},
+          {"name": "وادی زاده", "telegram": "https://t.me/+FNaR7WzKOTkwNWM0"},
+          {"name": "اوسطی", "telegram": "https://t.me/signalsystemovesti"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "شبکه‌های کامپیوتری",
+        "instructors": [
+          {"name": "سپیده احمدی مالده", "telegram": "https://t.me/+hqmtvv3h9fswNTNk"},
+          {"name": " حسام الدین ادریسی", "telegram": "https://t.me/network_edrisi"},
+          {"name": "حیاتی بهادران", "telegram": "https://t.me/+CFSHShJCwp1jZTg0"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "طراحی الگوریتم",
+        "instructors": [
+          {"name": " فاطمه نجفی", "telegram": "https://t.me/+UX1DO5KS0ZdkNTRk"},
+          {"name": "محمدرضا سرشار", "telegram": "https://t.me/+y1JjuxUKBY4wMjRk"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "طراحی زبان‌های برنامه‌سازی",
+        "instructors": [
+          {"name": "طریقت", "telegram": "https://t.me/TarahiZabanAfshari404"},
+          {"name": "صمدبین", "telegram": "https://t.me/TarahiZabanSamadbin4041"},
+          {"name": "عبدی", "telegram": "https://t.me/+umGBQ0TIwxIxOTE0"},
+          {"name": "زینب بمانی وندیشی", "telegram": "https://t.me/tarahizabanbemani"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "طراحی سیستم های دیجیتال",
+        "instructors": [
+          {"name": "پایدار", "telegram": "https://t.me/+nWhbI2wvojAwNWI0"},
+          {"name": "آیدا خورشیدطلب", "telegram": "https://t.me/+85MFVrTU7zA2ZDE0"},
+          {"name": " شیخ الملوک ", "telegram": "https://t.me/+FH0IKcx6FZ0yMWE0"},
+          {"name": " معماری نژاد ", "telegram": "https://t.me/+xr0XU22n-OVjODhk"},
+          {"name": "  نعیمه زارعی نژاد ", "telegram": "https://t.me/+dvN88xUiXb1jODQ8"},
+          {"name": "رضا رستمی", "telegram": "https://t.me/tarahi_sistemdig"}
+          
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "تحلیل و طراحی سیستم",
+        "instructors": [
+          {"name": "زینب بمانی وندیشی", "telegram": "https://t.me/+FG9m78vgaAczNjlk"},
+          {"name": " ناهید شمس", "telegram": "https://t.me/HH6P4tG6aEhiMjI0"},
+          {"name": " پریسا شوریده ضیابری ", "telegram": "https://t.me/tahlilziabari"},
+          {"name": " سارا تقی دخت ", "telegram": "https://t.me/+xd36EGJFtAs1NGFk"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "مباحث ویژه ۱",
+        "instructors": [
+          {"name": "نداسراج", "telegram": "https://t.me/+n2hcehELy-BjZjNk"},
+          {"name": "احمدی", "telegram": "https://t.me/+T-qWSdJekCM5Njhk"},
+          {"name": "سرمست", "telegram": "https://t.me/+V_5wxm2l_DZhZWU0"},
+          {"name": "محجوب", "telegram": "https://t.me/+H8DAPGXf6bdlY2I0"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "مهندسی اینترنت",
+        "instructors": [
+          {"name": "حسام الدین ادریسی", "telegram": "https://t.me/+ewfMirYrMCg5N2Q0"},
+          {"name": "حیاتی", "telegram": "https://t.me/+ak20Ld4hOTlmZGQ8"},
+          {"name": "علی محمدی فر", "telegram": "https://t.me/+QThliwIAwdJkZDZk"}
+        ]
+      },
+
+
+      {
+        "code": "اصلی",
+        "title": "گسسته",
+        "instructors": [
+          {"name": "مهداد نوروزی", "telegram": "https://t.me/Grafe14"}
+          
+        ]
+      },
+      
+      {
+        "code": "اصلی",
+        "title": " جبرخطی ",
+        "instructors": [
+          {"name": " مرتضی احمدی", "telegram": "https://t.me/+DZySJ_iS3YQ1YmM0"},
+           {"name": "  گلگویی ", "telegram": "https://t.me/+RJIINtNL1kw5OTM8"}
+        ]
+      },
+
+      {
+        "code": "اصلی",
+        "title": "آشنایی با صنعت کامپیوتر",
+        "instructors": [
+          {"name": "آزاده مهران نیا", "telegram": "https://t.me/+NxsCWwXdldAyZjc0"}
+        ]
+      },
+      
+      {
+        "code": "اصلی",
+        "title": "پروژه نرم افزار",
+        "instructors": [
+          {"name": "فاطمه نجفی", "telegram": "https://t.me/+bjYU4cF4RRQxODM0"},
+          {"name": "خلیلیان", "telegram": "https://t.me/projkhalil"},
+          {"name": "محمدزاده", "telegram": "https://t.me/+tOsAKCaR9So0OWVk"},
+          {"name": "شمیرانی", "telegram": "https://t.me/projenarmafzar_sh"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "روش پژوهش و ارائه",
+        "instructors": [
+          {"name": "کاملیا دهقانی", "telegram": "https://t.me/+DiL_NKOqaAJkYzc0"},
+          {"name": "میرزایی", "telegram": "https://t.me/+j3PjRVSUCjExMzc0"}
+        ]
+      },
+      {
+        "code": "اصلی",
+        "title": "اقتصاد مهندسی",
+        "instructors": [
+          {"name": "بابائی", "telegram": "https://t.me/+sxH_QeAq9LdhNDJk"},
+          {"name": "نصیری", "telegram": "https://t.me/+XaRgFn_cFaYxNzQ0"}
+        ]
+      }
+    ],
+    "language": [
+      
+      {
+        "code": "زبان",
+        "title": "زبان پیش دانشگاهی ",
+        "instructors": [
+          {"name": "شقایق جعفری", "telegram": "https://t.me/zbanpishjafari"}
+        ]
+      },
+      
+      
+      {
+        "code": "زبان",
+        "title": "زبان عمومی ترکیبی ۱",
+        "instructors": [
+          {"name": "افضلی", "telegram": "https://t.me/+wnNBynBczLA4ZTE0"}
+        ]
+      },
+      {
+        "code": "زبان",
+        "title": "زبان عمومی ترکیبی 2",
+        "instructors": [
+          {"name": "محمد صادق الویری", "telegram": "https://t.me/zaban_tarkibi_2"}
+        ]
+      },
+      {
+        "code": "زبان",
+        "title": "زبان عمومی ترکیبی 3",
+        "instructors": [
+          {"name": "افضلی", "telegram": "https://t.me/+wnNBynBczLA4ZTE0"}
+        ]
+      },
+      {
+        "code": "زبان",
+        "title": "زبان تخصصی",
+        "instructors": [
+          {"name": "آقاجانی", "telegram": "https://t.me/zaban_aghajani"}
+        ]
+      }
+    ],
+    "lab": [
+      {
+        "code": "آزمایشگاهی",
+        "title": "فیزیک 2",
+        "instructors": [
+          {"name": "حاج اکبری", "telegram": "https://t.me/+ExyFQTxYvr4yYzQ8"},
+          {"name": "سپیده جوادی", "telegram": "https://t.me/+uFHXWH8IJSwyZTVk"},
+          {"name": " نیما وزیری ", "telegram": "https://t.me/+dOqW66xU_Zc5MzM0"},
+          {"name": " شیما خسروانی  ", "telegram": "https://t.me/az_physics2_khosravani"}
+        ]
+      },
+      
+      {
+        "code": "آزمایشگاهی",
+        "title": "کارگاه کامپیوتر",
+        "instructors": [
+          {"name": " ناهید شمس ", "telegram": "https://t.me/computerworkshopshams"}
+        ]
+      },
+      
+      {
+        "code": "آزمایشگاهی",
+        "title": " مهندسی نرم افزار",
+        "instructors": [
+          {"name": "نیک روان", "telegram": "https://t.me/httpsZC8yRb9AjaNhNDZk"},
+          {"name": "زینب بمانی وندیشی", "telegram": "https://t.me/+pC90sw2zb_owNjU0"},
+          {"name": "سارا تقی دخت پاکی", "telegram": "https://t.me/aznarmafzarsarataghidokht"},
+          {"name": "نیکروان", "telegram": "https://t.me/httpsZC8yRb9AjaNhNDZk"}
+        ]
+      },
+      
+      {
+        "code": "آزمایشگاهی",
+        "title": "سیستم های عامل",
+        "instructors": [
+          {"name": "ناهید شمس", "telegram": "https://t.me/azsystemshams"},
+          {"name": " شیما نجفی", "telegram": "https://t.me/+QKQgzC7mATtkZDNk"},
+          {"name": "شجاعی راد", "telegram": "https://t.me/+Y1BdkLu3K3YwODlk"}
+        ]
+      },
+      {
+        "code": "آزمایشگاهی",
+        "title": "پایگاه داده",
+        "instructors": [
+          {"name": "زینب بمانی", "telegram": "https://t.me/azmapay"},
+          {"name": "نیکروان", "telegram": "https://t.me/azpnikravan"},
+          {"name": "میرزایی", "telegram": "https://t.me/+MCx635aE6QRlMTlh"},
+          {"name": "شبنم اسبقی", "telegram": "https://t.me/+WcqEJayqm05jNGM0"},
+          {"name": " ذوالفقاری", "telegram": "https://t.me/+80RY9b1HzHliNDY0"}
+          
+        ]
+      },
+      {
+        "code": "آزمایشگاهی",
+        "title": "ریز پردازنده",
+        "instructors": [
+          {"name": "افشاری", "telegram": "https://t.me/riz_lab"},
+          {"name": "نوری", "telegram": "https://t.me/+Tt_CAT_VFQE3YThk"},
+          {"name": "شبستری", "telegram": "https://t.me/+vxFe3E2fkYQzYmRk"},
+          {"name": "شیخ الملوکی", "telegram": "https://t.me/+K7asFpBOjS43ODE0"}
+          
+        ]
+      },
+      {
+        "code": "آزمایشگاهی",
+        "title": "شبکه های کامپیوتری",
+        "instructors": [
+          {"name": "حسام الدین ادریسی", "telegram": "https://t.me/Az_shabake_edrisi"},
+          {"name": " فروغ شفیقی", "telegram": "https://t.me/azshfrogh"},
+          {"name": "  سید ناصر میرنظامی ", "telegram": "https://t.me/shabakenezami"}
+        ]
+      },
+      {
+        "code": "آزمایشگاهی",
+        "title": "مدارالکتریکی",
+        "instructors": [
+          {"name": "افشین بقایی", "telegram": "https://t.me/+Zu9FSc4Csi1jYjY0"},
+          {"name": "هدیه محمدپور", "telegram": "https://t.me/+mn8xsa81xF1mZjdk"},
+          {"name": "بختیاری کیا", "telegram": "https://t.me/madarsalehi"}
+        ]
+      },
+      {
+        "code": "آزمایشگاهی",
+        "title": "مدارمنطقی و معماری کامپیوتر",
+        "instructors": [
+          {"name": "نعیمه زارعی نژاد", "telegram": "https://t.me/+A_IsdhqQjJoxMGQ0"},
+          {"name": "فرجامی نژاد", "telegram": "https://t.me/+l0JN-qqpCv9mZDY0"},
+          {"name": "امیر عبا", "telegram": "https://t.me/azmadaraba"}
+        ]
+      }
+    ],
+    "fundamental": [
+      {
+        "code": "پایه",
+        "title": "  آمار و احتمال مهندسی",
+        "instructors": [
+          {"name": "  مریم دادگر", "telegram": "https://t.me/dadgar_amar"}
+        ]
+      },
+      
+      
+      {
+        "code": "پایه",
+        "title": "ریاضی ۱",
+        "instructors": []
+      },
+      {
+        "code": "پایه",
+        "title": "ریاضی ۲",
+        "instructors": [
+          {"name": "مهدی یوسفی", "telegram": "https://t.me/riazidoyousefi"},
+          {"name": " نرگس باقری ", "telegram": "https://t.me/+08VhnRtzunxkOWE0"},
+	        {"name": " سمیه پیرمحمدی ", "telegram": "https://t.me/+IXPGJdjnEFdkNDc8"},
+	        {"name": " علیادخت سجادی راد  ", "telegram": "https://t.me/calculus2sajadir"},
+          {"name": "محسن حسین پور", "telegram": "https://t.me/+HAmDie3mjiowZGJk"},
+          {"name": "اصغر ارژنگ", "telegram": "https://t.me/arzhang_math"}
+          
+        ]
+      },
+      
+      {
+        "code": "پایه",
+        "title": " ریاضی مهندسی",
+        "instructors": [
+          {"name": " نطاق بافکر", "telegram": "https://t.me/+B68sFNqr45c2Njg8"},
+          {"name": "  آزادگان ", "telegram": "https://t.me/+J_q1VGnt2KU4ZWNk"},
+          {"name": "  احمدی ", "telegram": "https://t.me/+mDRvYwPBLAcyZjJk"},
+          {"name": "  مقصودی شورابی ", "telegram": "https://t.me/+aqdOq2KP17MyMGRk"}
+        ]
+      },
+      
+      {
+        "code": "پایه",
+        "title": "فیزیک ۱",
+        "instructors": [
+        {"name": " المیرا صولتی", "telegram":"https://t.me/+2KcZUhIgOnExNzU0"},
+        {"name": "قرآن نویس", "telegram":"https://t.me/physics1ghoranneviss"}
+        ]
+      },
+      {
+        "code": "پایه",
+        "title": "فیزیک ۲",
+        "instructors": [
+
+          {"name": " ذوالفقاری", "telegram":    "https://t.me/http7IwLqwPN903YThk"}
+        ]
+      },
+      {
+        "code": "پایه",
+        "title": "معادلات دیفرانسیل",
+        "instructors": [
+          {"name": "نرگس پوررستمی", "telegram": "https://t.me/Difpoorrostami"},
+          {"name": "بنادکوکی", "telegram": "https://t.me/+0wDuPDE02Rg4YzA0"},
+          {"name": "بشمنی", "telegram": "https://t.me/+4qmeI0GV0FU3Yjlk"}
+        ]
+      }
+    ],
+    "general": [
+      {
+        "code": "عمومی",
+        "title": "اندیشه ۱",
+        "instructors": [
+          {"name": "جلیل محمدی خانقاه", "telegram": "https://t.me/+4cVqQ5tSY-hmNGVk"},
+          {"name": "خدا کرم حاجعلی", "telegram": "https://t.me/andisheh1_hajali"}
+        ]
+      },
+      {
+        "code": "عمومی",
+        "title": "اندیشه ۲",
+        "instructors": [
+        {"name": " یحیی صولتی ", "telegram": "https://t.me/+rkKRLVxNj8gwN2Rk"},
+        {"name": "خدا کرم حاجعلی", "telegram": "https://t.me/andishe2seshanbe32","gender":"female"}
+
+        ]
+      },
+
+      {
+      "code": "عمومی",
+      "title": "فارسی ۱",
+      "instructors": [
+      {"name": "فاطمه کریمی", "telegram": "https://t.me/farsikarimi1630"}
+        ]
+      },
+
+      {
+        "code": "عمومی",
+        "title": "انس با قرآن",
+        "instructors": [
+          {"name": "مهناز راحتی", "telegram": "https://t.me/+B2yi_-2D3WY3ZjA0","gender":"female"},
+          {"name": "قضاتلو", "telegram": "https://t.me/ons_ghazatlou"},
+          {"name": "اسحقی مهماندوستی", "telegram": "https://t.me/onseshaghi"},
+          {"name": " مریم نجفی لیواری", "telegram": "https://t.me/+RutWRfOC5H8yNTRk","gender":"female"}
+          
+        ]
+      },
+      {
+        "code": "عمومی",
+        "title": "تاریخ تحلیلی صدر اسلام",
+        "instructors": [
+          {"name": "فتحی", "telegram": "https://t.me/tarikh_sadr_fathi"},
+          {"name": "خوراسگانی", "telegram": "https://t.me/+MFoiF5RXdwpjMTM0","gender":"female"}
+        ]
+      },
+      {
+        "code": "عمومی",
+        "title": "تفسیر موضوعی نهج البلاغه",
+        "instructors": [
+          {"name": "آدینه اصغری‌نژاد", "telegram": "https://t.me/+bfJwQ7xhQcdlZWY8","gender":"female"}
+        ]
+      },
+      {
+        "code": "عمومی",
+        "title": "تاریخ فرهنگ و تمدن اسلامی",
+        "instructors": [
+          {"name": "ربانی خوراسگانی", "telegram": "https://t.me/+Ha648BkATQVkMDhk", "gender":"female"},
+          {"name": "آقایی", "telegram": "https://t.me/+0n2GQkqYBggwNzk8"}
+        ]
+      },
+      {
+        "code": "عمومی",
+        "title": "آیین زندگی",
+        "instructors": [
+          {"name": "ناصربخت", "telegram": "https://t.me/naserbakht4041"},
+          {"name": "اصغر آقایی", "telegram": "https://t.me/+QyzITvm4t2BjMGY0","gender":"female"},
+          {"name": "جوادی", "telegram": "https://t.me/+Ho1UVr3ffNtiZWU0","gender":"female"}
+          
+        ]
+      },
+      {
+        "code": "عمومی",
+        "title": "دانش خانواده",
+        "instructors": [
+          {"name": "طاهره سادات موسوی", "telegram": "https://t.me/zH3DJkqo3ZWI0","gender":"female"},
+          {"name": " رمضانخانی ", "telegram": "https://t.me/RamezanKhaniDanesh4011"},
+          {"name": " فرید نجف نیا", "telegram": "https://t.me/+_z5Fxe4u_64xMDQ0"}
+        ]
+      },
+
+      {
+        "code": "عمومی",
+        "title": "اندیشه و وصایا ",
+        "instructors": [
+          {"name": "گنج خانلو", "telegram": "https://t.me/+4LBwzq-fezozNGQ0","gender":"female"}
+      
+        ]
+      }
+
+    ],
+    
+    "practical": [
+      {
+        "code": "عملی",
+        "title": "کارآموزی",
+        "instructors": [
+          {"name": " فاطمه نجفی ", "telegram": "https://t.me/+bjYU4cF4RRQxODM0"},
+          {"name": "باستان فرد", "telegram": "https://t.me/drbastanfard_project_karamozi"}
+        ]
+      },
+      
+      {
+        "code": "عملی",
+        "title": "روش پژوهش و ارائه",
+        "instructors": [
+          {"name": " میرزایی ", "telegram": "https://t.me/+MGe6-Ir6ewg1MmEx"}
+        ]
+      },
+      
+      {
+        "code": "عملی",
+        "title": "مهارت های نرم شغلی",
+        "instructors": [
+          {"name": "  کرمی ", "telegram": "https://t.me/+CIUTGRAi1pc2MzY0"}
+        ]
+      },
+
+      {
+        "code": "عملی",
+        "title": "کارآفرینی",
+        "instructors": [
+          {"name": "فریبا صالحی", "telegram": "https://t.me/karafariniostadkarami"}
+        ]
+      },
+           
+      {
+        "code": "عمومی",
+        "title": "ورزش ۱",
+        "instructors": [
+          {"name": "محمد ملکی", "telegram": "https://t.me/+3feT4pBYUv0yNzI0"},
+          {"name": " سحر صدیقی", "telegram": "https://t.me/+DxZmNiDn5lxkYmE8", "gender":"female"},
+          {"name": " لیلا درزی ", "telegram": "https://t.me/+ba9N3BlIUyhkYTk0", "gender":"female"},
+          {"name": "  میرزایی امیرآباد ", "telegram": "https://t.me/+20vSg5LTOkA4OTY8"},
+          {"name": "مهرسا فریدنیا (درخوش)", "telegram": "https://t.me/+20vSg5LTOkA4OTY8", "gender":"female"}
+        ]
+      },
+      {
+        "code": "عمومی",
+        "title": "تربیت بدنی",
+        "instructors": [
+          {"name": "حمید عموریزی", "telegram": "https://t.me/tarbiatamorizi"},
+          {"name": " زینب آقا میرزایی", "telegram": "https://t.me/+VFlj5lBaGiFiYzBk","gender":"female"},
+          {"name": "مریم درفشی", "telegram": "https://t.me/+_kvY_x98BQBkMDBk","gender":"female"},
+          {"name": "احمد کریمی پور ", "telegram": "https://t.me/Tarbiatbadany12"}
+        ]
+      }
+    ]
+  
+  },
+  
+  "faqs": [
+    {
+      "question": "از لیست ارائه ها گروهی پیدا نکردم، علت اش چیه؟",
+      "answer": "اگه از لیست گروهی پیدا نکردین دو علت اصلی وجود داره: 1. هنوز گروهی برای اون درس تشکیل نشده. 2. اگر گروهی وجود داشته باشه، سایت آپدیت نشده. برای قرار دادن لینک گروه می تونید از بخش گزارش مشکل با من در ارتباط باشید تا لینک در اسرع وقت قرار داده بشه."
+    },
+    {
+      "question": "بعضی از لینک ها برام کار نمی کنن، علت اش چیه؟",
+      "answer": "سه علت احتمالی وجود دارد. 1. ممکن است لینک گروه عوض شده باشد و در وبسایت به روز نشده باشد. 2. ممکن است در حال استفاده از IP داخلی باشید (برای حل این مشکل از VPN استفاده کنید). 3. گروه به هر دلیلی حذف شده باشد یا لینک تغییر کرده باشد."
+    },
+    {
+      "question": "آیا شما همه این گروه هارو ساختین؟",
+      "answer": "خیر، من هیچ کدام از گروه هارا تشکیل نداده یا نساخته ام و در قبال مدیریت گروه ها مسئولیتی ندارم. من فقط به مدیران گروه ها کمک می کنم که عضوگیری داشته باشن."
+    },
+    {
+      "question": "آیا این گروه هارو آموزش دانشگاه ساخته؟",
+      "answer": "با وجود اینکه بعضی از گروه های دانشگاه زیر نظر دانشگاه و ادمین های مخصوص فعالیت دارند؛ اما گروه آموزش دانشگاه معمولا وظیفه ای در قبال ساخت گروه ندارد. پس خیر، آموزش این گروه هارا تشکیل نداده و در بیشتر موارد این گروه ها توسط دانشجویان تشکیل می شوند."
+    },
+    {
+      "question": "آیا استاد ها هم در این گروه ها حضور دارند؟",
+      "answer": "عضو شدن استاد ها در گروه ها توسط دانشگاه ممنوع اعلام شده. اما با این وجود در موارد خیلی کم استاد ها هم در گروه ها عضویت دارند (رسمی یا غیررسمی). پس بله ممکن است استاد ها هم در گروه حضور داشته باشند، اما با این وجود بعضی از گروه های بدون استاد نیز توسط دانشجویان تشکیل می شود."
+    },
+    {
+      "question": "چرا برای ورود به بعضی از گروه ها باید درخواست بفرستم؟ آیا این مشکل از سایته؟",
+      "answer": "خیر مشکل از سایت نیست، این محدودیت توسط مدیر گروه ایجاد شده و با فرستادن درخواست برای عضویت و تایید توسط مدیر می توانید عضو گروه شوید."
+    },
+    {
+      "question": "هنگام ورود به گروه ها یک خطا به من نمایش داده میشه با عنوان: اتصال شما امن نیست. علت اش چیه؟",
+      "answer": "این خطا به این علت پیش می آید که از IP داخلی استفاده می کنید. با اتصال به VPN و تغییر IP این مشکل حل می شود."
+    },
+    {
+      "question": "برای استفاده از سایت باید هزینه ای پرداخت کنم؟",
+      "answer": "به هیچ عنوان نیازی به پرداخت هزینه نیست! این سایت فقط برای کمک به دانشجویان و به صورت داوطلبانه و متن باز توسعه داده شده. اما اگر علاقه مند باشید، می توانید با حمایت مالی از توسعه دهنده انگیزه ای بشید برای ادامه پروژه های آزاد..."
+    },
+    {
+      "question": "برای یک درس چندین گروه مختلف وجود داره، چرا سایت شما فقط یک لینک برای هر درس داره؟",
+      "answer": "یکی از اهداف سایت جلوگیری از ایجاد چندین گروه و تداخل گروه ها است. با وجود اینکه گروه های زیادی ممکن است توسط دانشجویان تشکیل شود اما فقط گروه هایی که زودتر و با عضور های بیشتری شروع به کار کردند توسط این سایت معرفی می شوند."
+    },
+    {
+      "question": "اگه گروهی بر روی سایت قرار نداشت چه کاری باید انجام بدم؟",
+      "answer": "با استفاده از بخش گزارش مشکل، می توانید درخواست قرار دادن گروه رو انجام بدین، در صورت عدم وجود گروه، می توانید یک گروه تشکیل دهید و پس از تایید، بر روی سایت قرار می گیرید."
+    },
+    {
+      "question": "اگه گروهی بر روی تلگرام قرار نداشت چه کاری باید انجام بدم؟",
+      "answer": "شما می توانید با تشکیل یک گروه و اطلاع دادن آن، به سایت اضافه شوید."
+    },
+    {
+      "question": "من هم می توانم لینک بر روی سایت قرار بدم؟",
+      "answer": "در حال حاضر به صورت مستقیم نمی توانید این کار را انجام دهید. اما با استفاده از بخش گزارش مشکل، می توانید درخواست قرار دادن یک لینک بر روی وبسایت را داشته باشید و پس از بررسی بر روی سایت قرار بگیرید."
+    },
+    {
+      "question": "من چند تا ایده خوب دارم برای سایت. می توانم در پروژه سایت شرکت کنم؟",
+      "answer": "حتما، این پروژه بر روی گیت هاب قرار دارد و شما می توانید به عنوان یک برنامه نویس مشتاق در این پروژه شرکت کنید. مراحل مشارکت: 1. از این پروژه یک انشعاب (Fork) در صفحه گیت هاب خودتون بگیرید. 2. پروژه را بر روی محیط توسعه خود (Local Repository) کپی بگیرید (Clone). 3. پس از اعمال تغییرات جدید و توسعه، این تغییرات رو بر روی ریپازیتوری خودتون اعمال کنید (Git add). 4. تغییرات اعمال شده را به ریپازیتوری گیت هاب (Remote Repository) که قبلا Fork گرفتین بفرستین (Push). 5. و در نهایت یک درخواست اعمال تغییرات (Pull request) در صفحه این پروژه در گیت هاب باز کنید. "
+    },
+    {
+      "question": "آیا فقط در تلگرام گروه ها تشکیل میشه؟",
+      "answer": "ممکن است در شبکه های اجتماعی دیگر نیز گروه هایی ایجاد شود. اما این وبسایت فقط گروه های تلگرامی را به رسمیت می شناسد."
+    },
+    {
+      "question": "تو سایت بخش پروفایلی برای من وجود نداره علت اش چیه؟",
+      "answer": "سایت فعلا در مرحله بتا آزمایشی می باشد. در صورت استقبال شما عزیزان امکانات بیشتری اضافه خواهد شد."
+    }
+  ],
+
+  "guide": [
+    {
+      "title": "هدف وبسایت",
+      "content": "هدف این سایت کمک به دانشجو ها برای پیدا کردن گروه های تلگرامی می باشد، این سایت فقط لینک گروه های تلگرامی را قرار می دهد که در نیمسال جاری دانشجویان تشکیل داده اند."
+    },
+    {
+      "title": "راهنما استفاده",
+      "content": " استفاده از این وبسایت خیلی آسونه! ✨\n\nمرحله ۱: انتخاب دسته‌بندی \n\n از بین دسته‌بندی‌های موجود (مثل دروس اصلی، عمومی و...)، دسته مورد نظرتون رو انتخاب کنید. \n\nمرحله ۲: پیدا کردن درس \n\n در صفحه باز شده، درس مورد نظر خودتون رو پیدا کنید. \n\nمرحله ۳: انتخاب استاد \n\nبرای هر درس، استاد مربوطه مشخص شده. استاد مورد نظر خودتون رو انتخاب کنید. \n\n مرحله ۴: ورود به گروه تلگرامی \n\n با کلیک بر روی نام استاد، مستقیماً به گروه تلگرامی منتقل می‌شید."
+    }
+  ]
+}
+
+
+
