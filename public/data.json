@@ -85,7 +85,7 @@
         "title": "پایگاه داده",
         "instructors": [
           {"name": " شبنم اسبقی ", "telegram": "https://t.me/tarrahipayeghah"},
-          {"name": "سپیده احمدی ", "telegram": "https://t.me/+5N2EnLjHbL5mNWZk"}
+          {"name": "سپیده احمدی ", "telegram": "https://t.me/database_ahmadi"}
         ]
       },
       {
@@ -116,7 +116,8 @@
         "instructors": [
            {"name": "پریا ابراهیمی", "telegram": "https://t.me/paria_ebrahimi_OS"},
            {"name": "ساسان حریفی", "telegram": "https://t.me/+F4NTM_zem7YzOWM0"},
-           {"name": " شیخ الملوکی ", "telegram": "https://t.me/+ay84BSz8nlliZGM0"}
+           {"name": " شیخ الملوکی ", "telegram": "https://t.me/+ay84BSz8nlliZGM0"},
+           {"name": " محسن مشتاقی ", "telegram": "https://t.me/moshtaghi_os"}
         ]
       },
       {
@@ -210,7 +211,8 @@
         "code": "اصلی",
         "title": " جبرخطی ",
         "instructors": [
-          {"name": "نرگس پوررستمی", "telegram": "https://t.me/gabkhati"}
+          {"name": "نرگس پوررستمی", "telegram": "https://t.me/gabkhati"},
+          {"name": "گلگوئی", "telegram": "https://t.me/jabr_golgooei"}
         ]
       },
 
