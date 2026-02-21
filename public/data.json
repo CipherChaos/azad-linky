@@ -16,7 +16,8 @@
         "instructors": [
           {"name": " سیدمحسن میرحسینی", "telegram": "https://t.me/+UA3fUUV2N885OWE0"},
           {"name": "مجتبی باغبانی", "telegram": "https://t.me/+10ioqGK6l7M2NDVk"},
-          {"name": "علی بصیری", "telegram": "https://t.me/nazar_zaban"}
+          {"name": "علی بصیری", "telegram": "https://t.me/nazar_zaban"},
+          {"name": "محمدرضا سرشار", "telegram": "https://t.me/+LfN8Ap3brMU2ZmU0"}
         ]
       },
       {
@@ -62,7 +63,7 @@
         "code": "اصلی",
         "title": "مدار های الکتریکی",
         "instructors": [
-          {"name": "محمد نطاق", "telegram": "https://t.me/Electric_bafekr"},
+          {"name": "محمد نطاق", "telegram": "https://t.me/electric_nattagh"},
            {"name": " معماری نژاد ", "telegram": "https://t.me/+WuIlL4mec65kNGQ0"}
         ]
       },
@@ -85,7 +86,7 @@
         "title": "پایگاه داده",
         "instructors": [
           {"name": " شبنم اسبقی ", "telegram": "https://t.me/tarrahipayeghah"},
-          {"name": "سپیده احمدی ", "telegram": "https://t.me/+5N2EnLjHbL5mNWZk"}
+          {"name": "سپیده احمدی ", "telegram": "https://t.me/database_ahmadi"}
         ]
       },
       {
@@ -116,7 +117,9 @@
         "instructors": [
            {"name": "پریا ابراهیمی", "telegram": "https://t.me/paria_ebrahimi_OS"},
            {"name": "ساسان حریفی", "telegram": "https://t.me/+F4NTM_zem7YzOWM0"},
-           {"name": " شیخ الملوکی ", "telegram": "https://t.me/+ay84BSz8nlliZGM0"}
+           {"name": " شیخ الملوکی ", "telegram": "https://t.me/+ay84BSz8nlliZGM0"},
+           {"name": " محسن مشتاقی ", "telegram": "https://t.me/+zV18v6daNmc5NTM0"},
+           {"name": "زینب بمانی وندیشی", "telegram": "https://t.me/+MXefhY1c7NhlZWY0"}
         ]
       },
       {
@@ -210,7 +213,9 @@
         "code": "اصلی",
         "title": " جبرخطی ",
         "instructors": [
-          {"name": "نرگس پوررستمی", "telegram": "https://t.me/gabkhati"}
+          {"name": "نرگس پوررستمی", "telegram": "https://t.me/gabkhati"},
+          {"name": "گلگوئی", "telegram": "https://t.me/jabr_golgooei"}
+          
         ]
       },
 
