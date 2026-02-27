@@ -7,7 +7,8 @@
         "code": "اصلی",
         "title": "مهندسی نرم‌افزار",
         "instructors": [
-           {"name": "فروغ شفیقی", "telegram": "https://t.me/+zuSfYQTRZapmNWM8"}
+           {"name": "فروغ شفیقی", "telegram": "https://t.me/+zuSfYQTRZapmNWM8"},
+           {"name": "ناهید شمس", "telegram": "https://t.me/+LvnG2lK8wfVmNDk0"}
         ]
       },
       {
@@ -46,8 +47,8 @@
         "code": "اصلی",
         "title": "مبانی بازیابی اطلاعات و جستجو وب",
         "instructors": [
-          {"name": "(امیرحسین احمدی (بدون استاد", "telegram": "https://t.me/+uUy8Lr5cGGpjNWI8"},
-          {"name": "(امیرحسین احمدی (با استاد", "telegram": "https://t.me/+ezSPmjHFe-5jMjhk"},
+          {"name": "امیرحسین احمدی (بدون استاد)", "telegram": "https://t.me/+uUy8Lr5cGGpjNWI8"},
+          {"name": "امیرحسین احمدی (با استاد)", "telegram": "https://t.me/+ezSPmjHFe-5jMjhk"},
           {"name": "کیانوش کیانا", "telegram": "https://t.me/mabanijostojo"}
         ]
       },
@@ -64,7 +65,8 @@
         "title": "مدار های الکتریکی",
         "instructors": [
           {"name": "محمد نطاق", "telegram": "https://t.me/electric_nattagh"},
-           {"name": " معماری نژاد ", "telegram": "https://t.me/+WuIlL4mec65kNGQ0"}
+          {"name": " معماری نژاد ", "telegram": "https://t.me/+WuIlL4mec65kNGQ0"},
+          {"name": "سارا گلمحمدی", "telegram": "https://t.me/madar_4042"}
         ]
       },
       {
@@ -78,7 +80,7 @@
         "code": "اصلی",
         "title": "اصول طراحی کامپایلر",
         "instructors": [
-       
+          {"name": "آتنا ترکشاوند", "telegram": "https://t.me/+xu5Ji6NSLd05MDI8"}
         ]
       },
       {
@@ -86,7 +88,8 @@
         "title": "پایگاه داده",
         "instructors": [
           {"name": " شبنم اسبقی ", "telegram": "https://t.me/tarrahipayeghah"},
-          {"name": "سپیده احمدی ", "telegram": "https://t.me/database_ahmadi"}
+          {"name": "سپیده احمدی ", "telegram": "https://t.me/database_ahmadi"},
+           {"name": "محمد قابل رحمت", "telegram": "https://t.me/+kkeCMVwDrARlMDE8"}
         ]
       },
       {
@@ -100,7 +103,9 @@
         "code": "اصلی",
         "title": "مبانی داده کاوی",
         "instructors": [
-          {"name": "خلیلیان", "telegram": "https://t.me/+29OE5bVrBrJiM2Fk"}
+          {"name": "مجید خلیلیان", "telegram": "https://t.me/+29OE5bVrBrJiM2Fk"},
+          {"name": "پریسا شوریده ضیابری ", "telegram": "https://t.me/+XAsNC0hDlfo1Njdk"}
+          
         ]
       },
       {
@@ -119,21 +124,23 @@
            {"name": "ساسان حریفی", "telegram": "https://t.me/+F4NTM_zem7YzOWM0"},
            {"name": " شیخ الملوکی ", "telegram": "https://t.me/+ay84BSz8nlliZGM0"},
            {"name": " محسن مشتاقی ", "telegram": "https://t.me/+zV18v6daNmc5NTM0"},
-           {"name": "زینب بمانی وندیشی", "telegram": "https://t.me/+MXefhY1c7NhlZWY0"}
+           {"name": "زینب بمانی وندیشی", "telegram": "https://t.me/+MXefhY1c7NhlZWY0"},
+           {"name": "مجید خلیلیان", "telegram": "https://t.me/+0A4rD14oE9o3OGNk"}
         ]
       },
       {
         "code": "اصلی",
         "title": "سیستم‌های اطلاعات مدیریت",
         "instructors": [
-      
+           {"name": "سیاوش سیار ایرانی", "telegram": "https://t.me/+iioWE687ug1iMzdk"}
         ]
       },
       {
         "code": "اصلی",
-        "title": "ساختمان داده",
+        "title": "داده ساختار ها و الگوریتم",
         "instructors": [
-          {"name": "زهرا شجاعی راد", "telegram": "https://t.me/+vEdVqzoLvpIzNGFk"}
+          {"name": "زهرا شجاعی راد", "telegram": "https://t.me/+vEdVqzoLvpIzNGFk"},
+          {"name": "پریا ابراهیمی", "telegram": "https://t.me/ebrahimiparya"}
         ]
       },
       {
@@ -166,14 +173,16 @@
         "code": "اصلی",
         "title": "طراحی زبان‌های برنامه‌سازی",
         "instructors": [
-   
+           {"name": "زینب بمانی وندیشی", "telegram": "https://t.me/+PKr59dzun74xYTFk"}
         ]
       },
       {
         "code": "اصلی",
         "title": "طراحی سیستم های دیجیتال",
         "instructors": [
-          {"name": "ندا امیری", "telegram": "https://t.me/+X2QqFRxV4lNlMGZk"}
+          {"name": "ندا امیری", "telegram": "https://t.me/+X2QqFRxV4lNlMGZk"},
+          {"name": "نعمیه زارعی نژاد", "telegram": "https://t.me/+qNF9KWyjOLswODM0"},
+          {"name": " زینب معماری نژاد", "telegram": "https://t.me/digitalsystemnezhad"}
         ]
       },
       {
@@ -188,14 +197,15 @@
         "code": "اصلی",
         "title": "مباحث ویژه ۱",
         "instructors": [
-          {"name": "رضا فتحی", "telegram": "https://t.me/+DFS9TSUFMV1mNDdk"}
+          {"name": "رضا فتحی", "telegram": "https://t.me/+DFS9TSUFMV1mNDdk"},
+          {"name": "سیاوش سیار ایرانی", "telegram": "https://t.me/+W_4rgtT8h004ZTY0"}
         ]
       },
       {
         "code": "اصلی",
         "title": "مهندسی اینترنت",
         "instructors": [
-        
+          {"name": "موسوی", "telegram": "https://t.me/+JnEBBhkXAHY2NGZk"}
         ]
       },
 
@@ -214,7 +224,8 @@
         "title": " جبرخطی ",
         "instructors": [
           {"name": "نرگس پوررستمی", "telegram": "https://t.me/gabkhati"},
-          {"name": "گلگوئی", "telegram": "https://t.me/jabr_golgooei"}
+          {"name": "گلگوئی", "telegram": "https://t.me/jabr_golgooei"},
+          {"name": "مرتضی احمدی", "telegram": "https://t.me/+KkEeZlJ0JpcxM2Vk"}
           
         ]
       },
@@ -320,7 +331,7 @@
         "code": "آزمایشگاهی",
         "title": "سیستم های عامل",
         "instructors": [
-         
+         {"name": "دانیال رحیمی", "telegram": "https://t.me/+51SROnwJd_cyZDU0"}
         ]
       },
       {
@@ -341,7 +352,8 @@
         "code": "آزمایشگاهی",
         "title": "شبکه های کامپیوتری",
         "instructors": [
-          {"name": "حیاتی", "telegram": "https://t.me/+ptO2ACOsOQQxYTA0"}
+          {"name": "حیاتی", "telegram": "https://t.me/+UheBhi1-zD9lYjFk"},
+          {"name": "محسن فرزقی", "telegram": "https://t.me/+fw6weCKk1gJjOTNk"}
         ]
       },
       {
@@ -353,9 +365,9 @@
       },
       {
         "code": "آزمایشگاهی",
-        "title": "مدارمنطقی و معماری کامپیوتر",
+        "title": "مدارمنطقی",
         "instructors": [
-          {"name": "فرجامی نژاد", "telegram": "https://t.me/+hsHAet807mY2ODA8"}
+          {"name": "عبدالرضا پیشوائی", "telegram": "https://t.me/+hsHAet807mY2ODA8"}
         ]
       },
       {
@@ -424,7 +436,7 @@
         "code": "عمومی",
         "title": "اندیشه ۱",
         "instructors": [
-         
+         {"name": "حسین دوابی", "telegram": "https://t.me/+0jEX89Z0BWthZjJk","gender":"female"}
         ]
       },
       {
@@ -454,7 +466,8 @@
         "code": "عمومی",
         "title": "تاریخ تحلیلی صدر اسلام",
         "instructors": [
-          
+          {"name": "محمد رئیسی", "telegram": "https://t.me/+ROeT7OUHQ01jY2M8","gender":"female"},
+          {"name": "ضحی ربانی", "telegram": "https://t.me/+LCUWgjGCXYsyMGRk","gender":"female"}
         ]
       },
       {
@@ -499,7 +512,8 @@
         "title": "دانش خانواده",
         "instructors": [
           {"name": "منصور رمضانخانی", "telegram": "https://t.me/+hGUkXsoXgT1iZGNk","gender":"female"},
-          {"name": "زینب باقیات", "telegram": "https://t.me/+Dit82AVzMZdkNmJk","gender":"female"}
+          {"name": "زینب باقیات", "telegram": "https://t.me/+Dit82AVzMZdkNmJk","gender":"female"},
+          {"name": "مهدی بهادری", "telegram": "https://t.me/+oW5J0a7RJdhlNmZk"}
         ]
       },
 
@@ -507,8 +521,7 @@
         "code": "عمومی",
         "title": "اندیشه و وصایا ",
         "instructors": [
-          
-      
+          {"name": "قدسی حبیبی", "telegram": "https://t.me/+Qos4rPERQi8xM2Fk", "gender":"female"}
         ]
       }
 
@@ -543,7 +556,9 @@
         "code": "عملی",
         "title": "کارآفرینی",
         "instructors": [
-           {"name": "محمد کاظم کرمی", "telegram": "https://t.me/karafarini405"}
+           {"name": "محمد کاظم کرمی", "telegram": "https://t.me/karafarini405"},
+           {"name": " محمد اسدیان", "telegram": "https://t.me/+mICh-7zevZc2NzJk"},
+           {"name": "سیاوش عبادی", "telegram": "https://t.me/kar_4042afarini"}
         ]
       },
            
@@ -551,7 +566,7 @@
         "code": "عمومی",
         "title": "ورزش ۱",
         "instructors": [
-          
+          {"name": "شمسی علامه", "telegram": "https://t.me/+kbSpQa78-1RjYWM0", "gender":"female"}
         ]
       },
       {
