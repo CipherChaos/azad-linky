@@ -492,7 +492,7 @@
         "code": "عمومی",
         "title": "تاریخ فرهنگ و تمدن اسلامی",
         "instructors": [
-        
+          {"name": " رضا باقی زاده پلامی", "telegram": "https://t.me/+g5EKqh870cdhNGNk"}
         ]
       },
       {
@@ -526,7 +526,8 @@
         "title": "اندیشه و وصایا ",
         "instructors": [
           {"name": "قدسی حبیبی", "telegram": "https://t.me/+Qos4rPERQi8xM2Fk", "gender":"female"},
-          {"name": "رحیم عطاری", "telegram": "https://t.me/+DG6kIi2POzBmM2Y0"}
+          {"name": "رحیم عطاری", "telegram": "https://t.me/+DG6kIi2POzBmM2Y0"},
+          {"name": "سعید عظیمی نیا", "telegram": "https://t.me/+EGk3igR6JXIyYTVk"}
         ]
       }
 
@@ -571,14 +572,15 @@
         "code": "عمومی",
         "title": "ورزش ۱",
         "instructors": [
-          {"name": "شمسی علامه", "telegram": "https://t.me/+kbSpQa78-1RjYWM0", "gender":"female"}
+          {"name": "شمسی علامه", "telegram": "https://t.me/+kbSpQa78-1RjYWM0", "gender":"female"},
+          {"name": "حسن سلگی", "telegram": "https://t.me/+WpZuVnJRmsI1MzU0"}
         ]
       },
       {
         "code": "عمومی",
         "title": "تربیت بدنی",
         "instructors": [
-          
+          {"name": "حسن سلگی", "telegram": "https://t.me/+8vmHGnf-P-g0NmRk"}
         ]
       }
     ]
