@@ -158,8 +158,8 @@
         "title": "شبکه‌های کامپیوتری",
         "instructors": [
           {"name": " حسام الدین ادریسی", "telegram": "https://t.me/+coN3jaKcO6IxY2Fk"},
-          {"name": " زاده باقری", "telegram": "https://t.me/+OjB1haxktAw5NzZk"},
-          {"name": "حیاتی", "telegram": "https://t.me/+xIf1C_Oh2-FlMDNk"}
+          {"name": "باقری زاده", "telegram": "https://t.me/+OjB1haxktAw5NzZk"},
+          {"name": "علیرضا حیاتی بهادران", "telegram": "https://t.me/+xIf1C_Oh2-FlMDNk"}
         ]
       },
       {
@@ -354,7 +354,7 @@
         "code": "آزمایشگاهی",
         "title": "شبکه های کامپیوتری",
         "instructors": [
-          {"name": "حیاتی", "telegram": "https://t.me/+UheBhi1-zD9lYjFk"},
+          {"name": "علیرضا حیاتی بهادران", "telegram": "https://t.me/+UheBhi1-zD9lYjFk"},
           {"name": "محسن فرزقی", "telegram": "https://t.me/+fw6weCKk1gJjOTNk"}
         ]
       },
@@ -385,7 +385,7 @@
         "code": "پایه",
         "title": "  آمار و احتمال مهندسی",
         "instructors": [
-          {"name": "  مریم دادگر", "telegram": "https://t.me/+1z3tdCCzM-E3ZGNk"}
+          {"name": "مریم دادگر", "telegram": "https://t.me/+1z3tdCCzM-E3ZGNk"}
         ]
       },
       
@@ -438,7 +438,8 @@
         "code": "عمومی",
         "title": "اندیشه ۱",
         "instructors": [
-         {"name": "حسین دوابی", "telegram": "https://t.me/+0jEX89Z0BWthZjJk","gender":"female"}
+         {"name": "حسین دوابی", "telegram": "https://t.me/+0jEX89Z0BWthZjJk","gender":"female"},
+         {"name": "یحیی صولتی", "telegram": "https://t.me/+RbRqLWUy_hwzODNk"}
         ]
       },
       {
