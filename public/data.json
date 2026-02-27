@@ -8,7 +8,7 @@
         "title": "مهندسی نرم‌افزار",
         "instructors": [
            {"name": "فروغ شفیقی", "telegram": "https://t.me/+zuSfYQTRZapmNWM8"},
-           {"name": "ناهید شمس", "telegram": "https://t.me/+LvnG2lK8wfVmNDk0"}
+           {"name": "ناهید شمس", "telegram": "https://t.me/+V51-gcMov5oyNmJk"}
         ]
       },
       {
@@ -149,7 +149,8 @@
         "instructors": [
           {"name": "مجید ناصریان", "telegram": "https://t.me/+7ZblGc1IshRmZDhk"},
           {"name": "هدیه محمدپور", "telegram": "https://t.me/+LnzzYtNNer4wMGJk"},
-          {"name": "سیما اوسطی", "telegram": "https://t.me/+0uP9F3V6WgA1NGQ0"}
+          {"name": "سیما اوسطی", "telegram": "https://t.me/+0uP9F3V6WgA1NGQ0"},
+          {"name": " محمد کریمی", "telegram": "https://t.me/+Bs9fATRMZr83NjZk"}
         ]
       },
       {
@@ -157,7 +158,8 @@
         "title": "شبکه‌های کامپیوتری",
         "instructors": [
           {"name": " حسام الدین ادریسی", "telegram": "https://t.me/+coN3jaKcO6IxY2Fk"},
-          {"name": " زاده باقری", "telegram": "https://t.me/+OjB1haxktAw5NzZk"}
+          {"name": " زاده باقری", "telegram": "https://t.me/+OjB1haxktAw5NzZk"},
+          {"name": "حیاتی", "telegram": "https://t.me/+xIf1C_Oh2-FlMDNk"}
         ]
       },
       {
@@ -315,7 +317,7 @@
         "code": "آزمایشگاهی",
         "title": "کارگاه کامپیوتر",
         "instructors": [
-      
+          {"name": "ناهید شمس", "telegram": "https://t.me/+42rZnFijkcNmN2Nk"}
         ]
       },
       
@@ -481,7 +483,8 @@
         "code": "عمومی",
         "title": "تفسیر قرآن",
         "instructors": [
-          {"name": "یحیی صولتی", "telegram": "https://t.me/+VWGhWrZuAp8zNWFk","gender":"female"}
+          {"name": "یحیی صولتی", "telegram": "https://t.me/+VWGhWrZuAp8zNWFk","gender":"female"},
+          {"name": "آرمیون", "telegram": "https://t.me/+D-2gaRdAPhxkNmM0"}
         ]
       },
       {
@@ -521,7 +524,8 @@
         "code": "عمومی",
         "title": "اندیشه و وصایا ",
         "instructors": [
-          {"name": "قدسی حبیبی", "telegram": "https://t.me/+Qos4rPERQi8xM2Fk", "gender":"female"}
+          {"name": "قدسی حبیبی", "telegram": "https://t.me/+Qos4rPERQi8xM2Fk", "gender":"female"},
+          {"name": "رحیم عطاری", "telegram": "https://t.me/+DG6kIi2POzBmM2Y0"}
         ]
       }
 
